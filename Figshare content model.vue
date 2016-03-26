@@ -1,18 +1,18 @@
-<!-- Tufts VUE 3.3.0 concept-map (Figshare content model.vue) 2016-03-03 -->
+<!-- Tufts VUE 3.3.0 concept-map (Figshare content model.vue) 2016-03-26 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.localized/VUE.app/Contents/Resources/Java/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Thu Mar 03 11:12:07 EST 2016 by mikeconlon on platform Mac OS X 10.11.3 in JVM 1.8.0_66-b17 -->
+<!-- Do Not Remove: Saved date Sat Mar 26 14:54:06 EDT 2016 by mikeconlon on platform Mac OS X 10.11.3 in JVM 1.8.0_66-b17 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built October 8 2015 at 1658 by tomadm on Linux 2.6.32-504.23.4.el6.x86_64 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0"
     label="Figshare content model.vue" created="1456932426998" x="0.0"
     y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1457021527250" size="20000"
-        spec="/Users/mikeconlon/Desktop/Figshare content model.vue"
+    <resource referenceCreated="1459018446889" size="35181"
+        spec="/Users/mikeconlon/PycharmProjects/figshare-rdf/Figshare content model.vue"
         type="1" xsi:type="URLResource">
         <title>Figshare content model.vue</title>
-        <property key="File" value="/Users/mikeconlon/Desktop/Figshare content model.vue"/>
+        <property key="File" value="/Users/mikeconlon/PycharmProjects/figshare-rdf/Figshare content model.vue"/>
     </resource>
     <fillColor>#FFFFFF</fillColor>
     <strokeColor>#404040</strokeColor>
@@ -100,7 +100,7 @@
         </child>
         <shape xsi:type="ellipse"/>
     </child>
-    <child ID="14" label="vivo:dateTimeValue" layerID="1"
+    <child ID="14" label="vivo:DateTimeValue" layerID="1"
         created="1456932875679" x="45.831238" y="89.0" width="143.36876"
         height="149.25" strokeWidth="1.0" autoSized="false" xsi:type="node">
         <fillColor>#D0D0D0</fillColor>
@@ -110,10 +110,10 @@
         <URIString>http://vue.tufts.edu/rdf/resource/380ad04dc0a801b555b47f18f6d7bf97</URIString>
         <shape xsi:type="ellipse"/>
     </child>
-    <child ID="15" label="vivo:dateTime" layerID="1"
-        created="1456932916393" x="180.37378" y="197.33719"
-        width="83.77341" height="45.696045" strokeWidth="1.0"
-        autoSized="false" controlCount="0" arrowState="2" xsi:type="link">
+    <child ID="15" label="vivo:dateTimeValue" layerID="1"
+        created="1456932916393" x="174.76048" y="197.33719" width="95.0"
+        height="45.696045" strokeWidth="1.0" autoSized="false"
+        controlCount="0" arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
@@ -147,7 +147,7 @@
         <ID2 xsi:type="node">16</ID2>
     </child>
     <child ID="18" label="vivo:Authorship" layerID="1"
-        created="1456933072067" x="505.69998" y="305.0"
+        created="1456933072067" x="563.69995" y="330.0"
         width="143.30002" height="145.25" strokeWidth="1.0"
         autoSized="false" xsi:type="node">
         <fillColor>#C6E8FF</fillColor>
@@ -169,14 +169,14 @@
     </child>
     <child ID="19" label="vivo:relatedBy" layerID="1"
         created="1456933098641" x="436.286" y="353.79053"
-        width="70.08917" height="26.253723" strokeWidth="1.0"
+        width="128.87018" height="39.71994" strokeWidth="1.0"
         autoSized="false" controlCount="1" arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/380ad052c0a801b555b47f18abda1a4c</URIString>
         <point1 x="436.786" y="354.29053"/>
-        <point2 x="505.87518" y="379.3864"/>
+        <point2 x="564.6562" y="393.01047"/>
         <ID1 xsi:type="node">6</ID1>
         <ID2 xsi:type="node">18</ID2>
         <ctrlPoint0 x="470.83124" y="380.25" xsi:type="point"/>
@@ -202,7 +202,7 @@
         <shape xsi:type="ellipse"/>
     </child>
     <child ID="24" label="ore:aggregatedBy" layerID="1"
-        created="1456933480176" x="203.02759" y="366.85764" width="88.0"
+        created="1456933480176" x="203.52759" y="366.85764" width="87.0"
         height="121.071075" strokeWidth="1.0" autoSized="false"
         controlCount="1" arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
@@ -230,21 +230,21 @@
         <ctrlPoint0 x="318.28772" y="457.40515" xsi:type="point"/>
     </child>
     <child ID="27" label="vivo:relates" layerID="1"
-        created="1456933615945" x="455.84634" y="267.47794"
-        width="94.5679" height="43.586517" strokeWidth="1.0"
+        created="1456933615945" x="455.84634" y="268.8541"
+        width="137.26273" height="76.290985" strokeWidth="1.0"
         autoSized="false" controlCount="1" arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/380ad05ac0a801b555b47f188a511e5c</URIString>
-        <point1 x="549.91425" y="310.56445"/>
+        <point1 x="592.6091" y="344.64508"/>
         <point2 x="456.34634" y="271.3473"/>
         <ID1 xsi:type="node">18</ID1>
         <ID2 xsi:type="node">6</ID2>
         <ctrlPoint0 x="528.0" y="257.0" xsi:type="point"/>
     </child>
     <child ID="28" label="foaf:Person" layerID="1"
-        created="1456933686619" x="579.2375" y="84.0" width="159.52501"
+        created="1456933686619" x="738.2375" y="178.0" width="159.52501"
         height="160.25" strokeWidth="1.0" autoSized="false" xsi:type="node">
         <fillColor>#C1F780</fillColor>
         <strokeColor>#000000</strokeColor>
@@ -274,21 +274,21 @@
         <shape xsi:type="ellipse"/>
     </child>
     <child ID="31" label="vivo:relates" layerID="1"
-        created="1456933722283" x="632.2483" y="245.5" width="56.18878"
-        height="87.08722" strokeWidth="1.0" autoSized="false"
-        controlCount="1" arrowState="2" xsi:type="link">
+        created="1456933722283" x="706.43256" y="335.04614"
+        width="91.826416" height="67.40115" strokeWidth="1.0"
+        autoSized="false" controlCount="1" arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/380ad05cc0a801b555b47f18c10b022f</URIString>
-        <point1 x="632.7483" y="332.08722"/>
-        <point2 x="663.0" y="246.0"/>
+        <point1 x="706.93256" y="401.9473"/>
+        <point2 x="797.759" y="335.54614"/>
         <ID1 xsi:type="node">18</ID1>
-        <ctrlPoint0 x="673.0" y="299.0" xsi:type="point"/>
+        <ID2 xsi:type="node">28</ID2>
+        <ctrlPoint0 x="780.58124" y="401.25" xsi:type="point"/>
     </child>
-    <child ID="32"
-        label="Figshare Content Model &#xa;    &#xa;    &#xa;      3 March 2016"
-        layerID="1" created="1456933995716" x="263.0" y="49.0"
+    <child ID="32" label="Figshare Content Model 26 March 2016"
+        layerID="1" created="1456933995716" x="279.0" y="30.0"
         width="234.0" height="46.0" strokeWidth="0.0" autoSized="false" xsi:type="text">
         <strokeColor>#404040</strokeColor>
         <textColor>#000000</textColor>
@@ -311,32 +311,29 @@
       &lt;font style="font-size:18;"&gt;&lt;b&gt;Figshare Content Model&lt;/b&gt;&lt;/font&gt;&lt;b&gt; &lt;/b&gt;
     &lt;/p&gt;
     &lt;p color="#404040" style="color: #404040"&gt;
-      &lt;font style="font-size:14;"&gt;3 March 2016&lt;/font&gt;
+      &lt;font style="font-size:14;"&gt;26 March 2016&lt;/font&gt;
     &lt;/p&gt;
   &lt;/body&gt;
 &lt;/html&gt;
 </richText>
-        <label>Figshare Content Model 
-    
-    
-      3 March 2016</label>
+        <label>Figshare Content Model 26 March 2016</label>
     </child>
     <child ID="34" label="vivo:relatedBy" layerID="1"
-        created="1457020233775" x="561.64404" y="230.44885" width="70.0"
-        height="75.776245" strokeWidth="1.0" autoSized="false"
-        controlCount="1" arrowState="2" xsi:type="link">
+        created="1457020233775" x="674.6362" y="287.22565"
+        width="69.79089" height="57.388123" strokeWidth="1.0"
+        autoSized="false" controlCount="1" arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/3d4024ebc0a801b50ebd87e3b19809db</URIString>
-        <point1 x="615.03143" y="230.94885"/>
-        <point2 x="586.9381" y="305.7251"/>
+        <point1 x="743.9271" y="287.72565"/>
+        <point2 x="677.4555" y="344.11377"/>
         <ID1 xsi:type="node">28</ID1>
         <ID2 xsi:type="node">18</ID2>
-        <ctrlPoint0 x="592.3034" y="265.49106" xsi:type="point"/>
+        <ctrlPoint0 x="707.58124" y="302.25" xsi:type="point"/>
     </child>
     <child ID="38" label="ore:describes" layerID="1"
-        created="1457020765336" x="368.31793" y="391.8175" width="68.0"
+        created="1457020765336" x="368.81793" y="391.8175" width="67.0"
         height="155.599" strokeWidth="1.0" autoSized="false"
         controlCount="1" arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
@@ -370,7 +367,7 @@
         <shape xsi:type="ellipse"/>
     </child>
     <child ID="44" label="ore:isDescribedBy" layerID="1"
-        created="1457021121195" x="404.00397" y="376.85596" width="91.0"
+        created="1457021121195" x="404.50397" y="376.85596" width="90.0"
         height="160.0542" strokeWidth="1.0" autoSized="false"
         controlCount="1" arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
@@ -384,7 +381,7 @@
         <ctrlPoint0 x="461.83124" y="452.25" xsi:type="point"/>
     </child>
     <child ID="45"
-        label="FigShare provides several different output formats for the content.  &#xa;      Each has a URL.  ore:isDescribedBy links the content to its various &#xa;      output formats (Mendeley, RefWorks, etc)"
+        label="FigShare provides several different output formats for the content.  &#xa;      Each has a URL.  ore:isDescribedBy links the content to its various output formats (Mendeley, RefWorks, etc)"
         layerID="1" created="1457021218359" x="625.83124" y="532.1261"
         width="150.0" height="93.0" strokeWidth="0.0" autoSized="false" xsi:type="text">
         <strokeColor>#404040</strokeColor>
@@ -405,23 +402,132 @@
   &lt;/head&gt;
   &lt;body&gt;
     &lt;p color="#404040" style="color: #404040"&gt;
-      FigShare provides several different output formats for the content.  
-      Each has a URL.  ore:isDescribedBy links the content to its various 
-      output formats (Mendeley, RefWorks, etc)
+      FigShare provides several different output formats for the content. Each 
+      has a URL. ore:isDescribedBy links the content to its various output 
+      formats (Mendeley, RefWorks, etc)
     &lt;/p&gt;
   &lt;/body&gt;
 &lt;/html&gt;
 </richText>
         <label>FigShare provides several different output formats for the content.  
-      Each has a URL.  ore:isDescribedBy links the content to its various 
-      output formats (Mendeley, RefWorks, etc)</label>
+      Each has a URL.  ore:isDescribedBy links the content to its various output formats (Mendeley, RefWorks, etc)</label>
+    </child>
+    <child ID="46"
+        label="Figshare VIVO &#xa;    &#xa;    &#xa;      Figure vivo:Figure &#xa;    &#xa;    &#xa;      Media vivo:Video &#xa;    &#xa;    &#xa;      Dataset vivo:Dataset &#xa;    &#xa;    &#xa;      Fileset vivo:Fileset &#xa;    &#xa;    &#xa;      Poster vivo:Poster &#xa;    &#xa;    &#xa;      Paper bibo:Article &#xa;    &#xa;    &#xa;      Presentation vivo:Presentation &#xa;    &#xa;    &#xa;      Thesis bibo:Thesis &#xa;    &#xa;    &#xa;      Code&#x200b; vivo:Software"
+        layerID="1" created="1459002524061" x="472.58124" y="85.25"
+        width="253.0" height="175.0" strokeWidth="0.0" autoSized="false" xsi:type="text">
+        <strokeColor>#404040</strokeColor>
+        <textColor>#EA2218</textColor>
+        <font>Courier-plain-12</font>
+        <URIString>http://vue.tufts.edu/rdf/resource/b43dfb33c0a801b53bb8baa0c9278235</URIString>
+        <richText>&lt;html&gt;
+  &lt;head color="#000000" style="color: #000000"&gt;
+    &lt;style type="text/css"&gt;
+      &lt;!--
+        body { margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; font-size: 13; font-family: Arial; color: #000000 }
+        ol { margin-top: 6; font-family: Arial; vertical-align: middle; margin-left: 30; font-size: 13; list-style-position: outside }
+        p { margin-top: 0; margin-left: 0; margin-right: 0; margin-bottom: 0; color: #000000 }
+        ul { margin-top: 6; font-size: 13; margin-left: 30; vertical-align: middle; list-style-position: outside; font-family: Arial }
+      --&gt;
+    &lt;/style&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p color="#000000" style="color: #000000"&gt;
+      &lt;font face="Courier"&gt;&lt;b&gt;Figshare VIVO&lt;/b&gt; &lt;/font&gt;
+    &lt;/p&gt;
+    &lt;p color="#000000" style="color: #000000"&gt;
+      &lt;font face="Courier"&gt;Figure vivo:Figure &lt;/font&gt;
+    &lt;/p&gt;
+    &lt;p color="#000000" style="color: #000000"&gt;
+      &lt;font face="Courier"&gt;Media vivo:Video &lt;/font&gt;
+    &lt;/p&gt;
+    &lt;p color="#000000" style="color: #000000"&gt;
+      &lt;font face="Courier"&gt;Dataset vivo:Dataset &lt;/font&gt;
+    &lt;/p&gt;
+    &lt;p color="#000000" style="color: #000000"&gt;
+      &lt;font face="Courier"&gt;Fileset vivo:Fileset &lt;/font&gt;
+    &lt;/p&gt;
+    &lt;p color="#000000" style="color: #000000"&gt;
+      &lt;font face="Courier"&gt;Poster vivo:Poster &lt;/font&gt;
+    &lt;/p&gt;
+    &lt;p color="#000000" style="color: #000000"&gt;
+      &lt;font face="Courier"&gt;Paper bibo:Article &lt;/font&gt;
+    &lt;/p&gt;
+    &lt;p color="#000000" style="color: #000000"&gt;
+      &lt;font face="Courier"&gt;Presentation vivo:Presentation &lt;/font&gt;
+    &lt;/p&gt;
+    &lt;p color="#000000" style="color: #000000"&gt;
+      &lt;font face="Courier"&gt;Thesis bibo:Thesis &lt;/font&gt;
+    &lt;/p&gt;
+    &lt;p color="#000000" style="color: #000000"&gt;
+      &lt;font face="Courier"&gt;Code&amp;#8203; vivo:Software&lt;/font&gt;
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</richText>
+        <label>Figshare VIVO 
+    
+    
+      Figure vivo:Figure 
+    
+    
+      Media vivo:Video 
+    
+    
+      Dataset vivo:Dataset 
+    
+    
+      Fileset vivo:Fileset 
+    
+    
+      Poster vivo:Poster 
+    
+    
+      Paper bibo:Article 
+    
+    
+      Presentation vivo:Presentation 
+    
+    
+      Thesis bibo:Thesis 
+    
+    
+      Code&#x200b; vivo:Software</label>
+    </child>
+    <child ID="53" layerID="1" created="1459004385530" x="679.58124"
+        y="74.25" width="150.0" height="15.0" strokeWidth="0.0"
+        autoSized="false" xsi:type="text">
+        <strokeColor>#404040</strokeColor>
+        <textColor>#000000</textColor>
+        <font>SansSerif-plain-14</font>
+        <URIString>http://vue.tufts.edu/rdf/resource/b43dfb36c0a801b53bb8baa03bc809c8</URIString>
+        <richText>&lt;html&gt;
+  &lt;head&gt;
+    &lt;style type="text/css"&gt;
+      &lt;!--
+        body { margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; font-size: 13; font-family: Courier; color: #000000 }
+        ol { margin-top: 6; font-family: Courier; vertical-align: middle; margin-left: 30; font-size: 13; list-style-position: outside }
+        p { margin-top: 0; margin-left: 0; margin-right: 0; margin-bottom: 0; color: #000000 }
+        ul { margin-top: 6; font-size: 13; margin-left: 30; vertical-align: middle; list-style-position: outside; font-family: Courier }
+      --&gt;
+    &lt;/style&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</richText>
     </child>
     <layer ID="1" label="Layer 1" created="1456932427003" x="0.0"
         y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
         <URIString>http://vue.tufts.edu/rdf/resource/380ad05dc0a801b555b47f18d3251e72</URIString>
     </layer>
     <userZoom>1.0</userZoom>
-    <userOrigin x="-321.16876" y="-16.75"/>
+    <userOrigin x="-154.41876" y="-6.75"/>
     <presentationBackground>#202020</presentationBackground>
     <PathwayList currentPathway="0" revealerIndex="-1">
         <pathway ID="0" label="Untitled Pathway" created="1456932426997"
@@ -473,6 +579,6 @@
     </PathwayList>
     <date>2016-03-02</date>
     <modelVersion>6</modelVersion>
-    <saveLocation>/Users/mikeconlon/Desktop</saveLocation>
-    <saveFile>/Users/mikeconlon/Desktop/Figshare content model.vue</saveFile>
+    <saveLocation>/Users/mikeconlon/PycharmProjects/figshare-rdf</saveLocation>
+    <saveFile>/Users/mikeconlon/PycharmProjects/figshare-rdf/Figshare content model.vue</saveFile>
 </LW-MAP>
