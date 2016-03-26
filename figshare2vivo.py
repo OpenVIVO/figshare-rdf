@@ -4,6 +4,9 @@
     figshare2vivo.py -- Read Figshare data, make VIVO RDF
 """
 
+# TODO:  Handle all attributes
+# TODO:  Remove legacy code
+
 from rdflib import Graph, Literal, Namespace, URIRef
 from rdflib.namespace import RDFS, RDF, XSD
 import json
@@ -58,8 +61,6 @@ def add_established(uri, work):
 
 def add_type(uri, work):
 
-    #   TODO: Handle type 'Facility' (not an organization?)
-
     type_table = {
         'Facility': None,
         'Company':	VIVO.Company,
@@ -94,9 +95,6 @@ def add_relationships(uri, work):
 
 
 def add_vcard(uri, work):
-
-    # TODO: Handle more than one address.  For now, assume one address and put all contact info on one vcard
-    # TODO: Handle geonames content.
 
     if 'addresses' not in work or len(work['addresses']) == 0:
         return
