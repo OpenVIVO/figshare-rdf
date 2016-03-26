@@ -1,0 +1,6 @@
+<http://openvivo.org/a/figshare3117808> <http://purl.org/ontology/bibo/doi> "10.6084/m9.figshare.3117808.v2" .
+<http://openvivo.org/a/figshare3117808> <http://purl.org/ontology/bibo/abstract> "Status of the VIVO Project -- research projects, sites, on-going c ollaborations" .
+<http://openvivo.org/a/figshare3117808> <http://www.w3.org/2000/01/rdf-schema#label> "VIVO Status -- Duraspace Summit March 16, 2016" .
+<http://openvivo.org/a/figshare3117808> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Presentation> .
+
+
