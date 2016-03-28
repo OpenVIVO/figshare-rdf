@@ -83,6 +83,29 @@ def get_figshare_article(article_id):
     return article_result
 
 
+def get_figshare_articles_by_tag(tag):
+    """
+    Given a figshare article id, return a JSON object containing the article metadata
+    :param tag: articles with the specified tag will be returned
+    :return: JSON object containing Figshare metadata
+    """
+    import requests
+    article_results = requests.get('https://api.figshare.com/v2/articles?search_for={}'.format(tag)).content
+    article_results = json.loads(article_results)
+
+    #   Remove articles that do not contain the specified tag
+
+    for article_result in article_results:
+        delete = True
+        if 'tags' in article_result:
+            for tag_value in work['tags']:
+                if tag_value == tag:
+                    delete = False
+        if delete:
+            article_results.remove(article_result)
+    return article_results
+
+
 def get_figshare_articles(institution_id):
     """
     Given a figshare institution id, return a JSON object containing the article metadata for articles with
@@ -148,12 +171,15 @@ def make_figshare_rdf(work):
 
 g = Graph()
 
+# works = get_figshare_articles_by_tag('force2016')
+# print 'FORCE16 works\n', works
+
 works = get_figshare_articles('36')  # 36 is VIVO, 131 is Force16
 print 'VIVO 2016 works\n', works
-
-work = get_figshare_article('3117808')  # Krafft and Conlon Duraspace Summit presentation
-print 'Recent work by Krafft and Conlon\n', work
-make_figshare_rdf(work)
+#
+# work = get_figshare_article('3117808')  # Krafft and Conlon Duraspace Summit presentation
+# print 'Recent work by Krafft and Conlon\n', work
+# make_figshare_rdf(work)
 
 #  Make RDF for each work
 
