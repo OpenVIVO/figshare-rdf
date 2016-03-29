@@ -1,187 +1,44 @@
-<http://openvivo.org/a/figshare2350387> <http://purl.org/ontology/bibo/freetextKeyword> "hydroxyproline" .
-<http://openvivo.org/a/figshare2082664> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/Article> .
-<http://openvivo.org/a/figshare2067168> <http://purl.org/ontology/bibo/abstract> "<p>The rapid, objective measurement of spider fear is important for clinicians, and for researchers studying fear. To facilitate this, we adapted the Fear of Spiders Questionnaire (FSQ) into Turkish. The FSQ is quick to complete and easy to understand. Compared to the commonly used Spider Phobia Questionnaire, it has shown superior test-retest reliability and better discrimination of lower levels of spider fear, facilitating fear research in non-clinical samples. In two studies, with 137 and 105 undergraduates and unselected volunteers, our adapted FSQ showed excellent internal consistency (Cronbach\u2019s <i>\u03B1</i>\u00A0=\u00A0.95 and .96) and test-retest reliability (<i>r</i>\u00A0=\u00A0.90), and good discriminant validity against the State\u2013Trait Anxiety Inventory\u2014Trait (<i>r</i>\u00A0=\u00A0.23) and Beck Anxiety Inventory\u2014Trait (<i>r</i>\u00A0=\u00A0.07). Most importantly, our adapted FSQ significantly predicted 26 students\u2019 self-reported discomfort upon approaching a caged tarantula; however, a measure of behavioural avoidance of the tarantula yielded little variability, so a more sensitive task will be required for future behavioural testing. Based on this initial testing, we recommend our adapted FSQ for research use. Further research is required to verify that our adapted FSQ discriminates individuals with and without phobia effectively. A Turkish-language report of the studies is included as supplementary material.</p>" .
-<http://openvivo.org/a/figshare2082664> <http://purl.org/ontology/bibo/freetextKeyword> "pyrazoline" .
-<http://openvivo.org/a/figshare2917642> <http://vivoweb.org/ontology/core#publishedDate> <http://openvivo.org/a/date2016-12-31> .
-<http://openvivo.org/a/figshare3079984-vcard> <http://www.w3.org/2006/vcard/ns#hasURL> <http://openvivo.org/a/figshare3079984-vcard-figshare> .
-<http://openvivo.org/a/figshare2243659-vcard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#organization> .
-<http://openvivo.org/a/figshare2066418-vcard-figshare> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://openvivo.org/a/figshare3079984> <http://purl.org/ontology/bibo/freetextKeyword> "Bayesian estimation" .
-<http://openvivo.org/a/figshare2065512> <http://vivoweb.org/ontology/core#createdDate> <http://openvivo.org/a/date2016-01-25> .
-<http://openvivo.org/a/figshare2065512> <http://purl.org/ontology/bibo/freetextKeyword> "silica" .
-<http://openvivo.org/a/figshare2067168-vcard> <http://www.w3.org/2006/vcard/ns#hasURL> <http://openvivo.org/a/figshare2067168-vcard-figshare> .
-<http://openvivo.org/a/figshare2065512> <http://www.w3.org/2000/01/rdf-schema#label> "Synthesis and characterization of surface-modified mesoporous silica materials with \u03B2-cyclodextrin" .
-<http://openvivo.org/a/figshare2917642> <http://purl.org/ontology/bibo/freetextKeyword> "self-thinning" .
-<http://openvivo.org/a/figshare2065512> <http://vivoweb.org/ontology/core#publishedDate> <http://openvivo.org/a/date2016-12-31> .
-<http://openvivo.org/a/figshare3079984> <http://purl.org/ontology/bibo/doi> "10.6084/m9.figshare.3079984" .
-<http://openvivo.org/a/figshare2350387> <http://purl.org/ontology/bibo/abstract> "<p>The present study deals with a non-native amino acid, <i>cis</i>-4-hydroxy-<i>d</i>-proline (CHDP) using density functional theory at B3LYP/6-31+G(d,p) level. The potential energy surface scan reveals the global minimum structure of CHDP along with two potential conformers. Highest occupied molecular orbital, lowest unoccupied molecular orbital, and molecular electrostatic potential surfaces are used to explain the chemical reactivity of title molecule. The atomic charge analysis has been carried out using Mulliken and natural population schemes. The equilibrium geometry of CHDP dimer has been obtained and inter-molecular interactions are explored using QTAIM and Natural bonding orbital analyses. Vibrational spectroscopic analysis has been performed on CHDP monomer and dimer at the same level of theory. Assignments to all vibrational modes up to 400\u00A0cm<sup>\u22121</sup> have been offered along with their potential energy distribution to the maximum possible accuracy. The calculated frequencies are scaled by an equation, rather than by a constant factor and then compared with experimental FT-IR frequencies obtained by KBr disc and Nujol mull techniques. A number of electronic and thermodynamic parameters have also been evaluated for CHDP monomer and dimer.</p>" .
-<http://openvivo.org/a/figshare2917642> <http://purl.org/ontology/bibo/freetextKeyword> "frontier line" .
-<http://openvivo.org/a/figshare2066418> <http://purl.org/ontology/bibo/freetextKeyword> "silver nanoparticles" .
-<http://openvivo.org/a/figshare2066418-vcard-figshare> <http://www.w3.org/2000/01/rdf-schema#label> "Figshare Page" .
-<http://openvivo.org/a/figshare2917642> <http://purl.org/ontology/bibo/freetextKeyword> "boundary line" .
-<http://openvivo.org/a/figshare2917642> <http://purl.org/ontology/bibo/freetextKeyword> "vulnerable" .
-<http://openvivo.org/a/figshare3079984> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/Article> .
-<http://openvivo.org/a/figshare3079984> <http://purl.org/ontology/bibo/abstract> "<p>This paper analyzes and predicts the changes of relationship between income and fertility rate of cross-countries using a bivariate mixture model and a latent change score model. This paper has shown that there is a negative relationship between income and fertility rate, which is presented in the form of inverted S-shaped curve which shows the three regimes of demographic transition. Some developed countries have completed their demographic transition in fertility rate, and in developing countries, the demographic transition in fertility rate is still in progress. This paper has also shown that the number of peaks of income distribution has increased in recent years comparing to 1960s and the number won\u2019t decrease in the future. However, the number of peaks of fertility rate distribution hasn\u2019t changed from 1960s to recent years but due to the shift, finally, the distribution will change to a uni-modal distribution in the future. The income will be applied to the conditional convergence and the fertility rate will be applied to the absolute convergence. The fertility gap among cross-countries will disappear, but the income gap won\u2019t. Although the population conditions in developing countries will improve, income inequality in cross-country may not be improved after all.</p>" .
-<http://openvivo.org/a/figshare2350387-vcard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#organization> .
-<http://openvivo.org/a/figshare3079984> <http://vivoweb.org/ontology/core#hasContactInfo> <http://openvivo.org/a/figshare3079984-vcard> .
-<http://openvivo.org/a/figshare2064501> <http://vivoweb.org/ontology/core#hasContactInfo> <http://openvivo.org/a/figshare2064501-vcard> .
-<http://openvivo.org/a/figshare2243659> <http://purl.org/ontology/bibo/freetextKeyword> "gravitational search algorithm (GSA)" .
-<http://openvivo.org/a/figshare2917642> <http://purl.org/ontology/bibo/freetextKeyword> "conservation" .
-<http://openvivo.org/a/figshare2066418> <http://purl.org/ontology/bibo/freetextKeyword> "Limonia acidissima" .
-<http://openvivo.org/a/figshare2066418> <http://vivoweb.org/ontology/core#publishedDate> <http://openvivo.org/a/date2016-12-31> .
-<http://openvivo.org/a/figshare2065512-vcard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#organization> .
-<http://openvivo.org/a/figshare2064501-vcard> <http://www.w3.org/2006/vcard/ns#hasURL> <http://openvivo.org/a/figshare2064501-vcard-figshare> .
-<http://openvivo.org/a/figshare2082664> <http://purl.org/ontology/bibo/freetextKeyword> "aryloxyacetic acid" .
-<http://openvivo.org/a/figshare2064501> <http://purl.org/ontology/bibo/freetextKeyword> "single-nucleotide polymorphisms" .
-<http://openvivo.org/a/figshare2066418> <http://purl.org/ontology/bibo/freetextKeyword> "green synthesis" .
-<http://openvivo.org/a/figshare2067168-vcard-figshare> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://openvivo.org/a/figshare2350387> <http://vivoweb.org/ontology/core#hasContactInfo> <http://openvivo.org/a/figshare2350387-vcard> .
-<http://openvivo.org/a/figshare2082664-vcard-figshare> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://openvivo.org/a/figshare3079984> <http://purl.org/ontology/bibo/freetextKeyword> "income distribution" .
-<http://openvivo.org/a/figshare2350387> <http://purl.org/ontology/bibo/freetextKeyword> "density functional theory" .
-<http://openvivo.org/a/figshare2243659> <http://vivoweb.org/ontology/core#publishedDate> <http://openvivo.org/a/date2016-12-31> .
-<http://openvivo.org/a/figshare2082664> <http://purl.org/ontology/bibo/abstract> "<p>Infectious diseases are on the rise due to development of multidrug-resistant strains, and this renders the search for newer antimicrobials. Hybrid compounds of different scaffolds are expected to enhance the bioactivity by improved affinity to target proteins while retaining the biological efficacy of each of the components. In view of this, a series of pyrazolines with aryloxy acid in the side chain are synthesized and evaluated for their antimicrobial potential. Pyrazoline-substituted aryloxy acids were synthesized in very good yields, starting from chalcones. Synthetic method is adopted in such a way that the use of any solvents is avoided. The structures of these compounds were confirmed using FTIR, NMR, and Mass spectrometry. The potential of these molecules as antimicrobial agents was predicted using molecular docking studies. The activities were also assessed using zone of inhibition and minimum inhibitory concentration (MIC) measurement against tuberculosis variant bacteria, <i>Mycobacterium smegmatis</i>; Gram-positive pathogen, <i>Staphylococcus aureus</i>; Gram-negative <i>Escherichia coli</i>; and fungi, <i>Candida albicans</i>. The positional isomers with the electron-withdrawing group farthest from the acid function showed the best activity in both chalcone acids as well as pyrazoline acids. Many of the compounds exhibited zones of inhibition comparable with the standard drugs, ciprofloxacin and fluconazole, considered for the study. Although many compounds exhibited significant zones of inhibition, their minimum inhibitory concentrations established by broth assay were higher, suggesting these molecules are not potent at lower concentrations.</p>" .
-<http://openvivo.org/a/figshare2064501> <http://vivoweb.org/ontology/core#createdDate> <http://openvivo.org/a/date2016-01-18> .
-<http://openvivo.org/a/figshare2350387> <http://purl.org/ontology/bibo/freetextKeyword> "vibrational analysis" .
-<http://openvivo.org/a/figshare3120712> <http://purl.org/ontology/bibo/freetextKeyword> "terminal Gurney velocity" .
-<http://openvivo.org/a/figshare2065512> <http://purl.org/ontology/bibo/freetextKeyword> "\u03B2-cyclodextrin MALDI TOF MS, 13C CP-MAS NMR, TGA, FTIR and Raman spectroscopy" .
-<http://openvivo.org/a/figshare3079984-vcard-figshare> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://openvivo.org/a/figshare2067168> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/Article> .
-<http://openvivo.org/a/figshare2082664> <http://vivoweb.org/ontology/core#createdDate> <http://openvivo.org/a/date2016-02-11> .
-<http://openvivo.org/a/figshare2243659> <http://purl.org/ontology/bibo/freetextKeyword> "genetic algorithm (GA)" .
-<http://openvivo.org/a/figshare2350387> <http://vivoweb.org/ontology/core#createdDate> <http://openvivo.org/a/date2016-02-18> .
-<http://openvivo.org/a/figshare2065512> <http://vivoweb.org/ontology/core#modifiedDate> <http://openvivo.org/a/date2016-03-01> .
-<http://openvivo.org/a/figshare2065512> <http://purl.org/ontology/bibo/doi> "10.6084/m9.figshare.2065512" .
-<http://openvivo.org/a/figshare3120712> <http://vivoweb.org/ontology/core#publishedDate> <http://openvivo.org/a/date2016-10-01> .
-<http://openvivo.org/a/figshare2065512> <http://purl.org/ontology/bibo/freetextKeyword> "characterization" .
-<http://openvivo.org/a/figshare2064501-vcard-figshare> <http://www.w3.org/2006/vcard/ns#url> <https://figshare.com/articles/Hydroxycinnamic_acid_functional_ingredients_and_their_biosynthetic_genes_in_tubers_of_i_Solanum_tuberosum_i_Group_Phureja/2064501> .
-<http://openvivo.org/a/figshare3120712> <http://vivoweb.org/ontology/core#modifiedDate> <http://openvivo.org/a/date2016-03-21> .
-<http://openvivo.org/a/figshare2064501> <http://purl.org/ontology/bibo/freetextKeyword> "metabolomics" .
-<http://openvivo.org/a/figshare2082664-vcard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#organization> .
-<http://openvivo.org/a/figshare3120712> <http://www.w3.org/2000/01/rdf-schema#label> "The Use of the Propellant Specific Impulse for the Prediction of the Prompt and Terminal Gurney Velocity of High Explosives" .
-<http://openvivo.org/a/figshare2917642> <http://purl.org/ontology/bibo/freetextKeyword> "threatened" .
-<http://openvivo.org/a/figshare2082664-vcard-figshare> <http://www.w3.org/2000/01/rdf-schema#label> "Figshare Page" .
-<http://openvivo.org/a/figshare2067168> <http://purl.org/ontology/bibo/freetextKeyword> "Turkey" .
-<http://openvivo.org/a/figshare2065512> <http://purl.org/ontology/bibo/freetextKeyword> "mesoporous" .
-<http://openvivo.org/a/figshare2082664-vcard> <http://www.w3.org/2006/vcard/ns#hasURL> <http://openvivo.org/a/figshare2082664-vcard-figshare> .
-<http://openvivo.org/a/figshare3120712> <http://purl.org/ontology/bibo/freetextKeyword> "high explosives" .
-<http://openvivo.org/a/figshare2067168-vcard-figshare> <http://www.w3.org/2006/vcard/ns#url> <https://figshare.com/articles/Turkish_adaptation_of_the_fear_of_spiders_questionnaire_Reliability_and_validity_in_non_clinical_samples/2067168> .
-<http://openvivo.org/a/figshare2065512-vcard-figshare> <http://www.w3.org/2006/vcard/ns#url> <https://figshare.com/articles/Synthesis_and_characterization_of_surface_modified_mesoporous_silica_materials_with_cyclodextrin/2065512> .
-<http://openvivo.org/a/figshare2350387> <http://www.w3.org/2000/01/rdf-schema#label> "Conformational analysis, inter-molecular interactions, electronic properties and vibrational spectroscopic studies on <i>cis</i>-4-hydroxy-<i>d</i>-proline" .
-<http://openvivo.org/a/figshare2243659-vcard-figshare> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://openvivo.org/a/figshare2066418> <http://purl.org/ontology/bibo/doi> "10.6084/m9.figshare.2066418" .
-<http://openvivo.org/a/figshare2067168> <http://vivoweb.org/ontology/core#hasContactInfo> <http://openvivo.org/a/figshare2067168-vcard> .
-<http://openvivo.org/a/figshare2064501-vcard-figshare> <http://www.w3.org/2000/01/rdf-schema#label> "Figshare Page" .
-<http://openvivo.org/a/figshare2067168> <http://www.w3.org/2000/01/rdf-schema#label> "Turkish adaptation of the Fear of Spiders Questionnaire: Reliability and validity in non-clinical samples" .
-<http://openvivo.org/a/figshare2350387-vcard-figshare> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://openvivo.org/a/figshare2064501> <http://purl.org/ontology/bibo/freetextKeyword> "breeding" .
-<http://openvivo.org/a/figshare2082664> <http://vivoweb.org/ontology/core#modifiedDate> <http://openvivo.org/a/date2016-02-15> .
-<http://openvivo.org/a/figshare2917642-vcard-figshare> <http://www.w3.org/2000/01/rdf-schema#label> "Figshare Page" .
-<http://openvivo.org/a/figshare2067168> <http://purl.org/ontology/bibo/freetextKeyword> "spider phobia" .
-<http://openvivo.org/a/figshare2066418-vcard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#organization> .
-<http://openvivo.org/a/figshare2065512-vcard> <http://www.w3.org/2006/vcard/ns#hasURL> <http://openvivo.org/a/figshare2065512-vcard-figshare> .
-<http://openvivo.org/a/figshare3079984> <http://vivoweb.org/ontology/core#modifiedDate> <http://openvivo.org/a/date2016-03-07> .
-<http://openvivo.org/a/figshare2917642> <http://vivoweb.org/ontology/core#hasContactInfo> <http://openvivo.org/a/figshare2917642-vcard> .
-<http://openvivo.org/a/figshare2082664> <http://vivoweb.org/ontology/core#publishedDate> <http://openvivo.org/a/date2016-12-31> .
-<http://openvivo.org/a/figshare2067168> <http://purl.org/ontology/bibo/freetextKeyword> "spider fear" .
-<http://openvivo.org/a/figshare3120712-vcard-figshare> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://openvivo.org/a/figshare3079984> <http://vivoweb.org/ontology/core#createdDate> <http://openvivo.org/a/date2016-03-01> .
-<http://openvivo.org/a/figshare2082664> <http://vivoweb.org/ontology/core#hasContactInfo> <http://openvivo.org/a/figshare2082664-vcard> .
-<http://openvivo.org/a/figshare2064501> <http://vivoweb.org/ontology/core#publishedDate> <http://openvivo.org/a/date2016-12-31> .
-<http://openvivo.org/a/figshare2067168-vcard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#organization> .
-<http://openvivo.org/a/figshare3079984> <http://vivoweb.org/ontology/core#publishedDate> <http://openvivo.org/a/date2016-12-31> .
-<http://openvivo.org/a/figshare2243659-vcard-figshare> <http://www.w3.org/2006/vcard/ns#url> <https://figshare.com/articles/Grey_wolf_optimizer_based_regulator_design_for_automatic_generation_control_of_interconnected_power_system/2243659> .
-<http://openvivo.org/a/figshare2064501> <http://www.w3.org/2000/01/rdf-schema#label> "Hydroxycinnamic acid functional ingredients and their biosynthetic genes in tubers of <i>Solanum tuberosum</i> Group Phureja" .
-<http://openvivo.org/a/figshare2350387> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/Article> .
-<http://openvivo.org/a/figshare2067168> <http://vivoweb.org/ontology/core#createdDate> <http://openvivo.org/a/date2016-02-15> .
-<http://openvivo.org/a/figshare2065512> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/Article> .
-<http://openvivo.org/a/figshare2917642> <http://purl.org/ontology/bibo/freetextKeyword> "negative binomial" .
-<http://openvivo.org/a/figshare3120712> <http://purl.org/ontology/bibo/freetextKeyword> "prompt Gurney velocity" .
-<http://openvivo.org/a/figshare2064501-vcard-figshare> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://openvivo.org/a/figshare3120712> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/Article> .
-<http://openvivo.org/a/figshare2243659> <http://purl.org/ontology/bibo/doi> "10.6084/m9.figshare.2243659" .
-<http://openvivo.org/a/figshare2065512-vcard-figshare> <http://www.w3.org/2000/01/rdf-schema#label> "Figshare Page" .
-<http://openvivo.org/a/figshare2082664> <http://purl.org/ontology/bibo/freetextKeyword> "antimicrobial" .
-<http://openvivo.org/a/figshare3120712> <http://purl.org/ontology/bibo/freetextKeyword> "specific impulse" .
-<http://openvivo.org/a/figshare3079984> <http://purl.org/ontology/bibo/freetextKeyword> "mixture distribution" .
-<http://openvivo.org/a/figshare3120712-vcard-figshare> <http://www.w3.org/2006/vcard/ns#url> <https://figshare.com/articles/The_Use_of_the_Propellant_Specific_Impulse_for_the_Prediction_of_the_Prompt_and_Terminal_Gurney_Velocity_of_High_Explosives/3120712> .
-<http://openvivo.org/a/figshare2067168> <http://purl.org/ontology/bibo/doi> "10.6084/m9.figshare.2067168" .
-<http://openvivo.org/a/figshare2243659> <http://vivoweb.org/ontology/core#hasContactInfo> <http://openvivo.org/a/figshare2243659-vcard> .
-<http://openvivo.org/a/figshare2067168> <http://vivoweb.org/ontology/core#publishedDate> <http://openvivo.org/a/date2016-12-31> .
-<http://openvivo.org/a/figshare2066418-vcard-figshare> <http://www.w3.org/2006/vcard/ns#url> <https://figshare.com/articles/A_green_approach_to_synthesize_controllable_silver_nanostructures_from_i_Limonia_acidissima_i_for_inactivation_of_pathogenic_bacteria/2066418> .
-<http://openvivo.org/a/figshare3079984-vcard-figshare> <http://www.w3.org/2000/01/rdf-schema#label> "Figshare Page" .
-<http://openvivo.org/a/figshare2350387-vcard-figshare> <http://www.w3.org/2006/vcard/ns#url> <https://figshare.com/articles/Conformational_analysis_inter_molecular_interactions_electronic_properties_and_vibrational_spectroscopic_studies_on_i_cis_i_4_hydroxy_i_d_i_proline/2350387> .
-<http://openvivo.org/a/figshare2066418> <http://vivoweb.org/ontology/core#hasContactInfo> <http://openvivo.org/a/figshare2066418-vcard> .
-<http://openvivo.org/a/figshare2917642> <http://purl.org/ontology/bibo/doi> "10.6084/m9.figshare.2917642" .
-<http://openvivo.org/a/figshare2917642> <http://vivoweb.org/ontology/core#modifiedDate> <http://openvivo.org/a/date2016-03-09> .
-<http://openvivo.org/a/figshare2065512-vcard-figshare> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://openvivo.org/a/figshare3120712-vcard> <http://www.w3.org/2006/vcard/ns#hasURL> <http://openvivo.org/a/figshare3120712-vcard-figshare> .
-<http://openvivo.org/a/figshare2066418> <http://www.w3.org/2000/01/rdf-schema#label> "A green approach to synthesize controllable silver nanostructures from <i>Limonia acidissima</i> for inactivation of pathogenic bacteria" .
-<http://openvivo.org/a/figshare3079984> <http://purl.org/ontology/bibo/freetextKeyword> "fertility rate" .
-<http://openvivo.org/a/figshare3120712> <http://purl.org/ontology/bibo/freetextKeyword> "ISPBKW code" .
-<http://openvivo.org/a/figshare2350387-vcard> <http://www.w3.org/2006/vcard/ns#hasURL> <http://openvivo.org/a/figshare2350387-vcard-figshare> .
-<http://openvivo.org/a/figshare2064501> <http://vivoweb.org/ontology/core#modifiedDate> <http://openvivo.org/a/date2016-02-13> .
-<http://openvivo.org/a/figshare3079984> <http://purl.org/ontology/bibo/freetextKeyword> "latent change score model" .
-<http://openvivo.org/a/figshare2243659> <http://purl.org/ontology/bibo/freetextKeyword> "grey wolf optimizer (GWO)" .
-<http://openvivo.org/a/figshare3120712> <http://purl.org/ontology/bibo/doi> "10.6084/m9.figshare.3120712.v1" .
-<http://openvivo.org/a/figshare2243659> <http://vivoweb.org/ontology/core#modifiedDate> <http://openvivo.org/a/date2016-03-03> .
-<http://openvivo.org/a/figshare3120712> <http://vivoweb.org/ontology/core#createdDate> <http://openvivo.org/a/date2016-03-21> .
-<http://openvivo.org/a/figshare3079984-vcard-figshare> <http://www.w3.org/2006/vcard/ns#url> <https://figshare.com/articles/Change_and_prediction_of_income_and_fertility_rates_across_countries/3079984> .
-<http://openvivo.org/a/figshare2917642> <http://purl.org/ontology/bibo/freetextKeyword> "finite mixture models" .
-<http://openvivo.org/a/figshare2917642> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Dataset> .
-<http://openvivo.org/a/figshare2066418> <http://vivoweb.org/ontology/core#modifiedDate> <http://openvivo.org/a/date2016-02-16> .
-<http://openvivo.org/a/figshare2350387> <http://purl.org/ontology/bibo/freetextKeyword> "inter-molecular interactions" .
-<http://openvivo.org/a/figshare3120712> <http://purl.org/ontology/bibo/abstract> "<p>Simple relationships are presented for the calculation of both prompt and terminal Gurney velocity of chemical high explosives. By considering that a given explosive behaves like a propellant, its specific impulse  was calculated using Mader\u2019s ISPBKW code; it was found that the density impulse (where  is the explosive density and  is an empirically optimized variable) performance factor correlates well with the terminal Gurney velocity of both ideal and nonideal explosives. Furthermore, the cylinder wall energy can be computed from (from which the prompt Gurney velocity can be obtained through the application of the Gurney\u2019s cylinder equation. It was concluded that ( is a powerful factor for the prediction of the Gurney velocities, especially for nonideal compositions.</p>" .
-<http://openvivo.org/a/figshare2243659-vcard> <http://www.w3.org/2006/vcard/ns#hasURL> <http://openvivo.org/a/figshare2243659-vcard-figshare> .
-<http://openvivo.org/a/figshare2243659> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Fileset> .
-<http://openvivo.org/a/figshare3120712> <http://vivoweb.org/ontology/core#hasContactInfo> <http://openvivo.org/a/figshare3120712-vcard> .
-<http://openvivo.org/a/figshare2917642> <http://www.w3.org/2000/01/rdf-schema#label> "Density-dependent mortality in <i>Taiwania cryptomerioides</i> and <i>Chamaecyparis formosensis</i> stands in Taiwan" .
-<http://openvivo.org/a/figshare2064501> <http://purl.org/ontology/bibo/doi> "10.6084/m9.figshare.2064501" .
-<http://openvivo.org/a/figshare2065512> <http://purl.org/ontology/bibo/freetextKeyword> "surface modification" .
-<http://openvivo.org/a/figshare2066418> <http://purl.org/ontology/bibo/freetextKeyword> "antimicrobial activity and biological applications" .
-<http://openvivo.org/a/figshare2350387> <http://purl.org/ontology/bibo/doi> "10.6084/m9.figshare.2350387" .
-<http://openvivo.org/a/figshare2082664> <http://purl.org/ontology/bibo/freetextKeyword> "molecular docking" .
-<http://openvivo.org/a/figshare2066418> <http://vivoweb.org/ontology/core#createdDate> <http://openvivo.org/a/date2016-01-21> .
-<http://openvivo.org/a/figshare2243659> <http://purl.org/ontology/bibo/freetextKeyword> "automatic generation control (AGC)" .
-<http://openvivo.org/a/figshare2917642-vcard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#organization> .
-<http://openvivo.org/a/figshare2066418> <http://purl.org/ontology/bibo/abstract> "<p>Controllable silver nanoparticles were developed by a green approach using extracts of both leaves and bark of <i>Limonia acidissima</i> tree. Due to the presence of phytochemical compounds in <i>L. acidissima</i> leaves and bark; such as saponins, phenolic compounds, phytosterols, and quinines present in extracts act as reductants, hence the silver nanoparticles were easily produced under mild conditions. The formation and kinetic study of silver nanoparticles were verified by UV\u2013vis spectroscopy. Highly stable and uniform size silver nanoparticles were produced using bark extract reduction than leaf extract and confirmed by dynamic light scattering and transmission electron microscopy analysis. Further we applied antibacterial activity on both <i>Escherichia coli</i> and <i>Bacillus subtilis</i>. The results suggest that the silver nanoparticles suspension exhibits excellent antibacterial activity. The present study is a simple and eco-friendly approach for production of silver nanoparticles in the large scale up and could be easily commercialized, especially biological applications.</p>" .
-<http://openvivo.org/a/figshare3120712-vcard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#organization> .
-<http://openvivo.org/a/figshare2350387-vcard-figshare> <http://www.w3.org/2000/01/rdf-schema#label> "Figshare Page" .
-<http://openvivo.org/a/figshare2082664> <http://purl.org/ontology/bibo/doi> "10.6084/m9.figshare.2082664" .
-<http://openvivo.org/a/figshare3120712-vcard-figshare> <http://www.w3.org/2000/01/rdf-schema#label> "Figshare Page" .
-<http://openvivo.org/a/figshare2082664-vcard-figshare> <http://www.w3.org/2006/vcard/ns#url> <https://figshare.com/articles/Synthesis_of_focused_library_of_novel_aryloxyacids_and_pyrazoline_derivatives_Molecular_docking_studies_and_antimicrobial_investigation/2082664> .
-<http://openvivo.org/a/figshare2243659> <http://purl.org/ontology/bibo/abstract> "<p>This paper presents an application of grey wolf optimizer (GWO) in order to find the parameters of primary governor loop for successful Automatic Generation Control of two areas\u2019 interconnected power system. Two standard objective functions, Integral Square Error and Integral Time Absolute Error (ITAE), have been employed to carry out this parameter estimation process. Eigenvalues along with dynamic response analysis reveals that criterion of ITAE yields better performance. The comparison of the regulator performance obtained from GWO is carried out with Genetic Algorithm (GA), Particle Swarm Optimization, and Gravitational Search Algorithm. Different types of perturbations and load changes are incorporated in order to establish the efficacy of the obtained design. It is observed that GWO outperforms all three optimization methods. The optimization performance of GWO is compared with other algorithms on the basis of standard deviations in the values of parameters and objective functions.</p>" .
-<http://openvivo.org/a/figshare2064501> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/Article> .
-<http://openvivo.org/a/figshare2917642> <http://vivoweb.org/ontology/core#createdDate> <http://openvivo.org/a/date2016-02-27> .
-<http://openvivo.org/a/figshare2243659> <http://purl.org/ontology/bibo/freetextKeyword> "integral square error (ISE)" .
-<http://openvivo.org/a/figshare2243659> <http://www.w3.org/2000/01/rdf-schema#label> "Grey wolf optimizer based regulator design for automatic generation control of interconnected power system" .
-<http://openvivo.org/a/figshare2064501> <http://purl.org/ontology/bibo/freetextKeyword> "functional ingredients" .
-<http://openvivo.org/a/figshare2350387> <http://vivoweb.org/ontology/core#modifiedDate> <http://openvivo.org/a/date2016-03-04> .
-<http://openvivo.org/a/figshare2243659-vcard-figshare> <http://www.w3.org/2000/01/rdf-schema#label> "Figshare Page" .
-<http://openvivo.org/a/figshare2917642> <http://purl.org/ontology/bibo/freetextKeyword> "zero-inflated" .
-<http://openvivo.org/a/figshare3079984> <http://purl.org/ontology/bibo/freetextKeyword> "J13" .
-<http://openvivo.org/a/figshare2067168> <http://purl.org/ontology/bibo/freetextKeyword> "Fear of Spiders Questionnaire" .
-<http://openvivo.org/a/figshare3079984> <http://www.w3.org/2000/01/rdf-schema#label> "Change and prediction of income and fertility rates across countries" .
-<http://openvivo.org/a/figshare2243659> <http://vivoweb.org/ontology/core#createdDate> <http://openvivo.org/a/date2016-02-16> .
-<http://openvivo.org/a/figshare2082664> <http://purl.org/ontology/bibo/freetextKeyword> "chalcone" .
-<http://openvivo.org/a/figshare2065512> <http://vivoweb.org/ontology/core#hasContactInfo> <http://openvivo.org/a/figshare2065512-vcard> .
-<http://openvivo.org/a/figshare2082664> <http://www.w3.org/2000/01/rdf-schema#label> "Synthesis of focused library of novel aryloxyacids and pyrazoline derivatives: Molecular docking studies and antimicrobial investigation" .
-<http://openvivo.org/a/figshare2917642> <http://purl.org/ontology/bibo/abstract> "<p>Taiwania (<i>Taiwania cryptomerioides</i> Hayata) and red cypress (<i>Chamaecyparis formosensis</i> (Matsum.)) are two red-listed species found mostly in Taiwan. A better understanding of the mortality patterns is necessary for good forest management of taiwania and red cypress, which is critical given that they are vulnerable and threatened species, respectively. The data for this project come from thinning trials where high-density plantations were established and later thinned. Mortality due to thinning was not included in the analysis. The mortality data were fitted to an exponential function using a negative binomial distribution model under a finite mixed modeling framework with stand density measures as predictor variables. The negative binomial distribution was zero-inflated for red cypress. Maximum mortality rates were fitted to the same exponential function used to model the mean response. Generally, average and maximum mortality rates increased as stand density increased, with stocking and average tree basal area having a large influence on mortality. Mortality rates were higher for red cypress than for taiwania. The differences in mortality rates could be due to the species relative shade tolerance or their ability to withstand competition. The mortality models can be used for developing thinning prescriptions and managing these species for conservation.</p>" .
-<http://openvivo.org/a/figshare2350387> <http://vivoweb.org/ontology/core#publishedDate> <http://openvivo.org/a/date2016-12-31> .
-<http://openvivo.org/a/figshare2067168> <http://vivoweb.org/ontology/core#modifiedDate> <http://openvivo.org/a/date2016-03-01> .
-<http://openvivo.org/a/figshare2066418> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/Article> .
-<http://openvivo.org/a/figshare3079984> <http://purl.org/ontology/bibo/freetextKeyword> "O15" .
-<http://openvivo.org/a/figshare2064501-vcard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#organization> .
-<http://openvivo.org/a/figshare2917642-vcard-figshare> <http://www.w3.org/2006/vcard/ns#url> <https://figshare.com/articles/Density_dependent_mortality_in_i_Taiwania_cryptomerioides_i_and_i_Chamaecyparis_formosensis_i_stands_in_Taiwan/2917642> .
-<http://openvivo.org/a/figshare2917642-vcard> <http://www.w3.org/2006/vcard/ns#hasURL> <http://openvivo.org/a/figshare2917642-vcard-figshare> .
-<http://openvivo.org/a/figshare2067168-vcard-figshare> <http://www.w3.org/2000/01/rdf-schema#label> "Figshare Page" .
-<http://openvivo.org/a/figshare2350387> <http://purl.org/ontology/bibo/freetextKeyword> "chemical reactivity" .
-<http://openvivo.org/a/figshare3079984-vcard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#organization> .
-<http://openvivo.org/a/figshare2066418-vcard> <http://www.w3.org/2006/vcard/ns#hasURL> <http://openvivo.org/a/figshare2066418-vcard-figshare> .
-<http://openvivo.org/a/figshare2065512> <http://purl.org/ontology/bibo/abstract> "<p>Mesoporous silica materials containing microporous cavities provided by surface-bound \u03B2-cyclodextrin (CD ICS) were synthesized by co-condensation of a \u03B2-CD-functionalized triethoxysilane (CD ICL) with TEOS using dodecylamine, tetradecylamine, or hexadecylamine surfactants as structure directing agents. The incorporation of \u03B2-CD within the mesoporous framework was supported by IR, Raman, MALDI TOF MS, <sup>13</sup>C solids CP-MAS NMR, and TGA results. Small-angle X-ray diffraction and nitrogen adsorption provide evidence of ordered silica mesostructured frameworks. For materials with similar CD loading, the textural properties (surface area and pore volume) doubled as the surfactant changed from dodecylamine (C12) to hexadecylamine (C16). The textural properties decrease with CD loading (2 to 6%). The sorption capacity of gas phase polar and apolar species (nitrogen and methyl chloride) varies along with the adsorption properties in aqueous solution toward <i>p</i>-nitrophenol according to the CD loading (2\u20136%) and surfactant template employed. Along with gas adsorption of model compounds, the structural effects relate to the surfactant alkyl chain length due to the structure directing effects of the C12 to C16 surfactants. This study reveals the structural contribution of surface modification and framework incorporation of \u03B2-cyclodextrin with mesoporous silica framework materials.</p>" .
-<http://openvivo.org/a/figshare2917642-vcard-figshare> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://openvivo.org/a/figshare2067168> <http://purl.org/ontology/bibo/freetextKeyword> "anxiety" .
-<http://openvivo.org/a/figshare3079984> <http://purl.org/ontology/bibo/freetextKeyword> "J11" .
-<http://openvivo.org/a/figshare2064501> <http://purl.org/ontology/bibo/abstract> "<p>Potato is an ideal candidate for the delivery of functional ingredients due to its high worldwide consumption. The metabolites in cooked tubers of eight diploid potato genotypes from Colombia were explored. Potato tubers were harvested, cooked\uFF0Clyophilized, and then stored at \u221280\u00B0C. Metabolites were extracted from flesh samples and analyzed using liquid chromatography and high-resolution mass spectrometry. A total of 294 metabolites were putatively identified, of which 87 metabolites were associated with health-benefiting roles for humans, such as anticancer and anti-inflammatory properties. Two metabolites, chlorogenic acid and N-Feruloyltyramine were detected in high abundance and were mapped on to the potato metabolic pathways to predict the related biosynthetic enzymes: hydroxycinnamoyl-CoA quinate transferase (HQT) and tyramine hydroxycinnamoyl transferase (THT), respectively. The coding genes of these enzymes identified nonsynonymous single-nucleotide polymorphisms (nsSNPs) in AC09, AC64, and Russet Burbank, with the highest enzyme stability found in AC09. This is consistent with the highest presence of hydroxycinnamic acids in the AC09 genotype. The metabolites detected at high fold change, their functional ingredient properties, and their enhancement through breeding to improve health of the indigenous communities\u2019 of Colombia are discussed.</p>" .
+<http://openvivo.org/a/figshare3117115> <http://vivoweb.org/ontology/core#modifiedDate> <http://openvivo.org/a/date2016-03-16> .
+<http://openvivo.org/a/figshare3117115> <http://vivoweb.org/ontology/core#createdDate> <http://openvivo.org/a/date2016-03-16> .
+<http://openvivo.org/a/figshare3117073-vcard> <http://www.w3.org/2006/vcard/ns#hasURL> <http://openvivo.org/a/figshare3117073-vcard-figshare> .
+<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/freetextKeyword> "DOIS" .
+<http://openvivo.org/a/figshare3117073> <http://www.w3.org/2000/01/rdf-schema#label> "EZIDposter_Force2016.pdf" .
+<http://openvivo.org/a/figshare3117115> <http://vivoweb.org/ontology/core#publishedDate> <http://openvivo.org/a/date2016-03-16> .
+<http://openvivo.org/a/figshare3117115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Poster> .
+<http://openvivo.org/a/figshare3117073-vcard-figshare> <http://www.w3.org/2000/01/rdf-schema#label> "Figshare Page" .
+<http://openvivo.org/a/figshare3117073-vcard-figshare> <http://www.w3.org/2006/vcard/ns#url> <https://figshare.com/articles/EZIDposter_Force2016_pdf/3117073> .
+<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/freetextKeyword> "API" .
+<http://openvivo.org/a/figshare3117073> <http://vivoweb.org/ontology/core#publishedDate> <http://openvivo.org/a/date2016-03-16> .
+<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/freetextKeyword> "API" .
+<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/freetextKeyword> "SUSTAINABILITY" .
+<http://openvivo.org/a/figshare3117073> <http://vivoweb.org/ontology/core#modifiedDate> <http://openvivo.org/a/date2016-03-16> .
+<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/freetextKeyword> "METADATA" .
+<http://openvivo.org/a/figshare3117073> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Poster> .
+<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/freetextKeyword> "METADATA" .
+<http://openvivo.org/a/figshare3117115-vcard-figshare> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/abstract> "Abstract for poster from FORCE 2016, describing EZID (ezid.cdlib.org), an innovative service supporting creation and management of identifiers." .
+<http://openvivo.org/a/figshare3117073> <http://vivoweb.org/ontology/core#hasContactInfo> <http://openvivo.org/a/figshare3117073-vcard> .
+<http://openvivo.org/a/figshare3117115> <http://www.w3.org/2000/01/rdf-schema#label> "EZIDposterAbstract_Force2016.pdf" .
+<http://openvivo.org/a/figshare3117115> <http://vivoweb.org/ontology/core#hasContactInfo> <http://openvivo.org/a/figshare3117115-vcard> .
+<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/freetextKeyword> "PERSISTENT IDENTIFIERS" .
+<http://openvivo.org/a/figshare3117073-vcard-figshare> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://openvivo.org/a/figshare3117115-vcard> <http://www.w3.org/2006/vcard/ns#hasURL> <http://openvivo.org/a/figshare3117115-vcard-figshare> .
+<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/freetextKeyword> "N2T" .
+<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/freetextKeyword> "N2T" .
+<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/freetextKeyword> "ARKS" .
+<http://openvivo.org/a/figshare3117115-vcard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#organization> .
+<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/freetextKeyword> "ARKS" .
+<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/doi> "10.6084/m9.figshare.3117073.v1" .
+<http://openvivo.org/a/figshare3117115-vcard-figshare> <http://www.w3.org/2000/01/rdf-schema#label> "Figshare Page" .
+<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/freetextKeyword> "FORCE2016" .
+<http://openvivo.org/a/figshare3117115-vcard-figshare> <http://www.w3.org/2006/vcard/ns#url> <https://figshare.com/articles/EZIDposterAbstract_Force2016_pdf/3117115> .
+<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/freetextKeyword> "FORCE2016" .
+<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/doi> "10.6084/m9.figshare.3117115.v1" .
+<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/freetextKeyword> "SUSTAINABILITY" .
+<http://openvivo.org/a/figshare3117073-vcard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#organization> .
+<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/abstract> "Poster from FORCE 2016, describing EZID (ezid.cdlib.org), an innovative service supporting creation and management of identifiers.<br>" .
+<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/freetextKeyword> "PERSISTENT IDENTIFIERS" .
+<http://openvivo.org/a/figshare3117073> <http://vivoweb.org/ontology/core#createdDate> <http://openvivo.org/a/date2016-03-16> .
+<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/freetextKeyword> "dois" .
 
 

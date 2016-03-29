@@ -41,7 +41,6 @@ def add_authors(uri, work):
         rank = 0
         for author in work['authors']:
             rank += 1
-            print "Author",author
             if 'orcid_id' in author and len(author['orcid_id']) > 0:
                 author_uri = URIRef(author_prefix + author['orcid_id'])
                 authorship_uri = URIRef(str(uri) + '-authorship' + str(rank))
@@ -85,24 +84,27 @@ def get_figshare_article(article_id):
 
 def get_figshare_articles_by_tag(tag):
     """
-    Given a figshare article id, return a JSON object containing the article metadata
+    Given a figshare tag, return a JSON object containing the articles matching the tag
     :param tag: articles with the specified tag will be returned
     :return: JSON object containing Figshare metadata
     """
-    import requests
-    article_results = requests.get('https://api.figshare.com/v2/articles?search_for={}'.format(tag)).content
-    article_results = json.loads(article_results)
+    import urllib2
+    url = 'https://api.figshare.com/v2/articles/search'
+    data = '{ "search_for": "{}" }'.replace('{}', tag)
+    req = urllib2.Request(url, data)
+    rsp = urllib2.urlopen(req)
+    article_results = json.loads(rsp.read())
 
-    #   Remove articles that do not contain the specified tag
-
-    for article_result in article_results:
-        delete = True
-        if 'tags' in article_result:
-            for tag_value in work['tags']:
-                if tag_value == tag:
-                    delete = False
-        if delete:
-            article_results.remove(article_result)
+    # #   Remove articles that do not contain the specified tag
+    #
+    # for article_result in article_results:
+    #     delete = True
+    #     if 'tags' in article_result:
+    #         for tag_value in work['tags']:
+    #             if tag_value == tag:
+    #                 delete = False
+    #     if delete:
+    #         article_results.remove(article_result)
     return article_results
 
 
@@ -171,11 +173,10 @@ def make_figshare_rdf(work):
 
 g = Graph()
 
-# works = get_figshare_articles_by_tag('force2016')
-# print 'FORCE16 works\n', works
+works = get_figshare_articles_by_tag('force2016')
 
-works = get_figshare_articles('36')  # 36 is VIVO, 131 is Force16
-print 'VIVO 2016 works\n', works
+# works = get_figshare_articles('36')  # 36 is VIVO, 131 is Force16
+# print 'VIVO 2016 works\n', works
 #
 # work = get_figshare_article('3117808')  # Krafft and Conlon Duraspace Summit presentation
 # print 'Recent work by Krafft and Conlon\n', work
@@ -185,11 +186,14 @@ print 'VIVO 2016 works\n', works
 
 count = 0
 for work in works:
+
     count += 1
     if count % 10 == 0:
         print count
     article = get_figshare_article(str(work['id']))
-    make_figshare_rdf(article)
+    if 'force2016' in [x.lower() for x in article['tags']]:
+        print work['title']
+        make_figshare_rdf(article)
 
 #  Generate the RDF file
 
