@@ -191,7 +191,8 @@ for work in works:
     if count % 10 == 0:
         print count
     article = get_figshare_article(str(work['id']))
-    if 'force2016' in [x.lower() for x in article['tags']]:
+    print article, "\n"
+    if 'force2016' in [x.lower() for x in article['tags']] or 'force16' in [x.lower() for x in article['tags']]:
         print work['title']
         make_figshare_rdf(article)
 
