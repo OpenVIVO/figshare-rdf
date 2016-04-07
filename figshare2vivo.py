@@ -28,6 +28,7 @@ author_prefix = 'http://openvivo.org/a/person'
 
 VIVO = Namespace('http://vivoweb.org/ontology/core#')
 BIBO = Namespace('http://purl.org/ontology/bibo/')
+OBO = Namespace('http://purl.obolibrary.org/obo/')
 
 # Setup logging
 
@@ -129,8 +130,8 @@ def make_figshare_rdf(work):
     :param work: a dict containing the work's Figshare data
     :return: triples added to global graph
     """
-    type_map = [VIVO.Figure, VIVO.Video, VIVO.Dataset, VIVO.Fileset, VIVO.Poster, BIBO.Article, VIVO.Presentation,
-                BIBO.Thesis, VIVO.Software]
+    type_map = [VIVO.Image, BIBO.AudioVisualDocument, VIVO.Dataset, BIBO.Collection, VIVO.ConferencePoster,
+                VIVO.ConferencePaper, BIBO.Slideshow, BIBO.Thesis, OBO.ERO_0000071]
 
     uri = URIRef(uri_prefix + str(work['id']))
 
