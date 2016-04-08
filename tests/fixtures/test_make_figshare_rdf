@@ -1,0 +1,41 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.9.1]
+    method: GET
+    uri: https://api.figshare.com/v2/articles/3117808
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA5WUa2vbMBSG/4rwpxbia5zYyT5tLYwyyspSCrsUo8iyrVWWjCSHdSX/fUeyk7op
+        HVtISHKsc3vOefXkaYNNr7018rp+yxnxZsij7RarWhYlNhSeiJ5zsBIGR5kU9uwnhavKzNAlxeId
+        upCCSzFD14w0mHJ0lkTx8nyN7q7uPqONS4B8H132CusOE4o2fdsyg66xIg2KlzNkHQJUsVo3WNHg
+        h0BxFCyjPA3bVXA0z+M4y6M82CVw4As1itEdLdcoilCSztD7TqEoH4Khs4/Xt+fTZhTFeijeWhWt
+        qKKCUNv693uwsBJ+jRlst702si0qRnl5PKPZbwski6LFfLkCQ0sNBkr4JHrVi5KJ+vh3bKDoFbe2
+        xphOr8Pw2BiRbYiVYYRTHVpqxZFVMbAKx8qmHZnHbjIewwy3f73/o24DlrRigpaHgJmloYsxDbVc
+        Ksw1BfOOKj2sQGIZSVGxkgrDMD8lwPiA9mkAm+bpapEs4InArSvTTcnVaivcTCu8UVRDVLdtfrl9
+        8FsSdJ355b0awf7ela+JYt1hN8fWZYVMQ4cMN0r+pMRYHDa0A9ANNj1DmhkKX5CrljA1RJDkHG+l
+        cgVom9Xg2nXj4FrDhjSSY6Ub1nm2Bice3QDEUTSuPz+a+3F2G8/X8F5k37yBLCaG7ewho3pLFfem
+        kWrEBTtSHBgVpw6HOTimyWKZrvLI7Rt/drKaRINArbtUhJWFc/C8/Qy9zDBKthgk/EZ9zjnO5nmW
+        vMp20PxzgGnCCF4+fBI/nkepn6dp5rmZQZbxvjlmIQCulqDp6d7EeTrd7StRSdW6uaDNoza01UO8
+        VpYMtPom/nSdxgf807WdMC0ls45/v3hsiAbrgjPxANnsmk9CQD9UaGtxlA9aB6kTkIeFCkpvYacC
+        qepwPK3D7WM4D6Kw16E3EcjFhf/hqzXsMO+tJYbpeSdXCO5Y8OIa2SXPN8nkznD5/207J3cakeqo
+        /v0fEWkWESwGAAA=
+    headers:
+      access-control-allow-credentials: ['true']
+      access-control-allow-headers: ['Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization']
+      access-control-allow-methods: ['GET, POST, PUT, DELETE, OPTIONS']
+      access-control-max-age: ['3600']
+      connection: [keep-alive]
+      content-encoding: [gzip]
+      content-length: ['752']
+      content-type: [application/json; charset=UTF-8]
+      date: ['Fri, 08 Apr 2016 00:24:18 GMT']
+      server: [nginx]
+      vary: [Accept-Encoding]
+    status: {code: 200, message: OK}
+version: 1

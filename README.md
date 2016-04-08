@@ -21,3 +21,9 @@ The Harvester uses OpenVIVO URI conventions for dates and people.  Only identifi
 *Note:  The Figshare Harvester for OpenVIVO is being developed for a demonstration of OpenVIVO at Force2016 (http://force206.org). We
 will see how far we get.*
 
+## Development
+
+* clone the repository
+* install requirements in `requirements.txt`
+* Run tests with `python -m unittest discover`
+
