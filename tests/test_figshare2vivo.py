@@ -1,3 +1,8 @@
+"""
+Tests for figshare2vivo
+"""
+
+import os
 from unittest import TestCase
 import vcr
 
@@ -7,11 +12,14 @@ from figshare2vivo import make_figshare_rdf, get_figshare_article, uri_prefix
 #namespace
 from figshare2vivo import RDF, RDFS, BIBO, VIVO
 
-my_vcr = vcr.VCR(
-    cassette_library_dir='fixtures',
+# Directory where test data is stored.
+TEST_PATH = os.path.join(
+    os.path.dirname(os.path.realpath(__file__))
 )
 
-from pprint import pprint
+my_vcr = vcr.VCR(
+    cassette_library_dir=os.path.join(TEST_PATH, 'fixtures'),
+)
 
 
 class TestMappings(TestCase):
@@ -33,7 +41,7 @@ class TestMappings(TestCase):
         meta = get_figshare_article(self.work)
         g = make_figshare_rdf(meta)
 
-        print g.serialize(format='turtle')
+        #print g.serialize(format='turtle')
 
         created_uri = [u for u in g.subjects(RDF.type, BIBO.Slideshow)][0]
 
