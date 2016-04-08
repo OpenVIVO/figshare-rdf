@@ -179,6 +179,7 @@ def make_figshare_rdf(work):
 
 #   Main starts here
 if __name__ == '__main__':
+    triples_file = open('figshare.rdf', 'w')
     works = get_figshare_articles_by_tag('force2016')
 
     # works = get_figshare_articles('36')  # 36 is VIVO, 131 is Force16
@@ -199,10 +200,7 @@ if __name__ == '__main__':
         print article, "\n"
         if 'force2016' in [x.lower() for x in article['tags']] or 'force16' in [x.lower() for x in article['tags']]:
             print work['title']
-            make_figshare_rdf(article)
+            graph = make_figshare_rdf(article)
+            print >>triples_file, graph.serialize(format='nt')
 
-    #  Generate the RDF file
-
-    triples_file = open('figshare.rdf', 'w')
-    print >>triples_file, g.serialize(format='nt')
     triples_file.close()

@@ -1,104 +1,147 @@
-<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/doi> "10.6084/m9.figshare.3117115.v1" .
-<http://openvivo.org/a/figshare3145309-vcard-figshare> <http://www.w3.org/2006/vcard/ns#url> <https://figshare.com/articles/Enhancing_Scholarly_Communication_with_ReproZip/3145309> .
-<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/freetextKeyword> "API" .
-<http://openvivo.org/a/figshare3145309> <http://vivoweb.org/ontology/core#modifiedDate> <http://openvivo.org/a/date2016-03-31> .
-<http://openvivo.org/a/figshare3145315-authorship1> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://openvivo.org/a/figshare3145315> <http://purl.org/ontology/bibo/doi> "10.6084/m9.figshare.3145315.v1" .
-<http://openvivo.org/a/figshare3145309-vcard-figshare> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://openvivo.org/a/figshare3145309> <http://vivoweb.org/ontology/core#hasContactInfo> <http://openvivo.org/a/figshare3145309-vcard> .
-<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/abstract> "Poster from FORCE 2016, describing EZID (ezid.cdlib.org), an innovative service supporting creation and management of identifiers.<br>" .
-<http://openvivo.org/a/figshare3145318> <http://purl.org/ontology/bibo/freetextKeyword> "Reproducibility" .
-<http://openvivo.org/a/figshare3117115> <http://vivoweb.org/ontology/core#createdDate> <http://openvivo.org/a/date2016-03-16> .
-<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/freetextKeyword> "ARKS" .
-<http://openvivo.org/a/figshare3145315> <http://purl.org/ontology/bibo/freetextKeyword> "FORCE16" .
-<http://openvivo.org/a/figshare3117115-vcard-figshare> <http://www.w3.org/2006/vcard/ns#url> <https://figshare.com/articles/EZIDposterAbstract_Force2016_pdf/3117115> .
-<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/freetextKeyword> "METADATA" .
-<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/freetextKeyword> "PERSISTENT IDENTIFIERS" .
-<http://openvivo.org/a/figshare3117073> <http://vivoweb.org/ontology/core#modifiedDate> <http://openvivo.org/a/date2016-03-16> .
+<http://openvivo.org/a/figshare3160564-vcard> <http://www.w3.org/2006/vcard/ns#hasURL> <http://openvivo.org/a/figshare3160564-vcard-figshare> .
+<http://openvivo.org/a/figshare3160564-authorship1> <http://vivoweb.org/ontology/core#relates> <http://openvivo.org/a/figshare3160564> .
+<http://openvivo.org/a/figshare3160564> <http://purl.org/ontology/bibo/freetextKeyword> "bibliometrics" .
+<http://openvivo.org/a/figshare3160564> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#ConferencePoster> .
+<http://openvivo.org/a/figshare3160564-authorship2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Authorship> .
+<http://openvivo.org/a/figshare3160564-vcard-figshare> <http://www.w3.org/2006/vcard/ns#url> <https://figshare.com/articles/FORCE11Poster_final_pdf/3160564> .
+<http://openvivo.org/a/figshare3160564> <http://vivoweb.org/ontology/core#hasContactInfo> <http://openvivo.org/a/figshare3160564-vcard> .
+<http://openvivo.org/a/figshare3160564-authorship1> <http://vivoweb.org/ontology/core#relates> <http://openvivo.org/a/person0000-0002-6161-5557> .
+<http://openvivo.org/a/figshare3160564> <http://purl.org/ontology/bibo/freetextKeyword> "team science" .
+<http://openvivo.org/a/figshare3160564-authorship2> <http://vivoweb.org/ontology/core#relates> <http://openvivo.org/a/figshare3160564> .
+<http://openvivo.org/a/figshare3160564> <http://purl.org/ontology/bibo/abstract> "Poster presentation at the FORCE2016 conference\u00A0(https://www.force11.org/meetings/force2016). \u00A0Describes a method for quantifying cross-disciplinary publications among K scholars at the University of Washington." .
+<http://openvivo.org/a/figshare3160564> <http://purl.org/ontology/bibo/freetextKeyword> "FORCE16" .
+<http://openvivo.org/a/figshare3160564> <http://vivoweb.org/ontology/core#createdDate> <http://openvivo.org/a/date2016-04-07> .
+<http://openvivo.org/a/figshare3160564-authorship2> <http://vivoweb.org/ontology/core#rank> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://openvivo.org/a/figshare3160564-vcard-figshare> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://openvivo.org/a/figshare3160564> <http://www.w3.org/2000/01/rdf-schema#label> "FORCE11Poster_final.pdf" .
+<http://openvivo.org/a/figshare3160564> <http://purl.org/ontology/bibo/freetextKeyword> "FORCE2016" .
+<http://openvivo.org/a/figshare3160564> <http://purl.org/ontology/bibo/freetextKeyword> "scientific collaboration" .
+<http://openvivo.org/a/figshare3160564> <http://purl.org/ontology/bibo/doi> "10.6084/m9.figshare.3160564.v1" .
+<http://openvivo.org/a/figshare3160564> <http://purl.org/ontology/bibo/freetextKeyword> "clinical researchers" .
+<http://openvivo.org/a/figshare3160564-authorship2> <http://vivoweb.org/ontology/core#relates> <http://openvivo.org/a/person0000-0001-6051-2313> .
+<http://openvivo.org/a/figshare3160564-authorship1> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://openvivo.org/a/figshare3160564> <http://vivoweb.org/ontology/core#publishedDate> <http://openvivo.org/a/date2016-04-07> .
+<http://openvivo.org/a/figshare3160564-vcard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#organization> .
+<http://openvivo.org/a/figshare3160564> <http://vivoweb.org/ontology/core#modifiedDate> <http://openvivo.org/a/date2016-04-07> .
+<http://openvivo.org/a/figshare3160564-vcard-figshare> <http://www.w3.org/2000/01/rdf-schema#label> "Figshare Page" .
+<http://openvivo.org/a/figshare3160564> <http://purl.org/ontology/bibo/freetextKeyword> "career development" .
+<http://openvivo.org/a/figshare3160564-authorship1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Authorship> .
+<http://openvivo.org/a/figshare3160564> <http://purl.org/ontology/bibo/freetextKeyword> "interdisciplinarity" .
+
+
+<http://openvivo.org/a/figshare3159493> <http://vivoweb.org/ontology/core#modifiedDate> <http://openvivo.org/a/date2016-04-06> .
+<http://openvivo.org/a/figshare3159493> <http://purl.org/ontology/bibo/doi> "10.6084/m9.figshare.3159493.v1" .
+<http://openvivo.org/a/figshare3159493> <http://vivoweb.org/ontology/core#hasContactInfo> <http://openvivo.org/a/figshare3159493-vcard> .
+<http://openvivo.org/a/figshare3159493> <http://purl.org/ontology/bibo/freetextKeyword> "big data" .
+<http://openvivo.org/a/figshare3159493> <http://purl.org/ontology/bibo/abstract> "Poster presentation at Force2016 conference (https://www.force11.org/meetings/force2016) discussing BD2K funded work to develop open educational resources and data science skills courses at Oregon Health & Science University." .
+<http://openvivo.org/a/figshare3159493> <http://vivoweb.org/ontology/core#publishedDate> <http://openvivo.org/a/date2016-04-06> .
+<http://openvivo.org/a/figshare3159493> <http://purl.org/ontology/bibo/freetextKeyword> "BD2K" .
+<http://openvivo.org/a/figshare3159493> <http://purl.org/ontology/bibo/freetextKeyword> "open educational resources" .
+<http://openvivo.org/a/figshare3159493> <http://purl.org/ontology/bibo/freetextKeyword> "data science" .
+<http://openvivo.org/a/figshare3159493> <http://vivoweb.org/ontology/core#createdDate> <http://openvivo.org/a/date2016-04-06> .
+<http://openvivo.org/a/figshare3159493-vcard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#organization> .
+<http://openvivo.org/a/figshare3159493> <http://purl.org/ontology/bibo/freetextKeyword> "FORCE16" .
+<http://openvivo.org/a/figshare3159493-authorship4> <http://vivoweb.org/ontology/core#relates> <http://openvivo.org/a/figshare3159493> .
+<http://openvivo.org/a/figshare3159493> <http://purl.org/ontology/bibo/freetextKeyword> "FORCE2016" .
+<http://openvivo.org/a/figshare3159493-vcard> <http://www.w3.org/2006/vcard/ns#hasURL> <http://openvivo.org/a/figshare3159493-vcard-figshare> .
+<http://openvivo.org/a/figshare3159493-authorship4> <http://vivoweb.org/ontology/core#rank> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://openvivo.org/a/figshare3159493> <http://purl.org/ontology/bibo/freetextKeyword> "data science curricula" .
+<http://openvivo.org/a/figshare3159493-authorship4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Authorship> .
+<http://openvivo.org/a/figshare3159493-vcard-figshare> <http://www.w3.org/2000/01/rdf-schema#label> "Figshare Page" .
+<http://openvivo.org/a/figshare3159493-vcard-figshare> <http://www.w3.org/2006/vcard/ns#url> <https://figshare.com/articles/Couture_Curricula_BD2K_Data_Science_Tailored_to_Your_Needs/3159493> .
+<http://openvivo.org/a/figshare3159493> <http://www.w3.org/2000/01/rdf-schema#label> "Couture Curricula - BD2K Data Science Tailored to Your Needs" .
+<http://openvivo.org/a/figshare3159493-vcard-figshare> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://openvivo.org/a/figshare3159493-authorship4> <http://vivoweb.org/ontology/core#relates> <http://openvivo.org/a/person0000-0001-5208-3432> .
+<http://openvivo.org/a/figshare3159493> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#ConferencePoster> .
+
+
 <http://openvivo.org/a/figshare3145315-authorship1> <http://vivoweb.org/ontology/core#relates> <http://openvivo.org/a/person0000-0002-9566-5835> .
-<http://openvivo.org/a/figshare3117115-vcard> <http://www.w3.org/2006/vcard/ns#hasURL> <http://openvivo.org/a/figshare3117115-vcard-figshare> .
-<http://openvivo.org/a/figshare3145309-vcard-figshare> <http://www.w3.org/2000/01/rdf-schema#label> "Figshare Page" .
-<http://openvivo.org/a/figshare3145318-authorship1> <http://vivoweb.org/ontology/core#relates> <http://openvivo.org/a/figshare3145318> .
-<http://openvivo.org/a/figshare3145315-vcard-figshare> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://openvivo.org/a/figshare3117115-vcard-figshare> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://openvivo.org/a/figshare3145309-authorship1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Authorship> .
-<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/abstract> "Abstract for poster from FORCE 2016, describing EZID (ezid.cdlib.org), an innovative service supporting creation and management of identifiers." .
-<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/freetextKeyword> "SUSTAINABILITY" .
-<http://openvivo.org/a/figshare3117073-vcard> <http://www.w3.org/2006/vcard/ns#hasURL> <http://openvivo.org/a/figshare3117073-vcard-figshare> .
-<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/freetextKeyword> "FORCE2016" .
-<http://openvivo.org/a/figshare3145318> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Presentation> .
-<http://openvivo.org/a/figshare3145309> <http://purl.org/ontology/bibo/freetextKeyword> "FORCE16" .
-<http://openvivo.org/a/figshare3117073-vcard-figshare> <http://www.w3.org/2000/01/rdf-schema#label> "Figshare Page" .
-<http://openvivo.org/a/figshare3145315-vcard> <http://www.w3.org/2006/vcard/ns#hasURL> <http://openvivo.org/a/figshare3145315-vcard-figshare> .
-<http://openvivo.org/a/figshare3145315> <http://www.w3.org/2000/01/rdf-schema#label> "ReproZip: Reproducibility with Ease" .
-<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/freetextKeyword> "N2T" .
-<http://openvivo.org/a/figshare3145315> <http://purl.org/ontology/bibo/freetextKeyword> "ReproZip" .
-<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/freetextKeyword> "API" .
-<http://openvivo.org/a/figshare3117073> <http://vivoweb.org/ontology/core#publishedDate> <http://openvivo.org/a/date2016-03-16> .
-<http://openvivo.org/a/figshare3117073> <http://www.w3.org/2000/01/rdf-schema#label> "EZIDposter_Force2016.pdf" .
-<http://openvivo.org/a/figshare3117115> <http://vivoweb.org/ontology/core#publishedDate> <http://openvivo.org/a/date2016-03-16> .
-<http://openvivo.org/a/figshare3145309> <http://www.w3.org/2000/01/rdf-schema#label> "Enhancing Scholarly Communication with ReproZip" .
-<http://openvivo.org/a/figshare3145309-authorship1> <http://vivoweb.org/ontology/core#relates> <http://openvivo.org/a/figshare3145309> .
-<http://openvivo.org/a/figshare3145318-vcard-figshare> <http://www.w3.org/2000/01/rdf-schema#label> "Figshare Page" .
-<http://openvivo.org/a/figshare3117073-vcard-figshare> <http://www.w3.org/2006/vcard/ns#url> <https://figshare.com/articles/EZIDposter_Force2016_pdf/3117073> .
 <http://openvivo.org/a/figshare3145315> <http://purl.org/ontology/bibo/abstract> "<b>ReproZip </b>is\u00A0a tool that allows a researcher to create a compendium for his/her experiment by automatically tracking and identifying all its required dependencies (data files, libraries, configuration files, etc.). After creating the package with little to no effort, the researcher can share it with others, who can then use ReproZip to unpack the experiment and reproduce the findings independent of their operating system, again with little to no effort." .
-<http://openvivo.org/a/figshare3117115> <http://www.w3.org/2000/01/rdf-schema#label> "EZIDposterAbstract_Force2016.pdf" .
-<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/freetextKeyword> "PERSISTENT IDENTIFIERS" .
-<http://openvivo.org/a/figshare3145318-authorship1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Authorship> .
-<http://openvivo.org/a/figshare3117115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Poster> .
-<http://openvivo.org/a/figshare3145318> <http://purl.org/ontology/bibo/doi> "10.6084/m9.figshare.3145318.v1" .
-<http://openvivo.org/a/figshare3145318> <http://purl.org/ontology/bibo/freetextKeyword> "ReproZip" .
-<http://openvivo.org/a/figshare3145309-vcard> <http://www.w3.org/2006/vcard/ns#hasURL> <http://openvivo.org/a/figshare3145309-vcard-figshare> .
-<http://openvivo.org/a/figshare3145315> <http://vivoweb.org/ontology/core#createdDate> <http://openvivo.org/a/date2016-03-31> .
-<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/freetextKeyword> "ARKS" .
-<http://openvivo.org/a/figshare3117073-vcard-figshare> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://openvivo.org/a/figshare3145318> <http://vivoweb.org/ontology/core#publishedDate> <http://openvivo.org/a/date2016-03-31> .
-<http://openvivo.org/a/figshare3117115> <http://vivoweb.org/ontology/core#modifiedDate> <http://openvivo.org/a/date2016-03-16> .
-<http://openvivo.org/a/figshare3145309> <http://purl.org/ontology/bibo/freetextKeyword> "ReproZip" .
-<http://openvivo.org/a/figshare3145315-vcard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#organization> .
-<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/freetextKeyword> "FORCE2016" .
-<http://openvivo.org/a/figshare3145309> <http://purl.org/ontology/bibo/freetextKeyword> "Reproducibility" .
-<http://openvivo.org/a/figshare3117073> <http://vivoweb.org/ontology/core#hasContactInfo> <http://openvivo.org/a/figshare3117073-vcard> .
-<http://openvivo.org/a/figshare3145318-authorship1> <http://vivoweb.org/ontology/core#relates> <http://openvivo.org/a/person0000-0002-9566-5835> .
-<http://openvivo.org/a/figshare3145318-vcard-figshare> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/freetextKeyword> "dois" .
-<http://openvivo.org/a/figshare3117073> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Poster> .
-<http://openvivo.org/a/figshare3145318-authorship1> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://openvivo.org/a/figshare3145315> <http://vivoweb.org/ontology/core#publishedDate> <http://openvivo.org/a/date2016-03-31> .
-<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/freetextKeyword> "METADATA" .
-<http://openvivo.org/a/figshare3145315> <http://purl.org/ontology/bibo/freetextKeyword> "Reproducibility" .
-<http://openvivo.org/a/figshare3145309> <http://vivoweb.org/ontology/core#publishedDate> <http://openvivo.org/a/date2016-03-31> .
-<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/freetextKeyword> "DOIS" .
-<http://openvivo.org/a/figshare3145318-vcard-figshare> <http://www.w3.org/2006/vcard/ns#url> <https://figshare.com/articles/An_Example_of_Reproducibility_using_ReproZip/3145318> .
-<http://openvivo.org/a/figshare3145309> <http://vivoweb.org/ontology/core#createdDate> <http://openvivo.org/a/date2016-03-31> .
-<http://openvivo.org/a/figshare3145318> <http://www.w3.org/2000/01/rdf-schema#label> "An Example of Reproducibility using ReproZip" .
-<http://openvivo.org/a/figshare3145309-authorship1> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://openvivo.org/a/figshare3117073-vcard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#organization> .
-<http://openvivo.org/a/figshare3145318> <http://purl.org/ontology/bibo/freetextKeyword> "FORCE16" .
-<http://openvivo.org/a/figshare3145309-vcard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#organization> .
-<http://openvivo.org/a/figshare3117073> <http://vivoweb.org/ontology/core#createdDate> <http://openvivo.org/a/date2016-03-16> .
-<http://openvivo.org/a/figshare3145309-authorship1> <http://vivoweb.org/ontology/core#relates> <http://openvivo.org/a/person0000-0002-9566-5835> .
-<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/freetextKeyword> "N2T" .
-<http://openvivo.org/a/figshare3145318> <http://vivoweb.org/ontology/core#modifiedDate> <http://openvivo.org/a/date2016-03-31> .
-<http://openvivo.org/a/figshare3145315-vcard-figshare> <http://www.w3.org/2000/01/rdf-schema#label> "Figshare Page" .
-<http://openvivo.org/a/figshare3145318-vcard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#organization> .
-<http://openvivo.org/a/figshare3145318-vcard> <http://www.w3.org/2006/vcard/ns#hasURL> <http://openvivo.org/a/figshare3145318-vcard-figshare> .
-<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/doi> "10.6084/m9.figshare.3117073.v1" .
-<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/freetextKeyword> "SUSTAINABILITY" .
-<http://openvivo.org/a/figshare3117115-vcard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#organization> .
-<http://openvivo.org/a/figshare3117115> <http://vivoweb.org/ontology/core#hasContactInfo> <http://openvivo.org/a/figshare3117115-vcard> .
-<http://openvivo.org/a/figshare3145318> <http://purl.org/ontology/bibo/abstract> "This depicts an attempt to replicate the findings from an article in FiveThirtyEight that examines gender bias in the movie business using the Bechdel test: a movie passes the Bechdel test if there are (1) two women in it, (2) who talk to each other, (3) about something besides a man. The data from this example is based on a blog post by Brian Keegan, which strongly advocates for reproducibility in data journalism." .
-<http://openvivo.org/a/figshare3145315> <http://vivoweb.org/ontology/core#hasContactInfo> <http://openvivo.org/a/figshare3145315-vcard> .
-<http://openvivo.org/a/figshare3145315-authorship1> <http://vivoweb.org/ontology/core#relates> <http://openvivo.org/a/figshare3145315> .
-<http://openvivo.org/a/figshare3145309> <http://purl.org/ontology/bibo/abstract> "<b>ReproZip</b> is a tool that allows a researcher to create a compendium for his/her experiment by automatically tracking and identifying all its required dependencies (data files, libraries, configuration files, etc.). After creating the package with little to no effort, the researcher can share it with others, who can then use ReproZip to unpack the experiment and reproduce the findings independent of their operating system, again with little to no effort." .
-<http://openvivo.org/a/figshare3145315> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Presentation> .
-<http://openvivo.org/a/figshare3145318> <http://vivoweb.org/ontology/core#createdDate> <http://openvivo.org/a/date2016-03-31> .
-<http://openvivo.org/a/figshare3117115-vcard-figshare> <http://www.w3.org/2000/01/rdf-schema#label> "Figshare Page" .
-<http://openvivo.org/a/figshare3145309> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Poster> .
-<http://openvivo.org/a/figshare3145315-vcard-figshare> <http://www.w3.org/2006/vcard/ns#url> <https://figshare.com/articles/ReproZip_Reproducibility_with_Ease/3145315> .
-<http://openvivo.org/a/figshare3145315> <http://vivoweb.org/ontology/core#modifiedDate> <http://openvivo.org/a/date2016-03-31> .
-<http://openvivo.org/a/figshare3145318> <http://vivoweb.org/ontology/core#hasContactInfo> <http://openvivo.org/a/figshare3145318-vcard> .
-<http://openvivo.org/a/figshare3145309> <http://purl.org/ontology/bibo/doi> "10.6084/m9.figshare.3145309.v1" .
 <http://openvivo.org/a/figshare3145315-authorship1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Authorship> .
+<http://openvivo.org/a/figshare3145315> <http://purl.org/ontology/bibo/freetextKeyword> "FORCE16" .
+<http://openvivo.org/a/figshare3145315> <http://purl.org/ontology/bibo/doi> "10.6084/m9.figshare.3145315.v3" .
+<http://openvivo.org/a/figshare3145315-vcard-figshare> <http://www.w3.org/2000/01/rdf-schema#label> "Figshare Page" .
+<http://openvivo.org/a/figshare3145315> <http://www.w3.org/2000/01/rdf-schema#label> "ReproZip: Reproducibility with Ease" .
+<http://openvivo.org/a/figshare3145315-vcard-figshare> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://openvivo.org/a/figshare3145315-authorship1> <http://vivoweb.org/ontology/core#relates> <http://openvivo.org/a/figshare3145315> .
+<http://openvivo.org/a/figshare3145315> <http://vivoweb.org/ontology/core#modifiedDate> <http://openvivo.org/a/date2016-04-02> .
+<http://openvivo.org/a/figshare3145315-vcard> <http://www.w3.org/2006/vcard/ns#hasURL> <http://openvivo.org/a/figshare3145315-vcard-figshare> .
+<http://openvivo.org/a/figshare3145315> <http://vivoweb.org/ontology/core#publishedDate> <http://openvivo.org/a/date2016-04-02> .
+<http://openvivo.org/a/figshare3145315> <http://purl.org/ontology/bibo/freetextKeyword> "ReproZip" .
+<http://openvivo.org/a/figshare3145315> <http://purl.org/ontology/bibo/freetextKeyword> "Reproducibility" .
+<http://openvivo.org/a/figshare3145315> <http://vivoweb.org/ontology/core#createdDate> <http://openvivo.org/a/date2016-04-02> .
+<http://openvivo.org/a/figshare3145315-vcard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#organization> .
+<http://openvivo.org/a/figshare3145315> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/Slideshow> .
+<http://openvivo.org/a/figshare3145315> <http://vivoweb.org/ontology/core#hasContactInfo> <http://openvivo.org/a/figshare3145315-vcard> .
+<http://openvivo.org/a/figshare3145315-authorship1> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://openvivo.org/a/figshare3145315-vcard-figshare> <http://www.w3.org/2006/vcard/ns#url> <https://figshare.com/articles/ReproZip_Reproducibility_with_Ease/3145315> .
+
+
+<http://openvivo.org/a/figshare3145318> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/Slideshow> .
+<http://openvivo.org/a/figshare3145318-vcard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#organization> .
+<http://openvivo.org/a/figshare3145318> <http://purl.org/ontology/bibo/freetextKeyword> "ReproZip" .
+<http://openvivo.org/a/figshare3145318> <http://www.w3.org/2000/01/rdf-schema#label> "An Example of Reproducibility using ReproZip" .
+<http://openvivo.org/a/figshare3145318> <http://purl.org/ontology/bibo/freetextKeyword> "FORCE16" .
+<http://openvivo.org/a/figshare3145318-vcard-figshare> <http://www.w3.org/2006/vcard/ns#url> <https://figshare.com/articles/An_Example_of_Reproducibility_using_ReproZip/3145318> .
+<http://openvivo.org/a/figshare3145318> <http://vivoweb.org/ontology/core#createdDate> <http://openvivo.org/a/date2016-04-02> .
+<http://openvivo.org/a/figshare3145318-authorship1> <http://vivoweb.org/ontology/core#relates> <http://openvivo.org/a/figshare3145318> .
+<http://openvivo.org/a/figshare3145318> <http://vivoweb.org/ontology/core#hasContactInfo> <http://openvivo.org/a/figshare3145318-vcard> .
+<http://openvivo.org/a/figshare3145318-authorship1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Authorship> .
+<http://openvivo.org/a/figshare3145318> <http://vivoweb.org/ontology/core#publishedDate> <http://openvivo.org/a/date2016-04-02> .
+<http://openvivo.org/a/figshare3145318> <http://purl.org/ontology/bibo/doi> "10.6084/m9.figshare.3145318.v2" .
+<http://openvivo.org/a/figshare3145318-vcard> <http://www.w3.org/2006/vcard/ns#hasURL> <http://openvivo.org/a/figshare3145318-vcard-figshare> .
+<http://openvivo.org/a/figshare3145318-vcard-figshare> <http://www.w3.org/2000/01/rdf-schema#label> "Figshare Page" .
+<http://openvivo.org/a/figshare3145318> <http://purl.org/ontology/bibo/abstract> "This depicts an attempt to replicate the findings from an article in FiveThirtyEight that examines gender bias in the movie business using the Bechdel test: a movie passes the Bechdel test if there are (1) two women in it, (2) who talk to each other, (3) about something besides a man. The data from this example is based on a blog post by Brian Keegan, which strongly advocates for reproducibility in data journalism." .
+<http://openvivo.org/a/figshare3145318-authorship1> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://openvivo.org/a/figshare3145318-vcard-figshare> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://openvivo.org/a/figshare3145318-authorship1> <http://vivoweb.org/ontology/core#relates> <http://openvivo.org/a/person0000-0002-9566-5835> .
+<http://openvivo.org/a/figshare3145318> <http://vivoweb.org/ontology/core#modifiedDate> <http://openvivo.org/a/date2016-04-02> .
+<http://openvivo.org/a/figshare3145318> <http://purl.org/ontology/bibo/freetextKeyword> "Reproducibility" .
+
+
+<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/freetextKeyword> "API" .
+<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/freetextKeyword> "DOIS" .
+<http://openvivo.org/a/figshare3117115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#ConferencePoster> .
+<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/freetextKeyword> "METADATA" .
+<http://openvivo.org/a/figshare3117115> <http://vivoweb.org/ontology/core#createdDate> <http://openvivo.org/a/date2016-03-16> .
+<http://openvivo.org/a/figshare3117115-vcard-figshare> <http://www.w3.org/2006/vcard/ns#url> <https://figshare.com/articles/EZIDposterAbstract_Force2016_pdf/3117115> .
+<http://openvivo.org/a/figshare3117115> <http://www.w3.org/2000/01/rdf-schema#label> "EZIDposterAbstract_Force2016.pdf" .
+<http://openvivo.org/a/figshare3117115> <http://vivoweb.org/ontology/core#hasContactInfo> <http://openvivo.org/a/figshare3117115-vcard> .
+<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/freetextKeyword> "FORCE2016" .
+<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/freetextKeyword> "PERSISTENT IDENTIFIERS" .
+<http://openvivo.org/a/figshare3117115> <http://vivoweb.org/ontology/core#modifiedDate> <http://openvivo.org/a/date2016-03-16> .
+<http://openvivo.org/a/figshare3117115-vcard-figshare> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/freetextKeyword> "SUSTAINABILITY" .
+<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/freetextKeyword> "ARKS" .
+<http://openvivo.org/a/figshare3117115-vcard-figshare> <http://www.w3.org/2000/01/rdf-schema#label> "Figshare Page" .
+<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/doi> "10.6084/m9.figshare.3117115.v1" .
+<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/abstract> "Abstract for poster from FORCE 2016, describing EZID (ezid.cdlib.org), an innovative service supporting creation and management of identifiers." .
+<http://openvivo.org/a/figshare3117115-vcard> <http://www.w3.org/2006/vcard/ns#hasURL> <http://openvivo.org/a/figshare3117115-vcard-figshare> .
+<http://openvivo.org/a/figshare3117115> <http://vivoweb.org/ontology/core#publishedDate> <http://openvivo.org/a/date2016-03-16> .
+<http://openvivo.org/a/figshare3117115-vcard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#organization> .
+<http://openvivo.org/a/figshare3117115> <http://purl.org/ontology/bibo/freetextKeyword> "N2T" .
+
+
+<http://openvivo.org/a/figshare3117073-vcard-figshare> <http://vivoweb.org/ontology/core#rank> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/freetextKeyword> "dois" .
+<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/abstract> "Poster from FORCE 2016, describing EZID (ezid.cdlib.org), an innovative service supporting creation and management of identifiers.<br>" .
+<http://openvivo.org/a/figshare3117073-vcard> <http://www.w3.org/2006/vcard/ns#hasURL> <http://openvivo.org/a/figshare3117073-vcard-figshare> .
+<http://openvivo.org/a/figshare3117073> <http://www.w3.org/2000/01/rdf-schema#label> "EZIDposter_Force2016.pdf" .
+<http://openvivo.org/a/figshare3117073> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#ConferencePoster> .
+<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/freetextKeyword> "API" .
+<http://openvivo.org/a/figshare3117073> <http://vivoweb.org/ontology/core#hasContactInfo> <http://openvivo.org/a/figshare3117073-vcard> .
+<http://openvivo.org/a/figshare3117073-vcard-figshare> <http://www.w3.org/2006/vcard/ns#url> <https://figshare.com/articles/EZIDposter_Force2016_pdf/3117073> .
+<http://openvivo.org/a/figshare3117073> <http://vivoweb.org/ontology/core#publishedDate> <http://openvivo.org/a/date2016-03-16> .
+<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/doi> "10.6084/m9.figshare.3117073.v1" .
+<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/freetextKeyword> "SUSTAINABILITY" .
+<http://openvivo.org/a/figshare3117073-vcard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#organization> .
+<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/freetextKeyword> "PERSISTENT IDENTIFIERS" .
+<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/freetextKeyword> "FORCE2016" .
+<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/freetextKeyword> "ARKS" .
+<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/freetextKeyword> "N2T" .
+<http://openvivo.org/a/figshare3117073> <http://purl.org/ontology/bibo/freetextKeyword> "METADATA" .
+<http://openvivo.org/a/figshare3117073> <http://vivoweb.org/ontology/core#modifiedDate> <http://openvivo.org/a/date2016-03-16> .
+<http://openvivo.org/a/figshare3117073> <http://vivoweb.org/ontology/core#createdDate> <http://openvivo.org/a/date2016-03-16> .
+<http://openvivo.org/a/figshare3117073-vcard-figshare> <http://www.w3.org/2000/01/rdf-schema#label> "Figshare Page" .
 
 
