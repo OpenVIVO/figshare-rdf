@@ -1,16 +1,243 @@
-@prefix ns1: <http://www.w3.org/2006/vcard/ns#> .
-@prefix ns2: <http://purl.org/ontology/bibo/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix ns2: <http://www.w3.org/2006/vcard/ns#> .
 @prefix ns3: <http://vivoweb.org/ontology/core#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://openvivo.org/a/doi10.6084/m9.figshare.3117073.v1-authorship1> a ns3:Authorship ;
+    ns3:rank 1 ;
+    ns3:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3117073.v1>,
+        <http://openvivo.org/a/vcardStarr--Joan--> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3117073.v1-authorship2> a ns3:Authorship ;
+    ns3:rank 2 ;
+    ns3:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3117073.v1>,
+        <http://openvivo.org/a/vcardKunze--John--> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3117073.v1-authorship3> a ns3:Authorship ;
+    ns3:rank 3 ;
+    ns3:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3117073.v1>,
+        <http://openvivo.org/a/vcardJanee--Greg--> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3117115.v1-authorship1> a ns3:Authorship ;
+    ns3:rank 1 ;
+    ns3:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3117115.v1>,
+        <http://openvivo.org/a/vcardStarr--Joan--> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3117115.v1-authorship2> a ns3:Authorship ;
+    ns3:rank 2 ;
+    ns3:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3117115.v1>,
+        <http://openvivo.org/a/vcardKunze--John--> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3117115.v1-authorship3> a ns3:Authorship ;
+    ns3:rank 3 ;
+    ns3:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3117115.v1>,
+        <http://openvivo.org/a/vcardJanee--Greg--> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3145315.v3-authorship1> a ns3:Authorship ;
+    ns3:rank 1 ;
+    ns3:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3145315.v3>,
+        <http://openvivo.org/a/orcid0000-0002-9566-5835> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3145318.v2-authorship1> a ns3:Authorship ;
+    ns3:rank 1 ;
+    ns3:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3145318.v2>,
+        <http://openvivo.org/a/orcid0000-0002-9566-5835> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1-authorship1> a ns3:Authorship ;
+    ns3:rank 1 ;
+    ns3:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1>,
+        <http://openvivo.org/a/vcardHersh--William--> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1-authorship2> a ns3:Authorship ;
+    ns3:rank 2 ;
+    ns3:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1>,
+        <http://openvivo.org/a/vcardDorr--David-A-> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1-authorship3> a ns3:Authorship ;
+    ns3:rank 3 ;
+    ns3:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1>,
+        <http://openvivo.org/a/vcardHaendel--Melissa--> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1-authorship4> a ns3:Authorship ;
+    ns3:rank 4 ;
+    ns3:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1>,
+        <http://openvivo.org/a/orcid0000-0001-5208-3432> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1-authorship5> a ns3:Authorship ;
+    ns3:rank 5 ;
+    ns3:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1>,
+        <http://openvivo.org/a/vcardPederson--Bjorn--> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1-authorship6> a ns3:Authorship ;
+    ns3:rank 6 ;
+    ns3:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1>,
+        <http://openvivo.org/a/vcardWirz--Jackie--> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1-authorship7> a ns3:Authorship ;
+    ns3:rank 7 ;
+    ns3:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1>,
+        <http://openvivo.org/a/vcardMcWeeney--Shannon--> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3160564.v1-authorship1> a ns3:Authorship ;
+    ns3:rank 1 ;
+    ns3:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3160564.v1>,
+        <http://openvivo.org/a/orcid0000-0002-6161-5557> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3160564.v1-authorship2> a ns3:Authorship ;
+    ns3:rank 2 ;
+    ns3:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3160564.v1>,
+        <http://openvivo.org/a/orcid0000-0001-6051-2313> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3160564.v1-authorship3> a ns3:Authorship ;
+    ns3:rank 3 ;
+    ns3:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3160564.v1>,
+        <http://openvivo.org/a/vcardAmory--John--> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3117073.v1-vcard> a ns2:organization ;
+    ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3117073.v1-vcard-figshare> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3117073.v1-vcard-figshare> rdfs:label "Figshare Page" ;
+    ns3:rank 1 ;
+    ns2:url <https://figshare.com/articles/EZIDposter_Force2016_pdf/3117073> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3117115.v1-vcard> a ns2:organization ;
+    ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3117115.v1-vcard-figshare> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3117115.v1-vcard-figshare> rdfs:label "Figshare Page" ;
+    ns3:rank 1 ;
+    ns2:url <https://figshare.com/articles/EZIDposterAbstract_Force2016_pdf/3117115> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3145315.v3> a ns1:Slideshow ;
+    rdfs:label "ReproZip: Reproducibility with Ease" ;
+    ns1:abstract "<b>ReproZip </b>is a tool that allows a researcher to create a compendium for his/her experiment by automatically tracking and identifying all its required dependencies (data files, libraries, configuration files, etc.). After creating the package with little to no effort, the researcher can share it with others, who can then use ReproZip to unpack the experiment and reproduce the findings independent of their operating system, again with little to no effort." ;
+    ns1:doi "10.6084/m9.figshare.3145315.v3" ;
+    ns1:freetextKeyword "FORCE16",
+        "ReproZip",
+        "Reproducibility" ;
+    ns3:createdDate <http://openvivo.org/a/date2016-04-02> ;
+    ns3:hasContactInfo <http://openvivo.org/a/doi10.6084/m9.figshare.3145315.v3-vcard> ;
+    ns3:modifiedDate <http://openvivo.org/a/date2016-04-02> ;
+    ns3:publishedDate <http://openvivo.org/a/date2016-04-02> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3145315.v3-vcard> a ns2:organization ;
+    ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3145315.v3-vcard-figshare> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3145315.v3-vcard-figshare> rdfs:label "Figshare Page" ;
+    ns3:rank 1 ;
+    ns2:url <https://figshare.com/articles/ReproZip_Reproducibility_with_Ease/3145315> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3145318.v2> a ns1:Slideshow ;
+    rdfs:label "An Example of Reproducibility using ReproZip" ;
+    ns1:abstract "This depicts an attempt to replicate the findings from an article in FiveThirtyEight that examines gender bias in the movie business using the Bechdel test: a movie passes the Bechdel test if there are (1) two women in it, (2) who talk to each other, (3) about something besides a man. The data from this example is based on a blog post by Brian Keegan, which strongly advocates for reproducibility in data journalism." ;
+    ns1:doi "10.6084/m9.figshare.3145318.v2" ;
+    ns1:freetextKeyword "FORCE16",
+        "ReproZip",
+        "Reproducibility" ;
+    ns3:createdDate <http://openvivo.org/a/date2016-04-02> ;
+    ns3:hasContactInfo <http://openvivo.org/a/doi10.6084/m9.figshare.3145318.v2-vcard> ;
+    ns3:modifiedDate <http://openvivo.org/a/date2016-04-02> ;
+    ns3:publishedDate <http://openvivo.org/a/date2016-04-02> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3145318.v2-vcard> a ns2:organization ;
+    ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3145318.v2-vcard-figshare> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3145318.v2-vcard-figshare> rdfs:label "Figshare Page" ;
+    ns3:rank 1 ;
+    ns2:url <https://figshare.com/articles/An_Example_of_Reproducibility_using_ReproZip/3145318> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1-vcard> a ns2:organization ;
+    ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1-vcard-figshare> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1-vcard-figshare> rdfs:label "Figshare Page" ;
+    ns3:rank 1 ;
+    ns2:url <https://figshare.com/articles/Couture_Curricula_BD2K_Data_Science_Tailored_to_Your_Needs/3159493> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3160564.v1-vcard> a ns2:organization ;
+    ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3160564.v1-vcard-figshare> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3160564.v1-vcard-figshare> rdfs:label "Figshare Page" ;
+    ns3:rank 1 ;
+    ns2:url <https://figshare.com/articles/FORCE11Poster_final_pdf/3160564> .
+
+<http://openvivo.org/a/vcardAmory--John--> a ns2:Individual ;
+    ns2:hasName <http://openvivo.org/a/vcardAmory--John--name> .
+
+<http://openvivo.org/a/vcardAmory--John--name> a ns2:Name ;
+    ns2:familyName "Amory" ;
+    ns2:givenName "John" .
+
+<http://openvivo.org/a/vcardDorr--David-A-> a ns2:Individual ;
+    ns2:hasName <http://openvivo.org/a/vcardDorr--David-A-name> .
+
+<http://openvivo.org/a/vcardDorr--David-A-name> a ns2:Name ;
+    ns2:additionalName "A" ;
+    ns2:familyName "Dorr" ;
+    ns2:givenName "David" .
+
+<http://openvivo.org/a/vcardHaendel--Melissa--> a ns2:Individual ;
+    ns2:hasName <http://openvivo.org/a/vcardHaendel--Melissa--name> .
+
+<http://openvivo.org/a/vcardHaendel--Melissa--name> a ns2:Name ;
+    ns2:familyName "Haendel" ;
+    ns2:givenName "Melissa" .
+
+<http://openvivo.org/a/vcardHersh--William--> a ns2:Individual ;
+    ns2:hasName <http://openvivo.org/a/vcardHersh--William--name> .
+
+<http://openvivo.org/a/vcardHersh--William--name> a ns2:Name ;
+    ns2:familyName "Hersh" ;
+    ns2:givenName "William" .
+
+<http://openvivo.org/a/vcardJanee--Greg--name> a ns2:Name ;
+    ns2:familyName "Janee" ;
+    ns2:givenName "Greg" .
+
+<http://openvivo.org/a/vcardKunze--John--name> a ns2:Name ;
+    ns2:familyName "Kunze" ;
+    ns2:givenName "John" .
+
+<http://openvivo.org/a/vcardMcWeeney--Shannon--> a ns2:Individual ;
+    ns2:hasName <http://openvivo.org/a/vcardMcWeeney--Shannon--name> .
+
+<http://openvivo.org/a/vcardMcWeeney--Shannon--name> a ns2:Name ;
+    ns2:familyName "McWeeney" ;
+    ns2:givenName "Shannon" .
+
+<http://openvivo.org/a/vcardPederson--Bjorn--> a ns2:Individual ;
+    ns2:hasName <http://openvivo.org/a/vcardPederson--Bjorn--name> .
+
+<http://openvivo.org/a/vcardPederson--Bjorn--name> a ns2:Name ;
+    ns2:familyName "Pederson" ;
+    ns2:givenName "Bjorn" .
+
+<http://openvivo.org/a/vcardStarr--Joan--name> a ns2:Name ;
+    ns2:familyName "Starr" ;
+    ns2:givenName "Joan" .
+
+<http://openvivo.org/a/vcardWirz--Jackie--> a ns2:Individual ;
+    ns2:hasName <http://openvivo.org/a/vcardWirz--Jackie--name> .
+
+<http://openvivo.org/a/vcardWirz--Jackie--name> a ns2:Name ;
+    ns2:familyName "Wirz" ;
+    ns2:givenName "Jackie" .
+
+<http://openvivo.org/a/vcardJanee--Greg--> a ns2:Individual ;
+    ns2:hasName <http://openvivo.org/a/vcardJanee--Greg--name> .
+
+<http://openvivo.org/a/vcardKunze--John--> a ns2:Individual ;
+    ns2:hasName <http://openvivo.org/a/vcardKunze--John--name> .
+
+<http://openvivo.org/a/vcardStarr--Joan--> a ns2:Individual ;
+    ns2:hasName <http://openvivo.org/a/vcardStarr--Joan--name> .
+
 <http://openvivo.org/a/doi10.6084/m9.figshare.3117073.v1> a ns3:ConferencePoster ;
     rdfs:label "EZIDposter_Force2016.pdf" ;
-    ns2:abstract "Poster from FORCE 2016, describing EZID (ezid.cdlib.org), an innovative service supporting creation and management of identifiers.<br>" ;
-    ns2:doi "10.6084/m9.figshare.3117073.v1" ;
-    ns2:freetextKeyword "API",
+    ns1:abstract "Poster from FORCE 2016, describing EZID (ezid.cdlib.org), an innovative service supporting creation and management of identifiers.<br>" ;
+    ns1:doi "10.6084/m9.figshare.3117073.v1" ;
+    ns1:freetextKeyword "API",
         "ARKS",
         "FORCE2016",
         "METADATA",
@@ -25,9 +252,9 @@
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3117115.v1> a ns3:ConferencePoster ;
     rdfs:label "EZIDposterAbstract_Force2016.pdf" ;
-    ns2:abstract "Abstract for poster from FORCE 2016, describing EZID (ezid.cdlib.org), an innovative service supporting creation and management of identifiers." ;
-    ns2:doi "10.6084/m9.figshare.3117115.v1" ;
-    ns2:freetextKeyword "API",
+    ns1:abstract "Abstract for poster from FORCE 2016, describing EZID (ezid.cdlib.org), an innovative service supporting creation and management of identifiers." ;
+    ns1:doi "10.6084/m9.figshare.3117115.v1" ;
+    ns1:freetextKeyword "API",
         "ARKS",
         "DOIS",
         "FORCE2016",
@@ -40,118 +267,11 @@
     ns3:modifiedDate <http://openvivo.org/a/date2016-03-16> ;
     ns3:publishedDate <http://openvivo.org/a/date2016-03-16> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3145315.v3-authorship1> a ns3:Authorship ;
-    ns3:rank 1 ;
-    ns3:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3145315.v3>,
-        <http://openvivo.org/a/orcid0000-0002-9566-5835> .
-
-<http://openvivo.org/a/doi10.6084/m9.figshare.3145318.v2-authorship1> a ns3:Authorship ;
-    ns3:rank 1 ;
-    ns3:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3145318.v2>,
-        <http://openvivo.org/a/orcid0000-0002-9566-5835> .
-
-<http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1-authorship4> a ns3:Authorship ;
-    ns3:rank 4 ;
-    ns3:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1>,
-        <http://openvivo.org/a/orcid0000-0001-5208-3432> .
-
-<http://openvivo.org/a/doi10.6084/m9.figshare.3160564.v1-authorship1> a ns3:Authorship ;
-    ns3:rank 1 ;
-    ns3:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3160564.v1>,
-        <http://openvivo.org/a/orcid0000-0002-6161-5557> .
-
-<http://openvivo.org/a/doi10.6084/m9.figshare.3160564.v1-authorship2> a ns3:Authorship ;
-    ns3:rank 2 ;
-    ns3:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3160564.v1>,
-        <http://openvivo.org/a/orcid0000-0001-6051-2313> .
-
-<http://openvivo.org/a/doi10.6084/m9.figshare.3117073.v1-vcard> a ns1:organization ;
-    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3117073.v1-vcard-figshare> .
-
-<http://openvivo.org/a/doi10.6084/m9.figshare.3117073.v1-vcard-figshare> rdfs:label "Figshare Page" ;
-    ns3:rank 1 ;
-    ns1:url <https://figshare.com/articles/EZIDposter_Force2016_pdf/3117073> .
-
-<http://openvivo.org/a/doi10.6084/m9.figshare.3117115.v1-vcard> a ns1:organization ;
-    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3117115.v1-vcard-figshare> .
-
-<http://openvivo.org/a/doi10.6084/m9.figshare.3117115.v1-vcard-figshare> rdfs:label "Figshare Page" ;
-    ns3:rank 1 ;
-    ns1:url <https://figshare.com/articles/EZIDposterAbstract_Force2016_pdf/3117115> .
-
-<http://openvivo.org/a/doi10.6084/m9.figshare.3145315.v3> a ns2:Slideshow ;
-    rdfs:label "ReproZip: Reproducibility with Ease" ;
-    ns2:abstract "<b>ReproZip </b>is a tool that allows a researcher to create a compendium for his/her experiment by automatically tracking and identifying all its required dependencies (data files, libraries, configuration files, etc.). After creating the package with little to no effort, the researcher can share it with others, who can then use ReproZip to unpack the experiment and reproduce the findings independent of their operating system, again with little to no effort." ;
-    ns2:doi "10.6084/m9.figshare.3145315.v3" ;
-    ns2:freetextKeyword "FORCE16",
-        "ReproZip",
-        "Reproducibility" ;
-    ns3:createdDate <http://openvivo.org/a/date2016-04-02> ;
-    ns3:hasContactInfo <http://openvivo.org/a/doi10.6084/m9.figshare.3145315.v3-vcard> ;
-    ns3:modifiedDate <http://openvivo.org/a/date2016-04-02> ;
-    ns3:publishedDate <http://openvivo.org/a/date2016-04-02> .
-
-<http://openvivo.org/a/doi10.6084/m9.figshare.3145315.v3-vcard> a ns1:organization ;
-    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3145315.v3-vcard-figshare> .
-
-<http://openvivo.org/a/doi10.6084/m9.figshare.3145315.v3-vcard-figshare> rdfs:label "Figshare Page" ;
-    ns3:rank 1 ;
-    ns1:url <https://figshare.com/articles/ReproZip_Reproducibility_with_Ease/3145315> .
-
-<http://openvivo.org/a/doi10.6084/m9.figshare.3145318.v2> a ns2:Slideshow ;
-    rdfs:label "An Example of Reproducibility using ReproZip" ;
-    ns2:abstract "This depicts an attempt to replicate the findings from an article in FiveThirtyEight that examines gender bias in the movie business using the Bechdel test: a movie passes the Bechdel test if there are (1) two women in it, (2) who talk to each other, (3) about something besides a man. The data from this example is based on a blog post by Brian Keegan, which strongly advocates for reproducibility in data journalism." ;
-    ns2:doi "10.6084/m9.figshare.3145318.v2" ;
-    ns2:freetextKeyword "FORCE16",
-        "ReproZip",
-        "Reproducibility" ;
-    ns3:createdDate <http://openvivo.org/a/date2016-04-02> ;
-    ns3:hasContactInfo <http://openvivo.org/a/doi10.6084/m9.figshare.3145318.v2-vcard> ;
-    ns3:modifiedDate <http://openvivo.org/a/date2016-04-02> ;
-    ns3:publishedDate <http://openvivo.org/a/date2016-04-02> .
-
-<http://openvivo.org/a/doi10.6084/m9.figshare.3145318.v2-vcard> a ns1:organization ;
-    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3145318.v2-vcard-figshare> .
-
-<http://openvivo.org/a/doi10.6084/m9.figshare.3145318.v2-vcard-figshare> rdfs:label "Figshare Page" ;
-    ns3:rank 1 ;
-    ns1:url <https://figshare.com/articles/An_Example_of_Reproducibility_using_ReproZip/3145318> .
-
-<http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1> a ns3:ConferencePoster ;
-    rdfs:label "Couture Curricula - BD2K Data Science Tailored to Your Needs" ;
-    ns2:abstract "Poster presentation at Force2016 conference (https://www.force11.org/meetings/force2016) discussing BD2K funded work to develop open educational resources and data science skills courses at Oregon Health & Science University." ;
-    ns2:doi "10.6084/m9.figshare.3159493.v1" ;
-    ns2:freetextKeyword "BD2K",
-        "FORCE16",
-        "FORCE2016",
-        "big data",
-        "data science",
-        "data science curricula",
-        "open educational resources" ;
-    ns3:createdDate <http://openvivo.org/a/date2016-04-06> ;
-    ns3:hasContactInfo <http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1-vcard> ;
-    ns3:modifiedDate <http://openvivo.org/a/date2016-04-06> ;
-    ns3:publishedDate <http://openvivo.org/a/date2016-04-06> .
-
-<http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1-vcard> a ns1:organization ;
-    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1-vcard-figshare> .
-
-<http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1-vcard-figshare> rdfs:label "Figshare Page" ;
-    ns3:rank 1 ;
-    ns1:url <https://figshare.com/articles/Couture_Curricula_BD2K_Data_Science_Tailored_to_Your_Needs/3159493> .
-
-<http://openvivo.org/a/doi10.6084/m9.figshare.3160564.v1-vcard> a ns1:organization ;
-    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3160564.v1-vcard-figshare> .
-
-<http://openvivo.org/a/doi10.6084/m9.figshare.3160564.v1-vcard-figshare> rdfs:label "Figshare Page" ;
-    ns3:rank 1 ;
-    ns1:url <https://figshare.com/articles/FORCE11Poster_final_pdf/3160564> .
-
 <http://openvivo.org/a/doi10.6084/m9.figshare.3160564.v1> a ns3:ConferencePoster ;
     rdfs:label "FORCE11Poster_final.pdf" ;
-    ns2:abstract "Poster presentation at the FORCE2016 conference (https://www.force11.org/meetings/force2016).  Describes a method for quantifying cross-disciplinary publications among K scholars at the University of Washington." ;
-    ns2:doi "10.6084/m9.figshare.3160564.v1" ;
-    ns2:freetextKeyword "FORCE16",
+    ns1:abstract "Poster presentation at the FORCE2016 conference (https://www.force11.org/meetings/force2016).  Describes a method for quantifying cross-disciplinary publications among K scholars at the University of Washington." ;
+    ns1:doi "10.6084/m9.figshare.3160564.v1" ;
+    ns1:freetextKeyword "FORCE16",
         "FORCE2016",
         "bibliometrics",
         "career development",
@@ -163,5 +283,21 @@
     ns3:hasContactInfo <http://openvivo.org/a/doi10.6084/m9.figshare.3160564.v1-vcard> ;
     ns3:modifiedDate <http://openvivo.org/a/date2016-04-07> ;
     ns3:publishedDate <http://openvivo.org/a/date2016-04-07> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1> a ns3:ConferencePoster ;
+    rdfs:label "Couture Curricula - BD2K Data Science Tailored to Your Needs" ;
+    ns1:abstract "Poster presentation at Force2016 conference (https://www.force11.org/meetings/force2016) discussing BD2K funded work to develop open educational resources and data science skills courses at Oregon Health & Science University." ;
+    ns1:doi "10.6084/m9.figshare.3159493.v1" ;
+    ns1:freetextKeyword "BD2K",
+        "FORCE16",
+        "FORCE2016",
+        "big data",
+        "data science",
+        "data science curricula",
+        "open educational resources" ;
+    ns3:createdDate <http://openvivo.org/a/date2016-04-06> ;
+    ns3:hasContactInfo <http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1-vcard> ;
+    ns3:modifiedDate <http://openvivo.org/a/date2016-04-06> ;
+    ns3:publishedDate <http://openvivo.org/a/date2016-04-06> .
 
 

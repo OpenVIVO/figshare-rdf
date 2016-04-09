@@ -25,6 +25,7 @@ __version__ = "0.02"
 uri_prefix = 'http://openvivo.org/a/doi'
 date_prefix = 'http://openvivo.org/a/date'
 author_prefix = 'http://openvivo.org/a/orcid'
+vcard_prefix = 'http://openvivo.org/a/vcard'
 
 VIVO = Namespace('http://vivoweb.org/ontology/core#')
 BIBO = Namespace('http://purl.org/ontology/bibo/')
@@ -45,13 +46,52 @@ def add_authors(uri, work):
         rank = 0
         for author in work['authors']:
             rank += 1
+            authorship_uri = URIRef(str(uri) + '-authorship' + str(rank))
             if 'orcid_id' in author and len(author['orcid_id']) > 0:
                 author_uri = URIRef(author_prefix + author['orcid_id'])
-                authorship_uri = URIRef(str(uri) + '-authorship' + str(rank))
-                g.add((authorship_uri, RDF.type, VIVO.Authorship))
-                g.add((authorship_uri, VIVO.rank, Literal(str(rank), datatype=XSD.integer)))
-                g.add((authorship_uri, VIVO.relates, author_uri))
-                g.add((authorship_uri, VIVO.relates, uri))
+
+            else:
+
+                #   Make a vcard for the author.  The vcard has the name of the author
+
+                name_parts = [x.strip('.') for x in author['full_name'].split(' ')]
+                if len(name_parts) == 1:
+                    author['family_name'] = name_parts[0]
+                    author['given_name'] = ''
+                    author['additional_name'] = ''
+                elif len(name_parts) == 2:
+                    author['given_name'] = name_parts[0]
+                    author['additional_name'] = ''
+                    author['family_name'] = name_parts[1]
+                elif len(name_parts) == 3:
+                    author['given_name'] = name_parts[0]
+                    author['additional_name'] = name_parts[1]
+                    author['family_name'] = name_parts[2]
+                else:
+                    author['given_name'] = name_parts[0]
+                    author['additional_name'] = name_parts[1]
+                    author['family_name'] = name_parts[2:]
+
+                author_uri = URIRef(vcard_prefix + author['family_name'] + '--' + author['given_name'] + '-' +
+                                    author['additional_name'] + '-')
+                g.add((author_uri, RDF.type, VCARD.Individual))
+                name_uri = URIRef(str(author_uri) + 'name')
+                g.add((name_uri, RDF.type, VCARD.Name))
+                g.add((author_uri, VCARD.hasName, name_uri))
+                if len(author['given_name']) > 0:
+                    g.add((name_uri, VCARD.givenName, Literal(author['given_name'])))
+                if len(author['family_name']) > 0:
+                    g.add((name_uri, VCARD.familyName, Literal(author['family_name'])))
+                if len(author['additional_name']) > 0:
+                    g.add((name_uri, VCARD.additionalName, Literal(author['additional_name'])))
+
+            # create an authorship linking the work to the author (or vcard)
+
+            g.add((authorship_uri, RDF.type, VIVO.Authorship))
+            g.add((authorship_uri, VIVO.rank, Literal(str(rank), datatype=XSD.integer)))
+            g.add((authorship_uri, VIVO.relates, author_uri))
+            g.add((authorship_uri, VIVO.relates, uri))
+
     return g
 
 
