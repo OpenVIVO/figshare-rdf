@@ -24,7 +24,7 @@ __version__ = "0.02"
 
 uri_prefix = 'http://openvivo.org/a/doi'
 date_prefix = 'http://openvivo.org/a/date'
-author_prefix = 'http://openvivo.org/a/person'
+author_prefix = 'http://openvivo.org/a/orcid'
 
 VIVO = Namespace('http://vivoweb.org/ontology/core#')
 BIBO = Namespace('http://purl.org/ontology/bibo/')
