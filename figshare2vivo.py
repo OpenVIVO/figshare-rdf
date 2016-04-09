@@ -29,6 +29,7 @@ author_prefix = 'http://openvivo.org/a/orcid'
 VIVO = Namespace('http://vivoweb.org/ontology/core#')
 BIBO = Namespace('http://purl.org/ontology/bibo/')
 OBO = Namespace('http://purl.obolibrary.org/obo/')
+VCARD = Namespace("http://www.w3.org/2006/vcard/ns#")
 
 # Setup logging
 
@@ -38,6 +39,7 @@ logging.basicConfig()
 
 
 def add_authors(uri, work):
+    # TODO: If no orcid for the author, add the author as a vcard (see openVIVO for examples)
     g = Graph()
     if 'authors' in work:
         rank = 0
@@ -58,7 +60,6 @@ def add_vcard(uri, work):
     if 'figshare_url' not in work or len(work['figshare_url']) == 0:
         return
 
-    VCARD = Namespace("http://www.w3.org/2006/vcard/ns#")
     vcard_uri = URIRef(str(uri)+'-vcard')
     g.add((vcard_uri, RDF.type, VCARD.organization))  # check this
     g.add((uri, VIVO.hasContactInfo, vcard_uri))
@@ -196,14 +197,14 @@ if __name__ == '__main__':
     #  Make RDF for each work
 
     count = 0
-    for work in works:
+    for figshare_work in works:
         count += 1
         if count % 10 == 0:
             print count
-        article = get_figshare_article(str(work['id']))
+        article = get_figshare_article(str(figshare_work['id']))
         print article, "\n"
         if 'force2016' in [x.lower() for x in article['tags']] or 'force16' in [x.lower() for x in article['tags']]:
-            print work['title']
+            print article['title']
             figshare_graph += make_figshare_rdf(article)
 
     print >>triples_file, figshare_graph.serialize(format='n3')
