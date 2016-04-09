@@ -18,11 +18,11 @@ import logging
 __author__ = "Michael Conlon"
 __copyright__ = "Copyright 2016 (c) Michael Conlon"
 __license__ = "Apache License 2.0"
-__version__ = "0.01"
+__version__ = "0.02"
 
 #   Constants
 
-uri_prefix = 'http://openvivo.org/a/figshare'
+uri_prefix = 'http://openvivo.org/a/doi'
 date_prefix = 'http://openvivo.org/a/date'
 author_prefix = 'http://openvivo.org/a/person'
 
@@ -138,7 +138,10 @@ def make_figshare_rdf(work):
     type_map = [VIVO.Image, BIBO.AudioVisualDocument, VIVO.Dataset, BIBO.Collection, VIVO.ConferencePoster,
                 VIVO.ConferencePaper, BIBO.Slideshow, BIBO.Thesis, OBO.ERO_0000071]
 
-    uri = URIRef(uri_prefix + str(work['id']))
+    if 'doi' in work and len(work['doi']) > 0:
+        uri = URIRef(uri_prefix + str(work['doi']))
+    else:
+        return  # No DOI => no entry in OpenVIVO
 
     if 'defined_type' in work:
         try:
@@ -179,6 +182,7 @@ def make_figshare_rdf(work):
 
 #   Main starts here
 if __name__ == '__main__':
+    figshare_graph = Graph()
     triples_file = open('figshare.rdf', 'w')
     works = get_figshare_articles_by_tag('force2016')
 
@@ -200,7 +204,7 @@ if __name__ == '__main__':
         print article, "\n"
         if 'force2016' in [x.lower() for x in article['tags']] or 'force16' in [x.lower() for x in article['tags']]:
             print work['title']
-            graph = make_figshare_rdf(article)
-            print >>triples_file, graph.serialize(format='nt')
+            figshare_graph += make_figshare_rdf(article)
 
+    print >>triples_file, figshare_graph.serialize(format='n3')
     triples_file.close()
