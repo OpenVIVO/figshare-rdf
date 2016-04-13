@@ -26,11 +26,14 @@ uri_prefix = 'http://openvivo.org/a/doi'
 date_prefix = 'http://openvivo.org/a/date'
 author_prefix = 'http://openvivo.org/a/orcid'
 vcard_prefix = 'http://openvivo.org/a/vcard'
+orcid_prefix = 'http://orcid.org/'
+event_uri = URIRef('http://openvivo.org/a/eventFORCE2016')
 
 VIVO = Namespace('http://vivoweb.org/ontology/core#')
 BIBO = Namespace('http://purl.org/ontology/bibo/')
 OBO = Namespace('http://purl.obolibrary.org/obo/')
 VCARD = Namespace("http://www.w3.org/2006/vcard/ns#")
+FOAF = Namespace('http://xmlns.com/foaf/0.1/')
 
 # Setup logging
 
@@ -40,37 +43,43 @@ logging.basicConfig()
 
 
 def add_authors(uri, work):
-    # TODO: If no orcid for the author, add the author as a vcard (see openVIVO for examples)
     g = Graph()
     if 'authors' in work:
         rank = 0
         for author in work['authors']:
             rank += 1
             authorship_uri = URIRef(str(uri) + '-authorship' + str(rank))
+
+            name_parts = [x.strip('.') for x in author['full_name'].split(' ')]
+            if len(name_parts) == 1:
+                author['family_name'] = name_parts[0]
+                author['given_name'] = ''
+                author['additional_name'] = ''
+            elif len(name_parts) == 2:
+                author['given_name'] = name_parts[0]
+                author['additional_name'] = ''
+                author['family_name'] = name_parts[1]
+            elif len(name_parts) == 3:
+                author['given_name'] = name_parts[0]
+                author['additional_name'] = name_parts[1]
+                author['family_name'] = name_parts[2]
+            else:
+                author['given_name'] = name_parts[0]
+                author['additional_name'] = name_parts[1]
+                author['family_name'] = name_parts[2:]
+
+            author['full_name'] = author['family_name'] + ', ' + author['given_name'] + ' ' + author['additional_name']
+            author['full_name'] = author['full_name'].strip()
+
             if 'orcid_id' in author and len(author['orcid_id']) > 0:
                 author_uri = URIRef(author_prefix + author['orcid_id'])
+                g.add((author_uri, RDF.type, FOAF.Person))
+                g.add((author_uri, VIVO.orcidId, Literal(orcid_prefix + author['orcid_id'], datatype=XSD.anyURI)))
+                g.add((author_uri, RDFS.label, Literal(author['full_name'])))
 
             else:
 
                 #   Make a vcard for the author.  The vcard has the name of the author
-
-                name_parts = [x.strip('.') for x in author['full_name'].split(' ')]
-                if len(name_parts) == 1:
-                    author['family_name'] = name_parts[0]
-                    author['given_name'] = ''
-                    author['additional_name'] = ''
-                elif len(name_parts) == 2:
-                    author['given_name'] = name_parts[0]
-                    author['additional_name'] = ''
-                    author['family_name'] = name_parts[1]
-                elif len(name_parts) == 3:
-                    author['given_name'] = name_parts[0]
-                    author['additional_name'] = name_parts[1]
-                    author['family_name'] = name_parts[2]
-                else:
-                    author['given_name'] = name_parts[0]
-                    author['additional_name'] = name_parts[1]
-                    author['family_name'] = name_parts[2:]
 
                 author_uri = URIRef(vcard_prefix + author['family_name'] + '--' + author['given_name'] + '-' +
                                     author['additional_name'] + '-')
@@ -102,7 +111,8 @@ def add_vcard(uri, work):
 
     vcard_uri = URIRef(str(uri)+'-vcard')
     g.add((vcard_uri, RDF.type, VCARD.Kind))  # check this
-    g.add((uri, OBO.ARG_2000058, vcard_uri))
+    g.add((uri, OBO.ARG_2000028, vcard_uri))
+    g.add((vcard_uri, OBO.ARG_2000029, uri))
 
     #   Add Figshare URL
 
@@ -110,7 +120,7 @@ def add_vcard(uri, work):
     vcard_figshare_uri = URIRef(str(vcard_uri) + '-figshare')
     g.add((vcard_figshare_uri, RDF.type, VCARD.URL))
     g.add((vcard_uri, VCARD.hasURL, vcard_figshare_uri))
-    g.add((vcard_figshare_uri, VCARD.url, URIRef(work['figshare_url'].strip())))
+    g.add((vcard_figshare_uri, VCARD.url, Literal(work['figshare_url'].strip(), datatype=XSD.anyURI)))
     g.add((vcard_figshare_uri, VIVO.rank, Literal(str(url_rank), datatype=XSD.integer)))
     g.add((vcard_figshare_uri, RDFS.label, Literal('Figshare Page')))
     return g
@@ -219,6 +229,11 @@ def make_figshare_rdf(work):
 
     g += add_authors(uri, work)  # add an authorship for each author with an orcid
     g += add_vcard(uri, work)  # adds the figshare URL
+
+    #    Link work to event
+
+    g.add((uri, OBO.RO_0002353, event_uri))
+    g.add((event_uri, OBO.RO_0002234, uri))
 
     return g
 
