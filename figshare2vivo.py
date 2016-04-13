@@ -101,13 +101,14 @@ def add_vcard(uri, work):
         return
 
     vcard_uri = URIRef(str(uri)+'-vcard')
-    g.add((vcard_uri, RDF.type, VCARD.organization))  # check this
-    g.add((uri, VIVO.hasContactInfo, vcard_uri))
+    g.add((vcard_uri, RDF.type, VCARD.Kind))  # check this
+    g.add((uri, OBO.ARG_2000058, vcard_uri))
 
     #   Add Figshare URL
 
     url_rank = 1
     vcard_figshare_uri = URIRef(str(vcard_uri) + '-figshare')
+    g.add((vcard_figshare_uri, RDF.type, VCARD.URL))
     g.add((vcard_uri, VCARD.hasURL, vcard_figshare_uri))
     g.add((vcard_figshare_uri, VCARD.url, URIRef(work['figshare_url'].strip())))
     g.add((vcard_figshare_uri, VIVO.rank, Literal(str(url_rank), datatype=XSD.integer)))
@@ -205,15 +206,16 @@ def make_figshare_rdf(work):
 
     if 'published_date' in work:
         date_uri = URIRef(date_prefix + work['published_date'][0:10])
-        g.add((uri, VIVO.publishedDate, date_uri))
+        g.add((uri, VIVO.datePublished, date_uri))
+        g.add((uri, VIVO.dateTimeValue, date_uri))
 
     if 'created_date' in work:
         date_uri = URIRef(date_prefix + work['created_date'][0:10])
-        g.add((uri, VIVO.createdDate, date_uri))
+        g.add((uri, VIVO.dateCreated, date_uri))
 
     if 'modified_date' in work:
         date_uri = URIRef(date_prefix + work['modified_date'][0:10])
-        g.add((uri, VIVO.modifiedDate, date_uri))
+        g.add((uri, VIVO.dateModified, date_uri))
 
     g += add_authors(uri, work)  # add an authorship for each author with an orcid
     g += add_vcard(uri, work)  # adds the figshare URL
@@ -225,10 +227,11 @@ def make_figshare_rdf(work):
 if __name__ == '__main__':
     figshare_graph = Graph()
     triples_file = open('figshare.rdf', 'w')
-    works = get_figshare_articles_by_tag('force2016')
+    works_tag = get_figshare_articles_by_tag('force2016')
+    print len(works_tag), "works identified by tag"
 
-    # works = get_figshare_articles('36')  # 36 is VIVO, 131 is Force16
-    # print 'VIVO 2016 works\n', works
+    works_collection = get_figshare_articles('131')  # 36 is VIVO, 131 is Force16
+    print len(works_collection), "works identified by collection"
     #
     # work = get_figshare_article('3117808')  # Krafft and Conlon Duraspace Summit presentation
     # print 'Recent work by Krafft and Conlon\n', work
@@ -237,15 +240,17 @@ if __name__ == '__main__':
     #  Make RDF for each work
 
     count = 0
-    for figshare_work in works:
+    for figshare_work in works_tag + works_collection:
         count += 1
         if count % 10 == 0:
             print count
         article = get_figshare_article(str(figshare_work['id']))
-        print article, "\n"
         if 'force2016' in [x.lower() for x in article['tags']] or 'force16' in [x.lower() for x in article['tags']]:
-            print article['title']
-            figshare_graph += make_figshare_rdf(article)
+            print '\n', article['title']
+            print article
+            return_graph = make_figshare_rdf(article)
+            if return_graph is not None:
+                figshare_graph += return_graph
 
-    print >>triples_file, figshare_graph.serialize(format='n3')
+    print >>triples_file, figshare_graph.serialize(format='nt')
     triples_file.close()
