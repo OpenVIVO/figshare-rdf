@@ -227,8 +227,11 @@ def make_figshare_rdf(work):
 if __name__ == '__main__':
     figshare_graph = Graph()
     triples_file = open('figshare.rdf', 'w')
-    works_tag = get_figshare_articles_by_tag('force2016')
-    print len(works_tag), "works identified by tag"
+    works_2016 = get_figshare_articles_by_tag('force2016')
+    print len(works_2016), "works identified by force2016 tag"
+
+    works_16 = get_figshare_articles_by_tag('force16')
+    print len(works_16), "works identified by force16 tag"
 
     works_collection = get_figshare_articles('131')  # 36 is VIVO, 131 is Force16
     print len(works_collection), "works identified by collection"
@@ -240,7 +243,8 @@ if __name__ == '__main__':
     #  Make RDF for each work
 
     count = 0
-    for figshare_work in works_tag + works_collection:
+    added = 0
+    for figshare_work in works_2016 + works_16 + works_collection:
         count += 1
         if count % 10 == 0:
             print count
@@ -251,6 +255,8 @@ if __name__ == '__main__':
             return_graph = make_figshare_rdf(article)
             if return_graph is not None:
                 figshare_graph += return_graph
+                added += 1
 
-    print >>triples_file, figshare_graph.serialize(format='nt')
+    print added, "works with DOI added"
+    print >>triples_file, figshare_graph.serialize(format='n3')
     triples_file.close()
