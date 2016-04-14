@@ -34,6 +34,7 @@ BIBO = Namespace('http://purl.org/ontology/bibo/')
 OBO = Namespace('http://purl.obolibrary.org/obo/')
 VCARD = Namespace("http://www.w3.org/2006/vcard/ns#")
 FOAF = Namespace('http://xmlns.com/foaf/0.1/')
+OWL = Namespace('http://www.w3.org/2002/07/owl#')
 
 # Setup logging
 
@@ -74,7 +75,9 @@ def add_authors(uri, work):
             if 'orcid_id' in author and len(author['orcid_id']) > 0:
                 author_uri = URIRef(author_prefix + author['orcid_id'])
                 g.add((author_uri, RDF.type, FOAF.Person))
-                g.add((author_uri, VIVO.orcidId, Literal(orcid_prefix + author['orcid_id'], datatype=XSD.anyURI)))
+                orcid_uri = URIRef(orcid_prefix + author['orcid_id'])
+                g.add((orcid_uri, RDF.type, OWL.Thing))
+                g.add((author_uri, VIVO.orcidId, orcid_uri))
                 g.add((author_uri, RDFS.label, Literal(author['full_name'])))
 
             else:
