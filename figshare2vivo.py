@@ -146,7 +146,7 @@ def get_figshare_articles_by_tag(tag):
     """
     import urllib2
     url = 'https://api.figshare.com/v2/articles/search'
-    data = '{ "search_for": "{}" }'.replace('{}', tag)
+    data = '{ "search_for": "{}", "page_size": 1000}'.replace('{}', tag)
     req = urllib2.Request(url, data)
     rsp = urllib2.urlopen(req)
     article_results = json.loads(rsp.read())
@@ -248,8 +248,9 @@ if __name__ == '__main__':
     works_16 = get_figshare_articles_by_tag('force16')
     print len(works_16), "works identified by force16 tag"
 
-    works_collection = get_figshare_articles('131')  # 36 is VIVO, 131 is Force16
-    print len(works_collection), "works identified by collection"
+    # works_collection = get_figshare_articles('131')  # 36 is VIVO, 131 is Force16
+    # print works_collection
+    # print len(works_collection), "works identified by collection"
     #
     # work = get_figshare_article('3117808')  # Krafft and Conlon Duraspace Summit presentation
     # print 'Recent work by Krafft and Conlon\n', work
@@ -259,7 +260,7 @@ if __name__ == '__main__':
 
     count = 0
     added = 0
-    for figshare_work in works_2016 + works_16 + works_collection:
+    for figshare_work in works_2016 + works_16:
         count += 1
         if count % 10 == 0:
             print count
