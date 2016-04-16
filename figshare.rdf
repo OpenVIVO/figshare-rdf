@@ -1,7 +1,7 @@
 @prefix ns1: <http://vivoweb.org/ontology/core#> .
 @prefix ns2: <http://www.w3.org/2006/vcard/ns#> .
-@prefix ns3: <http://purl.obolibrary.org/obo/> .
-@prefix ns4: <http://purl.org/ontology/bibo/> .
+@prefix ns3: <http://purl.org/ontology/bibo/> .
+@prefix ns4: <http://purl.obolibrary.org/obo/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -517,9 +517,9 @@
     ns1:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3175135.v1>,
         <http://openvivo.org/a/vcardDavis--Brian--> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3175144.v1-authorship1> a ns1:Authorship ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3175144.v3-authorship1> a ns1:Authorship ;
     ns1:rank 1 ;
-    ns1:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3175144.v1>,
+    ns1:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3175144.v3>,
         <http://openvivo.org/a/orcid0000-0002-6132-3853> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3175168.v1-authorship1> a ns1:Authorship ;
@@ -692,8 +692,33 @@
     ns1:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3180100.v1>,
         <http://openvivo.org/a/vcardYoder--Matthew--> .
 
+<http://openvivo.org/a/doi10.6084/m9.figshare.3180130.v2-authorship1> a ns1:Authorship ;
+    ns1:rank 1 ;
+    ns1:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3180130.v2>,
+        <http://openvivo.org/a/orcid0000-0002-4988-384X> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3180130.v2-authorship2> a ns1:Authorship ;
+    ns1:rank 2 ;
+    ns1:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3180130.v2>,
+        <http://openvivo.org/a/vcardGahegan--Mark--> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3180130.v2-authorship3> a ns1:Authorship ;
+    ns1:rank 3 ;
+    ns1:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3180130.v2>,
+        <http://openvivo.org/a/vcardDobbie--Gill--> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3180232.v2-authorship1> a ns1:Authorship ;
+    ns1:rank 1 ;
+    ns1:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3180232.v2>,
+        <http://openvivo.org/a/vcardMartone--Maryann--> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3180235.v1-authorship1> a ns1:Authorship ;
+    ns1:rank 1 ;
+    ns1:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3180235.v1>,
+        <http://openvivo.org/a/vcardMartone--Maryann--> .
+
 <http://openvivo.org/a/doi10.6084/m9.figshare.3117073.v2-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3117073.v2> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3117073.v2> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3117073.v2-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3117073.v2-vcard-figshare> a ns2:URL ;
@@ -702,7 +727,7 @@
     ns2:url "https://figshare.com/articles/EZIDposter_Force2016_pdf/3117073"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3117115.v2-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3117115.v2> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3117115.v2> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3117115.v2-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3117115.v2-vcard-figshare> a ns2:URL ;
@@ -711,7 +736,7 @@
     ns2:url "https://figshare.com/articles/EZIDposterAbstract_Force2016_pdf/3117115"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3145315.v3-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3145315.v3> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3145315.v3> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3145315.v3-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3145315.v3-vcard-figshare> a ns2:URL ;
@@ -720,7 +745,7 @@
     ns2:url "https://figshare.com/articles/ReproZip_Reproducibility_with_Ease/3145315"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3145318.v2-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3145318.v2> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3145318.v2> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3145318.v2-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3145318.v2-vcard-figshare> a ns2:URL ;
@@ -729,7 +754,7 @@
     ns2:url "https://figshare.com/articles/An_Example_of_Reproducibility_using_ReproZip/3145318"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3146668-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3146668> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3146668> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3146668-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3146668-vcard-figshare> a ns2:URL ;
@@ -738,7 +763,7 @@
     ns2:url "https://figshare.com/articles/Repositive_platform_for_finding_genomic_data_pdf/3146668"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3156514.v3-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3156514.v3> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3156514.v3> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3156514.v3-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3156514.v3-vcard-figshare> a ns2:URL ;
@@ -747,7 +772,7 @@
     ns2:url "https://figshare.com/articles/bml_force16_poster_03c_pdf/3156514"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1-vcard-figshare> a ns2:URL ;
@@ -756,7 +781,7 @@
     ns2:url "https://figshare.com/articles/Couture_Curricula_BD2K_Data_Science_Tailored_to_Your_Needs/3159493"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3160564-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3160564> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3160564> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3160564-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3160564-vcard-figshare> a ns2:URL ;
@@ -765,7 +790,7 @@
     ns2:url "https://figshare.com/articles/FORCE11Poster_final_pdf/3160564"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3167929.v1-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3167929.v1> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3167929.v1> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3167929.v1-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3167929.v1-vcard-figshare> a ns2:URL ;
@@ -774,7 +799,7 @@
     ns2:url "https://figshare.com/articles/Loop_Demo_Introduction_Slide_Force16/3167929"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3167935.v2-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3167935.v2> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3167935.v2> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3167935.v2-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3167935.v2-vcard-figshare> a ns2:URL ;
@@ -783,7 +808,7 @@
     ns2:url "https://figshare.com/articles/Loop_Poster/3167935"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3168862.v3-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3168862.v3> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3168862.v3> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3168862.v3-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3168862.v3-vcard-figshare> a ns2:URL ;
@@ -792,7 +817,7 @@
     ns2:url "https://figshare.com/articles/Poster_FORCE2016_pdf/3168862"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3169117.v1-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3169117.v1> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3169117.v1> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3169117.v1-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3169117.v1-vcard-figshare> a ns2:URL ;
@@ -801,7 +826,7 @@
     ns2:url "https://figshare.com/articles/Enhancements_to_the_GigaScience_Integrated_Data_Research_Object_Publishing_Pipeline/3169117"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3171811.v2-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3171811.v2> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3171811.v2> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3171811.v2-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3171811.v2-vcard-figshare> a ns2:URL ;
@@ -810,7 +835,7 @@
     ns2:url "https://figshare.com/articles/Kudos_building_readership_by_explaining_and_sharing_at_FORCE_2016/3171811"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3171994-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3171994> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3171994> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3171994-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3171994-vcard-figshare> a ns2:URL ;
@@ -819,7 +844,7 @@
     ns2:url "https://figshare.com/articles/21st_Century_Scientific_Authoring_for_Institutions_Demonstrating_the_Overleaf_Caltech_Portal/3171994"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172060.v2-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3172060.v2> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3172060.v2> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3172060.v2-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172060.v2-vcard-figshare> a ns2:URL ;
@@ -828,7 +853,7 @@
     ns2:url "https://figshare.com/articles/Emerald_RM_and_II_Introductory_slide_pptx/3172060"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172396.v1-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3172396.v1> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3172396.v1> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3172396.v1-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172396.v1-vcard-figshare> a ns2:URL ;
@@ -837,7 +862,7 @@
     ns2:url "https://figshare.com/articles/Find_me_the_data_Discover_and_explore_Springer_Nature_s_Scientific_Data_datasets_with_the_ISA_explorer_tool/3172396"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172405.v2-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3172405.v2> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3172405.v2> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3172405.v2-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172405.v2-vcard-figshare> a ns2:URL ;
@@ -846,7 +871,7 @@
     ns2:url "https://figshare.com/articles/Eyes_Without_a_Face_Research_Annotation_and_Sharing_in_a_Multimodal_Literacy_Frame/3172405"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172615.v1-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3172615.v1> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3172615.v1> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3172615.v1-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172615.v1-vcard-figshare> a ns2:URL ;
@@ -855,7 +880,7 @@
     ns2:url "https://figshare.com/articles/Open_Access_Academy_FORCE11_conference_poster/3172615"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172660.v1-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3172660.v1> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3172660.v1> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3172660.v1-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172660.v1-vcard-figshare> a ns2:URL ;
@@ -864,7 +889,7 @@
     ns2:url "https://figshare.com/articles/Too_Big_to_Share_Scaling_Up_Knowledge_Transfer_Workflows_in_Computational_Sciences/3172660"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172753.v1-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3172753.v1> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3172753.v1> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3172753.v1-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172753.v1-vcard-figshare> a ns2:URL ;
@@ -873,7 +898,7 @@
     ns2:url "https://figshare.com/articles/Manuscripts_a_simple_structured_writing_tool_for_a_scholar/3172753"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172834.v2-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3172834.v2> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3172834.v2> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3172834.v2-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172834.v2-vcard-figshare> a ns2:URL ;
@@ -882,7 +907,7 @@
     ns2:url "https://figshare.com/articles/BioSharing_poster_ISB_2016/3172834"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172855-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3172855> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3172855> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3172855-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172855-vcard-figshare> a ns2:URL ;
@@ -891,7 +916,7 @@
     ns2:url "https://figshare.com/articles/BioSharing_poster_April_2016_focus_on_standards_/3172855"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172858.v1-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3172858.v1> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3172858.v1> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3172858.v1-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172858.v1-vcard-figshare> a ns2:URL ;
@@ -900,7 +925,7 @@
     ns2:url "https://figshare.com/articles/Kudos_increasing_visibility_reach_and_usage_of_published_research_2016_research_results_poster/3172858"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172927.v1-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3172927.v1> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3172927.v1> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3172927.v1-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172927.v1-vcard-figshare> a ns2:URL ;
@@ -909,7 +934,7 @@
     ns2:url "https://figshare.com/articles/APO_Policy_Online_poster/3172927"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3173089.v1-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3173089.v1> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3173089.v1> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3173089.v1-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3173089.v1-vcard-figshare> a ns2:URL ;
@@ -918,7 +943,7 @@
     ns2:url "https://figshare.com/articles/21st_Century_Scientific_Authoring_at_Institutions_30s_Video/3173089"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3174703.v2-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3174703.v2> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3174703.v2> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3174703.v2-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3174703.v2-vcard-figshare> a ns2:URL ;
@@ -927,7 +952,7 @@
     ns2:url "https://figshare.com/articles/20160419_pdf/3174703"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3175018.v1-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3175018.v1> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3175018.v1> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3175018.v1-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3175018.v1-vcard-figshare> a ns2:URL ;
@@ -936,7 +961,7 @@
     ns2:url "https://figshare.com/articles/Darch_Poster_Force2016_pptx/3175018"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3175042.v1-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3175042.v1> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3175042.v1> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3175042.v1-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3175042.v1-vcard-figshare> a ns2:URL ;
@@ -945,7 +970,7 @@
     ns2:url "https://figshare.com/articles/Genome_sharing_projects_around_the_world_how_to_find_data_for_your_research_/3175042"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3175054.v1-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3175054.v1> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3175054.v1> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3175054.v1-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3175054.v1-vcard-figshare> a ns2:URL ;
@@ -954,7 +979,7 @@
     ns2:url "https://figshare.com/articles/Genome_sharing_projects_around_the_world_how_to_find_data_for_your_research/3175054"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3175072.v1-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3175072.v1> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3175072.v1> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3175072.v1-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3175072.v1-vcard-figshare> a ns2:URL ;
@@ -963,7 +988,7 @@
     ns2:url "https://figshare.com/articles/OpenVIVO_A_VIVO_anyone_can_join/3175072"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3175135.v1-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3175135.v1> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3175135.v1> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3175135.v1-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3175135.v1-vcard-figshare> a ns2:URL ;
@@ -971,17 +996,17 @@
     ns1:rank 1 ;
     ns2:url "https://figshare.com/articles/SOPHIA_Social_Phrases_Having_Impact/3175135"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3175144.v1-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3175144.v1> ;
-    ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3175144.v1-vcard-figshare> .
+<http://openvivo.org/a/doi10.6084/m9.figshare.3175144.v3-vcard> a ns2:Kind ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3175144.v3> ;
+    ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3175144.v3-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3175144.v1-vcard-figshare> a ns2:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3175144.v3-vcard-figshare> a ns2:URL ;
     rdfs:label "Figshare Page" ;
     ns1:rank 1 ;
     ns2:url "https://figshare.com/articles/FORCE_2016_Open_Access_Button_Poster/3175144"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3175168.v1-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3175168.v1> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3175168.v1> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3175168.v1-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3175168.v1-vcard-figshare> a ns2:URL ;
@@ -990,7 +1015,7 @@
     ns2:url "https://figshare.com/articles/What_kinds_of_research_are_cited_quickly_in_policy_documents_Results_from_an_exploratory_study/3175168"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3175198.v1-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3175198.v1> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3175198.v1> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3175198.v1-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3175198.v1-vcard-figshare> a ns2:URL ;
@@ -999,7 +1024,7 @@
     ns2:url "https://figshare.com/articles/Attribution_of_Work_in_the_Scholarly_Ecosystem/3175198"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3175417.v2-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3175417.v2> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3175417.v2> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3175417.v2-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3175417.v2-vcard-figshare> a ns2:URL ;
@@ -1008,7 +1033,7 @@
     ns2:url "https://figshare.com/articles/SBGRid_DB_Poster_Force2016_pdf/3175417"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3179272.v1-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3179272.v1> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3179272.v1> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3179272.v1-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3179272.v1-vcard-figshare> a ns2:URL ;
@@ -1017,7 +1042,7 @@
     ns2:url "https://figshare.com/articles/Bringing_to_light_high_quality_scholarly_discussions_Why_is_it_so_difficult_/3179272"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3179776.v1-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3179776.v1> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3179776.v1> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3179776.v1-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3179776.v1-vcard-figshare> a ns2:URL ;
@@ -1026,7 +1051,7 @@
     ns2:url "https://figshare.com/articles/M_Cassidy_and_L_Walter_rimes_poster_Force2016_Final_Version_pdf/3179776"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3179860.v4-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3179860.v4> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3179860.v4> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3179860.v4-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3179860.v4-vcard-figshare> a ns2:URL ;
@@ -1035,7 +1060,7 @@
     ns2:url "https://figshare.com/articles/Onda_Fostering_sustainability_jpg/3179860"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3179875.v2-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3179875.v2> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3179875.v2> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3179875.v2-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3179875.v2-vcard-figshare> a ns2:URL ;
@@ -1044,7 +1069,7 @@
     ns2:url "https://figshare.com/articles/OPJvdT_Research_canvas_A0_blank_jpg/3179875"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3179935.v2-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3179935.v2> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3179935.v2> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3179935.v2-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3179935.v2-vcard-figshare> a ns2:URL ;
@@ -1053,7 +1078,7 @@
     ns2:url "https://figshare.com/articles/Stephan_DUV_Poster_Force2016_pdf/3179935"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3179965.v1-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3179965.v1> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3179965.v1> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3179965.v1-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3179965.v1-vcard-figshare> a ns2:URL ;
@@ -1062,7 +1087,7 @@
     ns2:url "https://figshare.com/articles/Using_Annotations_for_Transparent_Qualitative_Inference/3179965"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3180007.v1-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3180007.v1> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3180007.v1> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3180007.v1-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3180007.v1-vcard-figshare> a ns2:URL ;
@@ -1071,13 +1096,40 @@
     ns2:url "https://figshare.com/articles/Dash_Data_Sharing_Made_Easy/3180007"^^xsd:anyURI .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3180100.v1-vcard> a ns2:Kind ;
-    ns3:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3180100.v1> ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3180100.v1> ;
     ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3180100.v1-vcard-figshare> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3180100.v1-vcard-figshare> a ns2:URL ;
     rdfs:label "Figshare Page" ;
     ns1:rank 1 ;
     ns2:url "https://figshare.com/articles/Mobilizing_taxonomic_data_the_importance_of_user_centered_design/3180100"^^xsd:anyURI .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3180130.v2-vcard> a ns2:Kind ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3180130.v2> ;
+    ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3180130.v2-vcard-figshare> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3180130.v2-vcard-figshare> a ns2:URL ;
+    rdfs:label "Figshare Page" ;
+    ns1:rank 1 ;
+    ns2:url "https://figshare.com/articles/Communicating_science_as_it_is/3180130"^^xsd:anyURI .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3180232.v2-vcard> a ns2:Kind ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3180232.v2> ;
+    ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3180232.v2-vcard-figshare> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3180232.v2-vcard-figshare> a ns2:URL ;
+    rdfs:label "Figshare Page" ;
+    ns1:rank 1 ;
+    ns2:url "https://figshare.com/articles/poster_v4_pdf/3180232"^^xsd:anyURI .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3180235.v1-vcard> a ns2:Kind ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3180235.v1> ;
+    ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3180235.v1-vcard-figshare> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3180235.v1-vcard-figshare> a ns2:URL ;
+    rdfs:label "Figshare Page" ;
+    ns1:rank 1 ;
+    ns2:url "https://figshare.com/articles/Hypothes_is_at_FORCE2016/3180235"^^xsd:anyURI .
 
 <http://openvivo.org/a/orcid0000-0001-5208-3432> a <http://xmlns.com/foaf/0.1/Person> ;
     rdfs:label "Vasilevsky, Nicole" ;
@@ -1146,6 +1198,10 @@
 <http://openvivo.org/a/orcid0000-0002-3283-4136> a <http://xmlns.com/foaf/0.1/Person> ;
     rdfs:label "Piipari, Matias" ;
     ns1:orcidId <http://orcid.org/0000-0002-3283-4136> .
+
+<http://openvivo.org/a/orcid0000-0002-4988-384X> a <http://xmlns.com/foaf/0.1/Person> ;
+    rdfs:label "Gupta, Prashant" ;
+    ns1:orcidId <http://orcid.org/0000-0002-4988-384X> .
 
 <http://openvivo.org/a/orcid0000-0002-5192-9835> a <http://xmlns.com/foaf/0.1/Person> ;
     rdfs:label "Nogoy, Nicole" ;
@@ -1256,6 +1312,13 @@
     ns2:familyName "Davis" ;
     ns2:givenName "Brian" .
 
+<http://openvivo.org/a/vcardDobbie--Gill--> a ns2:Individual ;
+    ns2:hasName <http://openvivo.org/a/vcardDobbie--Gill--name> .
+
+<http://openvivo.org/a/vcardDobbie--Gill--name> a ns2:Name ;
+    ns2:familyName "Dobbie" ;
+    ns2:givenName "Gill" .
+
 <http://openvivo.org/a/vcardDorr--David-A-> a ns2:Individual ;
     ns2:hasName <http://openvivo.org/a/vcardDorr--David-A-name> .
 
@@ -1277,6 +1340,13 @@
 <http://openvivo.org/a/vcardFisher--Scott--name> a ns2:Name ;
     ns2:familyName "Fisher" ;
     ns2:givenName "Scott" .
+
+<http://openvivo.org/a/vcardGahegan--Mark--> a ns2:Individual ;
+    ns2:hasName <http://openvivo.org/a/vcardGahegan--Mark--name> .
+
+<http://openvivo.org/a/vcardGahegan--Mark--name> a ns2:Name ;
+    ns2:familyName "Gahegan" ;
+    ns2:givenName "Mark" .
 
 <http://openvivo.org/a/vcardGoodman--Laurie--> a ns2:Individual ;
     ns2:hasName <http://openvivo.org/a/vcardGoodman--Laurie--name> .
@@ -1403,6 +1473,10 @@
 <http://openvivo.org/a/vcardLtd--Repositive--name> a ns2:Name ;
     ns2:familyName "Ltd" ;
     ns2:givenName "Repositive" .
+
+<http://openvivo.org/a/vcardMartone--Maryann--name> a ns2:Name ;
+    ns2:familyName "Martone" ;
+    ns2:givenName "Maryann" .
 
 <http://openvivo.org/a/vcardMcQuilton--Peter--name> a ns2:Name ;
     ns2:familyName "McQuilton" ;
@@ -1666,6 +1740,8 @@
 
 <http://orcid.org/0000-0002-4546-7881> a <http://www.w3.org/2002/07/owl#Thing> .
 
+<http://orcid.org/0000-0002-4988-384X> a <http://www.w3.org/2002/07/owl#Thing> .
+
 <http://orcid.org/0000-0002-5192-9835> a <http://www.w3.org/2002/07/owl#Thing> .
 
 <http://orcid.org/0000-0002-5267-802X> a <http://www.w3.org/2002/07/owl#Thing> .
@@ -1761,6 +1837,9 @@
 <http://openvivo.org/a/vcardKunze--John--> a ns2:Individual ;
     ns2:hasName <http://openvivo.org/a/vcardKunze--John--name> .
 
+<http://openvivo.org/a/vcardMartone--Maryann--> a ns2:Individual ;
+    ns2:hasName <http://openvivo.org/a/vcardMartone--Maryann--name> .
+
 <http://openvivo.org/a/vcardMcQuilton--Peter--> a ns2:Individual ;
     ns2:hasName <http://openvivo.org/a/vcardMcQuilton--Peter--name> .
 
@@ -1773,13 +1852,13 @@
 <http://openvivo.org/a/vcardThurston--Milo--> a ns2:Individual ;
     ns2:hasName <http://openvivo.org/a/vcardThurston--Milo--name> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3145315.v3> a ns4:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3145315.v3> a ns3:Slideshow ;
     rdfs:label "ReproZip: Reproducibility with Ease" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3145315.v3-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "<b>ReproZip </b>is a tool that allows a researcher to create a compendium for his/her experiment by automatically tracking and identifying all its required dependencies (data files, libraries, configuration files, etc.). After creating the package with little to no effort, the researcher can share it with others, who can then use ReproZip to unpack the experiment and reproduce the findings independent of their operating system, again with little to no effort." ;
-    ns4:doi "10.6084/m9.figshare.3145315.v3" ;
-    ns4:freetextKeyword "FORCE16",
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3145315.v3-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "<b>ReproZip </b>is a tool that allows a researcher to create a compendium for his/her experiment by automatically tracking and identifying all its required dependencies (data files, libraries, configuration files, etc.). After creating the package with little to no effort, the researcher can share it with others, who can then use ReproZip to unpack the experiment and reproduce the findings independent of their operating system, again with little to no effort." ;
+    ns3:doi "10.6084/m9.figshare.3145315.v3" ;
+    ns3:freetextKeyword "FORCE16",
         "ReproZip",
         "Reproducibility" ;
     ns1:dateCreated <http://openvivo.org/a/date2016-04-02> ;
@@ -1787,13 +1866,13 @@
     ns1:datePublished <http://openvivo.org/a/date2016-04-02> ;
     ns1:dateTimeValue <http://openvivo.org/a/date2016-04-02> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3145318.v2> a ns4:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3145318.v2> a ns3:Slideshow ;
     rdfs:label "An Example of Reproducibility using ReproZip" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3145318.v2-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "This depicts an attempt to replicate the findings from an article in FiveThirtyEight that examines gender bias in the movie business using the Bechdel test: a movie passes the Bechdel test if there are (1) two women in it, (2) who talk to each other, (3) about something besides a man. The data from this example is based on a blog post by Brian Keegan, which strongly advocates for reproducibility in data journalism." ;
-    ns4:doi "10.6084/m9.figshare.3145318.v2" ;
-    ns4:freetextKeyword "FORCE16",
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3145318.v2-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "This depicts an attempt to replicate the findings from an article in FiveThirtyEight that examines gender bias in the movie business using the Bechdel test: a movie passes the Bechdel test if there are (1) two women in it, (2) who talk to each other, (3) about something besides a man. The data from this example is based on a blog post by Brian Keegan, which strongly advocates for reproducibility in data journalism." ;
+    ns3:doi "10.6084/m9.figshare.3145318.v2" ;
+    ns3:freetextKeyword "FORCE16",
         "ReproZip",
         "Reproducibility" ;
     ns1:dateCreated <http://openvivo.org/a/date2016-04-02> ;
@@ -1803,23 +1882,23 @@
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3156514.v3> a ns1:ConferencePoster ;
     rdfs:label "The Transformation: Reinventing Publishing for a Fully Open Access World" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3156514.v3-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "A poster about the future of publishing in a fully open access world, presented at FORCE16 in Portland.<br>" ;
-    ns4:doi "10.6084/m9.figshare.3156514.v3" ;
-    ns4:freetextKeyword "FORCE16" ;
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3156514.v3-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "A poster about the future of publishing in a fully open access world, presented at FORCE16 in Portland.<br>" ;
+    ns3:doi "10.6084/m9.figshare.3156514.v3" ;
+    ns3:freetextKeyword "FORCE16" ;
     ns1:dateCreated <http://openvivo.org/a/date2016-04-13> ;
     ns1:dateModified <http://openvivo.org/a/date2016-04-13> ;
     ns1:datePublished <http://openvivo.org/a/date2016-04-13> ;
     ns1:dateTimeValue <http://openvivo.org/a/date2016-04-13> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3167929.v1> a ns4:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3167929.v1> a ns3:Slideshow ;
     rdfs:label "Loop Demo - Introduction Slide Force16" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3167929.v1-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "This is the introduction slide for the Frontiers demo session on Loop." ;
-    ns4:doi "10.6084/m9.figshare.3167929.v1" ;
-    ns4:freetextKeyword "FORCE16",
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3167929.v1-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "This is the introduction slide for the Frontiers demo session on Loop." ;
+    ns3:doi "10.6084/m9.figshare.3167929.v1" ;
+    ns3:freetextKeyword "FORCE16",
         "Frontiers",
         "Loop" ;
     ns1:dateCreated <http://openvivo.org/a/date2016-04-10> ;
@@ -1829,11 +1908,11 @@
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3167935.v2> a ns1:ConferencePoster ;
     rdfs:label "Loop Poster Force16" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3167935.v2-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "Loop poster" ;
-    ns4:doi "10.6084/m9.figshare.3167935.v2" ;
-    ns4:freetextKeyword "FORCE16",
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3167935.v2-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "Loop poster" ;
+    ns3:doi "10.6084/m9.figshare.3167935.v2" ;
+    ns3:freetextKeyword "FORCE16",
         "Frontiers",
         "Loop" ;
     ns1:dateCreated <http://openvivo.org/a/date2016-04-10> ;
@@ -1843,11 +1922,11 @@
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3168862.v3> a ns1:ConferencePoster ;
     rdfs:label "Improving the discoverability, accessibility and citability of 'omics datasets" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3168862.v3-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "<div>Although discovery-scale biomedical datasets represent valuable assets for hypothesis generation, model testing and data validation, the infrastructure supporting their re-use lacks </div><div>organization and consistency. Here, using relative abundance transcriptomic datasets in the field of nuclear receptor signaling as a proof-of-principle data type, we established a model for improving the discoverability, accessibility and </div><div>citability of published ‘omics datasets. </div>" ;
-    ns4:doi "10.6084/m9.figshare.3168862.v3" ;
-    ns4:freetextKeyword "FORCE2016",
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3168862.v3-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "<div>Although discovery-scale biomedical datasets represent valuable assets for hypothesis generation, model testing and data validation, the infrastructure supporting their re-use lacks </div><div>organization and consistency. Here, using relative abundance transcriptomic datasets in the field of nuclear receptor signaling as a proof-of-principle data type, we established a model for improving the discoverability, accessibility and </div><div>citability of published ‘omics datasets. </div>" ;
+    ns3:doi "10.6084/m9.figshare.3168862.v3" ;
+    ns3:freetextKeyword "FORCE2016",
         "Transcriptomics Data Sets",
         "signal transduction genes" ;
     ns1:dateCreated <http://openvivo.org/a/date2016-04-15> ;
@@ -1855,13 +1934,13 @@
     ns1:datePublished <http://openvivo.org/a/date2016-04-15> ;
     ns1:dateTimeValue <http://openvivo.org/a/date2016-04-15> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3171811.v2> a ns4:Collection ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3171811.v2> a ns3:Collection ;
     rdfs:label "Kudos: building readership by explaining and sharing - at FORCE 2016" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3171811.v2-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "<div>Researchers and scholars are increasingly encouraged / eager to increase the visibility, reach and impact of their work. It’s not easy to know which of the available communications options (email, social media, academic networks, etc) will actually help to increase readership of your publications. Kudos is trying to help with this challenge, by providing a central platform from which to manage your outreach (whichever media you prefer) and by mapping your communications efforts against a range of metrics (views, downloads, altmetrics, citations). Kudos also acts as a hub for explaining your article in plain language, to make work more (linguistically) accessible – to non-specialists (whether in adjacent disciplines or even outside academia) or to speakers of other languages. Kudos aims to optimize your time by showing which activities and channels are most effective for increasing readership of research; we also aim to level the playing field so that all researchers and scholars have access to a simple, standard toolkit for helping increase the visibility and reach of their work, regardless of where they publish or what institution they are affiliated with. We launched our service last year and it is already used (for free) by over 80,000 researchers and scholars around the world; we provide services to publishers and institutions so they can better support researchers’ efforts, and can shape their own marketing and PR support in line with the most effective activities and channels at an aggregate level.</div><div><br></div>" ;
-    ns4:doi "10.6084/m9.figshare.3171811.v2" ;
-    ns4:freetextKeyword "FORCE16",
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3171811.v2-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "<div>Researchers and scholars are increasingly encouraged / eager to increase the visibility, reach and impact of their work. It’s not easy to know which of the available communications options (email, social media, academic networks, etc) will actually help to increase readership of your publications. Kudos is trying to help with this challenge, by providing a central platform from which to manage your outreach (whichever media you prefer) and by mapping your communications efforts against a range of metrics (views, downloads, altmetrics, citations). Kudos also acts as a hub for explaining your article in plain language, to make work more (linguistically) accessible – to non-specialists (whether in adjacent disciplines or even outside academia) or to speakers of other languages. Kudos aims to optimize your time by showing which activities and channels are most effective for increasing readership of research; we also aim to level the playing field so that all researchers and scholars have access to a simple, standard toolkit for helping increase the visibility and reach of their work, regardless of where they publish or what institution they are affiliated with. We launched our service last year and it is already used (for free) by over 80,000 researchers and scholars around the world; we provide services to publishers and institutions so they can better support researchers’ efforts, and can shape their own marketing and PR support in line with the most effective activities and channels at an aggregate level.</div><div><br></div>" ;
+    ns3:doi "10.6084/m9.figshare.3171811.v2" ;
+    ns3:freetextKeyword "FORCE16",
         "impact",
         "research",
         "scholarly communications",
@@ -1871,13 +1950,13 @@
     ns1:datePublished <http://openvivo.org/a/date2016-04-12> ;
     ns1:dateTimeValue <http://openvivo.org/a/date2016-04-12> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3172060.v2> a ns4:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3172060.v2> a ns3:Slideshow ;
     rdfs:label "Making Research Accessible - Emerald Global Publishing Group, Research Media and International Innovation" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3172060.v2-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "<div><div>Research Media is part of Emerald Global Publishing Group, the global knowledge business that brings research to life. Research Media is a communications agency that provides integrated creative services for the research and academic sectors. We employ a wide variety of communication methods and techniques in order to transform scientific research into engaging, accessible content that drives impact.</div><div><br></div><div>Our flagship brand International Innovation is a global resource, publishing insight and analysis on current scientific research trends worldwide, as well as funding and policy issues. Coverage spans the breadth of scientific disciplines, with a key focus on the interdisciplinary areas of healthcare, environment and technology.  </div></div><div><br></div><div>Utilising the expertise of our editorial, design and marketing departments we can transform a research paper to make it understandable and discoverable for a broad audience in just 17 days. We create an online presence for our clients with real, measurable impact by promoting the content on our website, via email marketing and on our social channels. </div><div><br></div>" ;
-    ns4:doi "10.6084/m9.figshare.3172060.v2" ;
-    ns4:freetextKeyword "FORCE16" ;
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3172060.v2-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "<div><div>Research Media is part of Emerald Global Publishing Group, the global knowledge business that brings research to life. Research Media is a communications agency that provides integrated creative services for the research and academic sectors. We employ a wide variety of communication methods and techniques in order to transform scientific research into engaging, accessible content that drives impact.</div><div><br></div><div>Our flagship brand International Innovation is a global resource, publishing insight and analysis on current scientific research trends worldwide, as well as funding and policy issues. Coverage spans the breadth of scientific disciplines, with a key focus on the interdisciplinary areas of healthcare, environment and technology.  </div></div><div><br></div><div>Utilising the expertise of our editorial, design and marketing departments we can transform a research paper to make it understandable and discoverable for a broad audience in just 17 days. We create an online presence for our clients with real, measurable impact by promoting the content on our website, via email marketing and on our social channels. </div><div><br></div>" ;
+    ns3:doi "10.6084/m9.figshare.3172060.v2" ;
+    ns3:freetextKeyword "FORCE16" ;
     ns1:dateCreated <http://openvivo.org/a/date2016-04-12> ;
     ns1:dateModified <http://openvivo.org/a/date2016-04-12> ;
     ns1:datePublished <http://openvivo.org/a/date2016-04-12> ;
@@ -1885,11 +1964,11 @@
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172405.v2> a ns1:ConferencePoster ;
     rdfs:label "Eyes Without a Face: Research, Annotation and Sharing in a Multimodal Literacy Frame" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3172405.v2-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "An investigation of models, tools and platforms for digital annotation, and a consideration of the meaning and implications of multimodal scholarship." ;
-    ns4:doi "10.6084/m9.figshare.3172405.v2" ;
-    ns4:freetextKeyword "FORCE16",
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3172405.v2-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "An investigation of models, tools and platforms for digital annotation, and a consideration of the meaning and implications of multimodal scholarship." ;
+    ns3:doi "10.6084/m9.figshare.3172405.v2" ;
+    ns3:freetextKeyword "FORCE16",
         "Scholarly communication" ;
     ns1:dateCreated <http://openvivo.org/a/date2016-04-13> ;
     ns1:dateModified <http://openvivo.org/a/date2016-04-13> ;
@@ -1898,11 +1977,11 @@
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172615.v1> a ns1:ConferencePoster ;
     rdfs:label "Open Access Academy - FORCE11 conference - poster" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3172615.v1-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "The Open Access Academy (OAA), is a portal (under development) for students and early stage researchers that provide all necessary information about OA publishing." ;
-    ns4:doi "10.6084/m9.figshare.3172615.v1" ;
-    ns4:freetextKeyword "FORCE16" ;
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3172615.v1-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "The Open Access Academy (OAA), is a portal (under development) for students and early stage researchers that provide all necessary information about OA publishing." ;
+    ns3:doi "10.6084/m9.figshare.3172615.v1" ;
+    ns3:freetextKeyword "FORCE16" ;
     ns1:dateCreated <http://openvivo.org/a/date2016-04-12> ;
     ns1:dateModified <http://openvivo.org/a/date2016-04-12> ;
     ns1:datePublished <http://openvivo.org/a/date2016-04-12> ;
@@ -1910,11 +1989,11 @@
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172753.v1> a ns1:ConferencePoster ;
     rdfs:label "Manuscripts: a simple, structured writing tool for a scholar" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3172753.v1-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "<p>Manuscripts is a writing tool for complex scholarly documents unlike any you have seen: <br>it helps you outline, edit, proof-read and publish.</p><br><p>Manuscripts is a re-imagined word processor designed by an Apple Design Award winning team, focused on your story as opposed to formatting a document.</p><br><ul><li><p>Write complex documents with ease.</p></li><li><p>Insert figures, tables, math, even code snippets in your document.</p></li><li><p>Use the outline to navigate and re-order your project effortlessly.</p></li><li><p>Edit with structure: outline, body and styles are kept separate.</p></li><li><p>Focus using the ultra-clean full-screen mode.</p></li><li><p>Import and export Markdown, MS Word, LaTeX and HTML files.</p></li><li>Cite and format your bibliography using included citation tool.</li></ul>" ;
-    ns4:doi "10.6084/m9.figshare.3172753.v1" ;
-    ns4:freetextKeyword "FORCE2016",
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3172753.v1-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "<p>Manuscripts is a writing tool for complex scholarly documents unlike any you have seen: <br>it helps you outline, edit, proof-read and publish.</p><br><p>Manuscripts is a re-imagined word processor designed by an Apple Design Award winning team, focused on your story as opposed to formatting a document.</p><br><ul><li><p>Write complex documents with ease.</p></li><li><p>Insert figures, tables, math, even code snippets in your document.</p></li><li><p>Use the outline to navigate and re-order your project effortlessly.</p></li><li><p>Edit with structure: outline, body and styles are kept separate.</p></li><li><p>Focus using the ultra-clean full-screen mode.</p></li><li><p>Import and export Markdown, MS Word, LaTeX and HTML files.</p></li><li>Cite and format your bibliography using included citation tool.</li></ul>" ;
+    ns3:doi "10.6084/m9.figshare.3172753.v1" ;
+    ns3:freetextKeyword "FORCE2016",
         "authoring",
         "scientific communications",
         "software" ;
@@ -1925,11 +2004,11 @@
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172858.v1> a ns1:ConferencePoster ;
     rdfs:label "Kudos: increasing visibility, reach and usage of published research - 2016 research results poster" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3172858.v1-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "<div>Researchers and scholars are increasingly encouraged / eager to increase the visibility, reach and impact of their work. It’s not easy to know which of the available communications options (email, social media, academic networks, etc) will actually help to increase readership of your publications. Kudos is trying to help with this challenge, by providing a central platform from which to manage your outreach (whichever media you prefer) and by mapping your communications efforts against a range of metrics (views, downloads, altmetrics, citations). Kudos also acts as a hub for explaining your article in plain language, to make work more (linguistically) accessible – to non-specialists (whether in adjacent disciplines or even outside academia) or to speakers of other languages. Kudos aims to optimize your time by showing which activities and channels are most effective for increasing readership of research; we also aim to level the playing field so that all researchers and scholars have access to a simple, standard toolkit for helping increase the visibility and reach of their work, regardless of where they publish or what institution they are affiliated with. We launched our service last year and it is already used (for free) by over 70,000 researchers and scholars around the world; we provide services to publishers and institutions so they can better support researchers’ efforts, and can shape their own marketing and PR support in line with the most effective activities and channels at an aggregate level.</div><div><br></div>" ;
-    ns4:doi "10.6084/m9.figshare.3172858.v1" ;
-    ns4:freetextKeyword "FORCE16",
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3172858.v1-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "<div>Researchers and scholars are increasingly encouraged / eager to increase the visibility, reach and impact of their work. It’s not easy to know which of the available communications options (email, social media, academic networks, etc) will actually help to increase readership of your publications. Kudos is trying to help with this challenge, by providing a central platform from which to manage your outreach (whichever media you prefer) and by mapping your communications efforts against a range of metrics (views, downloads, altmetrics, citations). Kudos also acts as a hub for explaining your article in plain language, to make work more (linguistically) accessible – to non-specialists (whether in adjacent disciplines or even outside academia) or to speakers of other languages. Kudos aims to optimize your time by showing which activities and channels are most effective for increasing readership of research; we also aim to level the playing field so that all researchers and scholars have access to a simple, standard toolkit for helping increase the visibility and reach of their work, regardless of where they publish or what institution they are affiliated with. We launched our service last year and it is already used (for free) by over 70,000 researchers and scholars around the world; we provide services to publishers and institutions so they can better support researchers’ efforts, and can shape their own marketing and PR support in line with the most effective activities and channels at an aggregate level.</div><div><br></div>" ;
+    ns3:doi "10.6084/m9.figshare.3172858.v1" ;
+    ns3:freetextKeyword "FORCE16",
         "communications",
         "impact",
         "research",
@@ -1942,11 +2021,11 @@
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172927.v1> a ns1:Dataset ;
     rdfs:label "APO Policy Online poster" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3172927.v1-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "This poster the range of services and content availalbe through the APO digital library and repository. <br>" ;
-    ns4:doi "10.6084/m9.figshare.3172927.v1" ;
-    ns4:freetextKeyword "FORCE2016" ;
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3172927.v1-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "This poster the range of services and content availalbe through the APO digital library and repository. <br>" ;
+    ns3:doi "10.6084/m9.figshare.3172927.v1" ;
+    ns3:freetextKeyword "FORCE2016" ;
     ns1:dateCreated <http://openvivo.org/a/date2016-04-13> ;
     ns1:dateModified <http://openvivo.org/a/date2016-04-13> ;
     ns1:datePublished <http://openvivo.org/a/date2016-04-13> ;
@@ -1954,11 +2033,11 @@
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3175018.v1> a ns1:ConferencePoster ;
     rdfs:label "Darch Poster_Force2016.pptx" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3175018.v1-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "Poster for FORCE2016 Conference, title \"How Do Scientists Assess Trustworthiness of Data Produced By Others?\"" ;
-    ns4:doi "10.6084/m9.figshare.3175018.v1" ;
-    ns4:freetextKeyword "FORCE2016" ;
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3175018.v1-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "Poster for FORCE2016 Conference, title \"How Do Scientists Assess Trustworthiness of Data Produced By Others?\"" ;
+    ns3:doi "10.6084/m9.figshare.3175018.v1" ;
+    ns3:freetextKeyword "FORCE2016" ;
     ns1:dateCreated <http://openvivo.org/a/date2016-04-13> ;
     ns1:dateModified <http://openvivo.org/a/date2016-04-13> ;
     ns1:datePublished <http://openvivo.org/a/date2016-04-13> ;
@@ -1966,37 +2045,39 @@
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3175042.v1> a ns1:ConferencePoster ;
     rdfs:label "Genome sharing projects around the world: how to find data for your research." ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3175042.v1-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract """The poster introduces the Repositive platform for finding and accessing human genomic data for research. <br><br>If you need more genomic data for your research you can now search 
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3175042.v1-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract """The poster introduces the Repositive platform for finding and accessing human genomic data for research. <br><br>If you need more genomic data for your research you can now search 
 through multiple data sources from all over the world *in one place*! <br>Repositive is a new FREE community platform where you can find data for your research and establish data collaborations. <br><br>To try the platform follow this link: 
 <div><a href="http://discover.repositive.io/?code=yMhLWKmJEtc%3D" target="_blank">http://discover.repositive.io/?code=yMhLWKmJEtc%3D</a></div><br>""" ;
-    ns4:doi "10.6084/m9.figshare.3175042.v1" ;
-    ns4:freetextKeyword "FORCE16" ;
+    ns3:doi "10.6084/m9.figshare.3175042.v1" ;
+    ns3:freetextKeyword "FORCE16" ;
     ns1:dateCreated <http://openvivo.org/a/date2016-04-13> ;
     ns1:dateModified <http://openvivo.org/a/date2016-04-14> ;
     ns1:datePublished <http://openvivo.org/a/date2016-04-13> ;
     ns1:dateTimeValue <http://openvivo.org/a/date2016-04-13> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3175144.v1> a ns1:ConferencePoster ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3175144.v3> a ns1:ConferencePoster ;
     rdfs:label "FORCE 2016 Open Access Button Poster" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3175144.v1-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "Open Access Button poster for the FORCE16 conference." ;
-    ns4:doi "10.6084/m9.figshare.3175144.v1" ;
-    ns4:freetextKeyword "FORCE16" ;
-    ns1:dateCreated <http://openvivo.org/a/date2016-04-13> ;
-    ns1:dateModified <http://openvivo.org/a/date2016-04-13> ;
-    ns1:datePublished <http://openvivo.org/a/date2016-04-13> ;
-    ns1:dateTimeValue <http://openvivo.org/a/date2016-04-13> .
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3175144.v3-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "Open Access Button poster for the FORCE16 conference." ;
+    ns3:doi "10.6084/m9.figshare.3175144.v3" ;
+    ns3:freetextKeyword "#Open Access",
+        "#Open Data",
+        "FORCE16" ;
+    ns1:dateCreated <http://openvivo.org/a/date2016-04-16> ;
+    ns1:dateModified <http://openvivo.org/a/date2016-04-16> ;
+    ns1:datePublished <http://openvivo.org/a/date2016-04-16> ;
+    ns1:dateTimeValue <http://openvivo.org/a/date2016-04-16> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3175168.v1> a ns1:ConferencePoster ;
     rdfs:label "What kinds of research are cited quickly in policy documents? Results from an exploratory study" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3175168.v1-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "This exploratory study set out to determine the citation lag for articles indexed in Altmetric Explorer that have been cited at least once in public policy documents. Articles identified as having a large volume of online attention (n=116) are compared to a random sample of articles that have any online attention (n=116) to understand if articles with greater overall online exposure might be cited any earlier than other articles. Attention as it occurs in specific Altmetric score-dependent sources like Twitter and mainstream media is examined, and Mendeley reader counts, which do not factor into the Altmetric score, are also compared across the two samples to identify differences. Document characteristics such as assignment of PubMed ID and Web of Knowledge-identified Research Domain and Document Type are also compared." ;
-    ns4:doi "10.6084/m9.figshare.3175168.v1" ;
-    ns4:freetextKeyword "Force16",
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3175168.v1-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "This exploratory study set out to determine the citation lag for articles indexed in Altmetric Explorer that have been cited at least once in public policy documents. Articles identified as having a large volume of online attention (n=116) are compared to a random sample of articles that have any online attention (n=116) to understand if articles with greater overall online exposure might be cited any earlier than other articles. Attention as it occurs in specific Altmetric score-dependent sources like Twitter and mainstream media is examined, and Mendeley reader counts, which do not factor into the Altmetric score, are also compared across the two samples to identify differences. Document characteristics such as assignment of PubMed ID and Web of Knowledge-identified Research Domain and Document Type are also compared." ;
+    ns3:doi "10.6084/m9.figshare.3175168.v1" ;
+    ns3:freetextKeyword "Force16",
         "altmetrics",
         "citations",
         "public policy" ;
@@ -2007,11 +2088,11 @@ through multiple data sources from all over the world *in one place*! <br>Reposi
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3179272.v1> a ns1:ConferencePoster ;
     rdfs:label "Bringing to light high quality scholarly discussions: Why is it so difficult?" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3179272.v1-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "Scholars are natural annotators and commenters. However, most of them do not practice online annotation and commenting in their everyday research activities. This poster (presented in FORCE 2016) identifies the main challenges for the widespread adoption of online annotation and commenting and indicates how Grove, a new product by RedLink (redlink.com), strives to overcome them. Grove will be a scholarly commenting platform and a social network for researchers and qualified practitioners." ;
-    ns4:doi "10.6084/m9.figshare.3179272.v1" ;
-    ns4:freetextKeyword "FORCE16",
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3179272.v1-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "Scholars are natural annotators and commenters. However, most of them do not practice online annotation and commenting in their everyday research activities. This poster (presented in FORCE 2016) identifies the main challenges for the widespread adoption of online annotation and commenting and indicates how Grove, a new product by RedLink (redlink.com), strives to overcome them. Grove will be a scholarly commenting platform and a social network for researchers and qualified practitioners." ;
+    ns3:doi "10.6084/m9.figshare.3179272.v1" ;
+    ns3:freetextKeyword "FORCE16",
         "RedLink",
         "academic social network",
         "online annotation",
@@ -2025,9 +2106,9 @@ through multiple data sources from all over the world *in one place*! <br>Reposi
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3179776.v1> a ns1:ConferencePoster ;
     rdfs:label "M_Cassidy_and_L_Walter_rimes poster_Force2016_Final_Version.pdf" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3179776.v1-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract """At the University of
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3179776.v1-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract """At the University of
 British Columbia, Okanagan campus, the Library and the Centre for Scholarly Communication
 recently partnered with the Office of Research Services in order to
 collaboratively build a research portal for faculty. Research and
@@ -2043,8 +2124,8 @@ support from a coordinated perspective. The main benefits of the Library,
 Centre for Scholarly Communication, and Office of Research Services partnership
 are improved knowledge creation and sharing. This poster presents the genesis,
 implementation, and outcomes of the project.""" ;
-    ns4:doi "10.6084/m9.figshare.3179776.v1" ;
-    ns4:freetextKeyword "FORCE11",
+    ns3:doi "10.6084/m9.figshare.3179776.v1" ;
+    ns3:freetextKeyword "FORCE11",
         "FORCE16",
         "FORCE2016",
         "UBC",
@@ -2058,9 +2139,9 @@ implementation, and outcomes of the project.""" ;
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3179860.v4> a ns1:ConferencePoster ;
     rdfs:label "ONDA & FLATLAND | Fostering sustainability in land-reform: a visual journey" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3179860.v4-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract """Digital version: <a href="http://bit.ly/poster_fostering" target="_blank">http://bit.ly/poster_fostering</a><br><br>The poster illustrates a visual journey through a
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3179860.v4-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract """Digital version: <a href="http://bit.ly/poster_fostering" target="_blank">http://bit.ly/poster_fostering</a><br><br>The poster illustrates a visual journey through a
  master thesis research project called "Fostering sustainability in 
 Brazilian agrarian reform: insights from assentamentos and ecovillages".
  It was designed by OndaPolitica and Jongens van de Tekeningen using the
@@ -2072,8 +2153,8 @@ serve as a map for readers to explore the different sections of the text
  (created with Thinglink) allows users to click on its different icons 
 and be redirected to the different sections of the text designed in 
 Scalar.edu. <br>""" ;
-    ns4:doi "10.6084/m9.figshare.3179860.v4" ;
-    ns4:freetextKeyword "FORCE16" ;
+    ns3:doi "10.6084/m9.figshare.3179860.v4" ;
+    ns3:freetextKeyword "FORCE16" ;
     ns1:dateCreated <http://openvivo.org/a/date2016-04-15> ;
     ns1:dateModified <http://openvivo.org/a/date2016-04-15> ;
     ns1:datePublished <http://openvivo.org/a/date2016-04-15> ;
@@ -2081,9 +2162,9 @@ Scalar.edu. <br>""" ;
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3179875.v2> a ns1:ConferencePoster ;
     rdfs:label "ONDA & FLATLAND | Research Storytelling Canvas" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3179875.v2-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract """Together with Flatland, OndaPolitica has been developing tools to help scientists 
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3179875.v2-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract """Together with Flatland, OndaPolitica has been developing tools to help scientists 
 communicate research for a broader audience. 
 
 One of those tools is the Research Dissemination Canvas. This canvas was
@@ -2091,20 +2172,20 @@ One of those tools is the Research Dissemination Canvas. This canvas was
 to help entrepreneurs structuring business ideas. In order to design it,
  we have applied the same logic but translated it to research 
 communication. <br>""" ;
-    ns4:doi "10.6084/m9.figshare.3179875.v2" ;
-    ns4:freetextKeyword "FORCE16" ;
+    ns3:doi "10.6084/m9.figshare.3179875.v2" ;
+    ns3:freetextKeyword "FORCE16" ;
     ns1:dateCreated <http://openvivo.org/a/date2016-04-15> ;
     ns1:dateModified <http://openvivo.org/a/date2016-04-15> ;
     ns1:datePublished <http://openvivo.org/a/date2016-04-15> ;
     ns1:dateTimeValue <http://openvivo.org/a/date2016-04-15> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3179935.v2> a ns4:Collection ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3179935.v2> a ns3:Collection ;
     rdfs:label "W3C Data Usage Vocabulary (Data on the Web Best Practices Working Group)" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3179935.v2-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "<div>As part of the activities of the W3C Data on the Web Best Practices Working Group, the Dataset Usage</div><div>Vocabulary was developed to address aspects related to the consumption of published Web datasets.</div>" ;
-    ns4:doi "10.6084/m9.figshare.3179935.v2" ;
-    ns4:freetextKeyword "DCAT",
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3179935.v2-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "<div>As part of the activities of the W3C Data on the Web Best Practices Working Group, the Dataset Usage</div><div>Vocabulary was developed to address aspects related to the consumption of published Web datasets.</div>" ;
+    ns3:doi "10.6084/m9.figshare.3179935.v2" ;
+    ns3:freetextKeyword "DCAT",
         "FORCE2016",
         "data citation",
         "data publication",
@@ -2114,17 +2195,43 @@ communication. <br>""" ;
     ns1:datePublished <http://openvivo.org/a/date2016-04-15> ;
     ns1:dateTimeValue <http://openvivo.org/a/date2016-04-15> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3179965.v1> a ns4:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3179965.v1> a ns3:Slideshow ;
     rdfs:label "Using Annotations for Transparent Qualitative Inference" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3179965.v1-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "Presentation and Flash Talk for the \"Annotate Everything\" workshop at Force 2016<br>" ;
-    ns4:doi "10.6084/m9.figshare.3179965.v1" ;
-    ns4:freetextKeyword "FORCE16" ;
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3179965.v1-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "Presentation and Flash Talk for the \"Annotate Everything\" workshop at Force 2016<br>" ;
+    ns3:doi "10.6084/m9.figshare.3179965.v1" ;
+    ns3:freetextKeyword "FORCE16" ;
     ns1:dateCreated <http://openvivo.org/a/date2016-04-15> ;
     ns1:dateModified <http://openvivo.org/a/date2016-04-15> ;
     ns1:datePublished <http://openvivo.org/a/date2016-04-15> ;
     ns1:dateTimeValue <http://openvivo.org/a/date2016-04-15> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3180232.v2> a ns1:ConferencePoster ;
+    rdfs:label "Annotating All Knowledge at FORCE2016" ;
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3180232.v2-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "Poster presenting the Annotating All Knowledge Coalition and FORCE11 working group, launched recently by a growing group of the world's key scholarly platforms, publishers, libraries and technology organizations.  THe goal is to come together to create an open, interoperable annotation layer over all scholarly content." ;
+    ns3:doi "10.6084/m9.figshare.3180232.v2" ;
+    ns3:freetextKeyword "Annotating all Knowledge",
+        "FORCE2016",
+        "Web annotation" ;
+    ns1:dateCreated <http://openvivo.org/a/date2016-04-16> ;
+    ns1:dateModified <http://openvivo.org/a/date2016-04-16> ;
+    ns1:datePublished <http://openvivo.org/a/date2016-04-16> ;
+    ns1:dateTimeValue <http://openvivo.org/a/date2016-04-16> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3180235.v1> a ns3:Slideshow ;
+    rdfs:label "Hypothes.is at FORCE2016" ;
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3180235.v1-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "Slide for FORCE2016 demonstration of Hypothes.is for display at conference" ;
+    ns3:doi "10.6084/m9.figshare.3180235.v1" ;
+    ns3:freetextKeyword "FORCE2016" ;
+    ns1:dateCreated <http://openvivo.org/a/date2016-04-16> ;
+    ns1:dateModified <http://openvivo.org/a/date2016-04-16> ;
+    ns1:datePublished <http://openvivo.org/a/date2016-04-16> ;
+    ns1:dateTimeValue <http://openvivo.org/a/date2016-04-16> .
 
 <http://openvivo.org/a/orcid0000-0001-9114-8737> a <http://xmlns.com/foaf/0.1/Person> ;
     rdfs:label "Haendel, Melissa" ;
@@ -2146,13 +2253,13 @@ communication. <br>""" ;
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3146668> a ns1:Image ;
     rdfs:label "Genome sharing projects around the world: how to find data for your research." ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3146668-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract """Slides introducing the Repositive platform for finding and accessing human genomic data for research. <br><br>If you need more genomic data for your research you can now search 
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3146668-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract """Slides introducing the Repositive platform for finding and accessing human genomic data for research. <br><br>If you need more genomic data for your research you can now search 
 through multiple data sources from all over the world *in one place*! <br><br>Repositive is a new FREE community platform where you can find data for your research and establish data collaborations. <br><br>To try the platform follow this link: 
 <div><a href="http://discover.repositive.io/?code=yMhLWKmJEtc%3D" target="_blank">http://discover.repositive.io/?code=yMhLWKmJEtc%3D</a></div><br><br><br><br><br>""" ;
-    ns4:doi "10.6084/m9.figshare.3146668" ;
-    ns4:freetextKeyword "FORCE16" ;
+    ns3:doi "10.6084/m9.figshare.3146668" ;
+    ns3:freetextKeyword "FORCE16" ;
     ns1:dateCreated <http://openvivo.org/a/date2016-04-14> ;
     ns1:dateModified <http://openvivo.org/a/date2016-04-15> ;
     ns1:datePublished <http://openvivo.org/a/date2016-04-14> ;
@@ -2160,11 +2267,11 @@ through multiple data sources from all over the world *in one place*! <br><br>Re
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3171994> a ns1:ConferencePoster ;
     rdfs:label "21st Century Scientific Authoring at Institutions: Demonstrating the Overleaf Caltech Portal" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3171994-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "The Caltech Library and Overleaf are collaborating on a platform to centralize institutional LaTeX authoring and publishing while supporting collaborative research with a customized portal and admin/library data and analytics dashboard. Easy enrollment, enhanced thesis templates, manuscript preparation resources and user support all in one place to support the campus community." ;
-    ns4:doi "10.6084/m9.figshare.3171994" ;
-    ns4:freetextKeyword "FORCE2016" ;
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3171994-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "The Caltech Library and Overleaf are collaborating on a platform to centralize institutional LaTeX authoring and publishing while supporting collaborative research with a customized portal and admin/library data and analytics dashboard. Easy enrollment, enhanced thesis templates, manuscript preparation resources and user support all in one place to support the campus community." ;
+    ns3:doi "10.6084/m9.figshare.3171994" ;
+    ns3:freetextKeyword "FORCE2016" ;
     ns1:dateCreated <http://openvivo.org/a/date2016-04-13> ;
     ns1:dateModified <http://openvivo.org/a/date2016-04-13> ;
     ns1:datePublished <http://openvivo.org/a/date2016-04-13> ;
@@ -2172,23 +2279,23 @@ through multiple data sources from all over the world *in one place*! <br><br>Re
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172660.v1> a ns1:Dataset ;
     rdfs:label "Too Big to Share?  Scaling Up Knowledge Transfer Workflows in Computational Sciences" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3172660.v1-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "Poster for the Force 16 conference to be held in Portland, Oregon, April 2016." ;
-    ns4:doi "10.6084/m9.figshare.3172660.v1" ;
-    ns4:freetextKeyword "Force16" ;
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3172660.v1-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "Poster for the Force 16 conference to be held in Portland, Oregon, April 2016." ;
+    ns3:doi "10.6084/m9.figshare.3172660.v1" ;
+    ns3:freetextKeyword "Force16" ;
     ns1:dateCreated <http://openvivo.org/a/date2016-04-13> ;
     ns1:dateModified <http://openvivo.org/a/date2016-04-13> ;
     ns1:datePublished <http://openvivo.org/a/date2016-04-13> ;
     ns1:dateTimeValue <http://openvivo.org/a/date2016-04-13> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3173089.v1> a ns4:AudioVisualDocument ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3173089.v1> a ns3:AudioVisualDocument ;
     rdfs:label "21st Century Scientific Authoring at Institutions 30s Video" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3173089.v1-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "FORCE2016 30sec Video to intro 21st Century Scientific Authoring at Institutions: Demonstrating the Overleaf Caltech Portal Poster & Demo Session" ;
-    ns4:doi "10.6084/m9.figshare.3173089.v1" ;
-    ns4:freetextKeyword "Force2016" ;
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3173089.v1-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "FORCE2016 30sec Video to intro 21st Century Scientific Authoring at Institutions: Demonstrating the Overleaf Caltech Portal Poster & Demo Session" ;
+    ns3:doi "10.6084/m9.figshare.3173089.v1" ;
+    ns3:freetextKeyword "Force2016" ;
     ns1:dateCreated <http://openvivo.org/a/date2016-04-13> ;
     ns1:dateModified <http://openvivo.org/a/date2016-04-14> ;
     ns1:datePublished <http://openvivo.org/a/date2016-04-13> ;
@@ -2196,12 +2303,12 @@ through multiple data sources from all over the world *in one place*! <br><br>Re
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3175054.v1> a ns1:ConferencePoster ;
     rdfs:label "Genome sharing projects around the world: how to find data for your research" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3175054.v1-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract """The poster introduces the Repositive platform for finding and accessing human genomic data for research. <br><br>If you need more genomic data for your research you can now search through multiple data sources from all over the world *in one place*! <br>Repositive is a new FREE community platform where you can find data for your research and establish data collaborations. <br><br>To try the platform follow this link: 
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3175054.v1-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract """The poster introduces the Repositive platform for finding and accessing human genomic data for research. <br><br>If you need more genomic data for your research you can now search through multiple data sources from all over the world *in one place*! <br>Repositive is a new FREE community platform where you can find data for your research and establish data collaborations. <br><br>To try the platform follow this link: 
 <div><a href="http://discover.repositive.io/?code=yMhLWKmJEtc%3D" target="_blank">http://discover.repositive.io/?code=yMhLWKmJEtc%3D</a></div><br><br><br>""" ;
-    ns4:doi "10.6084/m9.figshare.3175054.v1" ;
-    ns4:freetextKeyword "FORCE16" ;
+    ns3:doi "10.6084/m9.figshare.3175054.v1" ;
+    ns3:freetextKeyword "FORCE16" ;
     ns1:dateCreated <http://openvivo.org/a/date2016-04-13> ;
     ns1:dateModified <http://openvivo.org/a/date2016-04-14> ;
     ns1:datePublished <http://openvivo.org/a/date2016-04-13> ;
@@ -2209,11 +2316,11 @@ through multiple data sources from all over the world *in one place*! <br><br>Re
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3117073.v2> a ns1:ConferencePoster ;
     rdfs:label "Identifiers made easy with EZID, poster" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3117073.v2-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "Poster from FORCE 2016, describing EZID (ezid.cdlib.org), an innovative service supporting creation and management of identifiers.<br>" ;
-    ns4:doi "10.6084/m9.figshare.3117073.v2" ;
-    ns4:freetextKeyword "API",
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3117073.v2-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "Poster from FORCE 2016, describing EZID (ezid.cdlib.org), an innovative service supporting creation and management of identifiers.<br>" ;
+    ns3:doi "10.6084/m9.figshare.3117073.v2" ;
+    ns3:freetextKeyword "API",
         "ARKS",
         "FORCE2016",
         "METADATA",
@@ -2228,11 +2335,11 @@ through multiple data sources from all over the world *in one place*! <br><br>Re
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3117115.v2> a ns1:ConferencePoster ;
     rdfs:label "Identifiers made easy with EZID, poster abstract" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3117115.v2-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "Abstract for poster from FORCE 2016, describing EZID (ezid.cdlib.org), an innovative service supporting creation and management of identifiers." ;
-    ns4:doi "10.6084/m9.figshare.3117115.v2" ;
-    ns4:freetextKeyword "API",
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3117115.v2-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "Abstract for poster from FORCE 2016, describing EZID (ezid.cdlib.org), an innovative service supporting creation and management of identifiers." ;
+    ns3:doi "10.6084/m9.figshare.3117115.v2" ;
+    ns3:freetextKeyword "API",
         "ARKS",
         "DOIS",
         "FORCE2016",
@@ -2247,11 +2354,11 @@ through multiple data sources from all over the world *in one place*! <br><br>Re
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3160564> a ns1:ConferencePoster ;
     rdfs:label "Quantifying Cross-Disciplinary Research in the Health Sciences: A Bibliometric Analysis Using Author Affiliations" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3160564-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "Poster presentation at the FORCE2016 conference (https://www.force11.org/meetings/force2016).  Describes a method for quantifying cross-disciplinary publications among K scholars at the University of Washington." ;
-    ns4:doi "10.6084/m9.figshare.3160564" ;
-    ns4:freetextKeyword "FORCE16",
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3160564-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "Poster presentation at the FORCE2016 conference (https://www.force11.org/meetings/force2016).  Describes a method for quantifying cross-disciplinary publications among K scholars at the University of Washington." ;
+    ns3:doi "10.6084/m9.figshare.3160564" ;
+    ns3:freetextKeyword "FORCE16",
         "FORCE2016",
         "bibliometrics",
         "career development",
@@ -2264,11 +2371,26 @@ through multiple data sources from all over the world *in one place*! <br><br>Re
     ns1:datePublished <http://openvivo.org/a/date2016-04-14> ;
     ns1:dateTimeValue <http://openvivo.org/a/date2016-04-14> .
 
+<http://openvivo.org/a/doi10.6084/m9.figshare.3180130.v2> a ns1:ConferencePoster ;
+    rdfs:label "Communicating science as it is" ;
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3180130.v2-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "Often, we communicate science in a linear fashion, which suggests as if the right conclusion is achieved in a single swoop, rather than communicating science as it is - a dynamic, exploratory process of evolution. Such discourse lacks understandability of how a researcher came up with a given workflow design, and does not communicate the lessons learned during the exploratory process of scientific investigation. For example, 'why land cover categories are synthesized the way they are and not some other way' is a question we are often unable to answer with the contemporary research communication. Similarly, how two researchers with the same input data and methods came up with different conclusions can only be understood through their process of scientific investigation. I am proposing that communicating the exploratory, process-oriented view of construction and evolution of scientific knowledge would support a deeper understanding (knowledge-how and -why) of the meaning of scientific knowledge. My research tries to demonstrate these ideas through a prototype (AdvoCate - Adventures of Categories) that models land cover categories and changes in them, and connects them to the exploratory scientific practices, including trial and error, debates, conceptual changes and revisions. We further demonstrate that how knowledge lurking behind the process of science can enable us to answer questions that we were unable to do so earlier." ;
+    ns3:doi "10.6084/m9.figshare.3180130.v2" ;
+    ns3:freetextKeyword "FORCE16",
+        "categories",
+        "evolution",
+        "exploration process" ;
+    ns1:dateCreated <http://openvivo.org/a/date2016-04-16> ;
+    ns1:dateModified <http://openvivo.org/a/date2016-04-16> ;
+    ns1:datePublished <http://openvivo.org/a/date2016-04-16> ;
+    ns1:dateTimeValue <http://openvivo.org/a/date2016-04-16> .
+
 <http://openvivo.org/a/doi10.6084/m9.figshare.3180100.v1> a ns1:ConferencePoster ;
     rdfs:label "Mobilizing taxonomic data: the importance of user-centered design" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3180100.v1-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract """<p>Through the NSF-Funded "Transforming Taxonomic
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3180100.v1-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract """<p>Through the NSF-Funded "Transforming Taxonomic
 Interfaces" project, we are working to understand the user interaction and
 experience needs of taxonomists -- the biologists that organize, describe,
 classify and name life on earth.  With an
@@ -2304,8 +2426,8 @@ We further argue that user-centered interface design is fundamental to
 the creation and publication of open data. We present several prototype
 interfaces, and describe how they would reduce the burden on taxonomists in
 publishing their data.</p>""" ;
-    ns4:doi "10.6084/m9.figshare.3180100.v1" ;
-    ns4:freetextKeyword "FORCE16",
+    ns3:doi "10.6084/m9.figshare.3180100.v1" ;
+    ns3:freetextKeyword "FORCE16",
         "User interfaces",
         "data publishing",
         "scholarly communication",
@@ -2317,11 +2439,11 @@ publishing their data.</p>""" ;
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3169117.v1> a ns1:ConferencePoster ;
     rdfs:label "Enhancements to the GigaScience Integrated Data & Research Object Publishing Pipeline" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3169117.v1-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "In the era of computation and data driven research, traditional methods of disseminating research are no longer fit-for-purpose. New approaches for disseminating data, methods and results are required to maximize knowledge discovery. As datasets get larger and more challenging to disseminate, one approach is to focus more on the compute and interactive research objects such as containers and virtual machines. Publishing more technically challenging and dynamic parts of the research cycle will require more transparent and interactive approaches to review, annotate, and credit the hard work of those assessing them, particularly to avoid the growing challenges of the replication crisis. <i>GigaScience</i> is an open-access, open-data journal tailored for the era of large-scale biological data. Using the data handling infrastructure of the genomics center BGI, <i>GigaScience</i> links standard manuscript publication with an integrated database (GigaDB) that hosts all associated data and provides additional analysis tools and computing resources. In addition, the supporting workflows and methods are also integrated. GigaDB has released many new and previously unpublished datasets and data types, and the latest version has a number of new and improved features. Along with a raft of major under-the-bonnet changes to the data structure, submission wizard, a new search function and results display, and the integration of the Hypothes.is web-annotation tools have all been implemented. Web forms integrate the manuscript and data peer review process with Publons, linking and crediting the peer reviews with DataCite DOIs. Protocols.io is also being merged with the data curation process to streamline the process for authors to enter their methodologies in the collaborative protocol-centered repository. Other “executable” research objects such as workflows, virtual machines, docker containers and software snapshots from several <i>GigaScience</i> articles have been archived and shared in the most open, reproducible, transparent and usable formats possible." ;
-    ns4:doi "10.6084/m9.figshare.3169117.v1" ;
-    ns4:freetextKeyword "FORCE2016",
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3169117.v1-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "In the era of computation and data driven research, traditional methods of disseminating research are no longer fit-for-purpose. New approaches for disseminating data, methods and results are required to maximize knowledge discovery. As datasets get larger and more challenging to disseminate, one approach is to focus more on the compute and interactive research objects such as containers and virtual machines. Publishing more technically challenging and dynamic parts of the research cycle will require more transparent and interactive approaches to review, annotate, and credit the hard work of those assessing them, particularly to avoid the growing challenges of the replication crisis. <i>GigaScience</i> is an open-access, open-data journal tailored for the era of large-scale biological data. Using the data handling infrastructure of the genomics center BGI, <i>GigaScience</i> links standard manuscript publication with an integrated database (GigaDB) that hosts all associated data and provides additional analysis tools and computing resources. In addition, the supporting workflows and methods are also integrated. GigaDB has released many new and previously unpublished datasets and data types, and the latest version has a number of new and improved features. Along with a raft of major under-the-bonnet changes to the data structure, submission wizard, a new search function and results display, and the integration of the Hypothes.is web-annotation tools have all been implemented. Web forms integrate the manuscript and data peer review process with Publons, linking and crediting the peer reviews with DataCite DOIs. Protocols.io is also being merged with the data curation process to streamline the process for authors to enter their methodologies in the collaborative protocol-centered repository. Other “executable” research objects such as workflows, virtual machines, docker containers and software snapshots from several <i>GigaScience</i> articles have been archived and shared in the most open, reproducible, transparent and usable formats possible." ;
+    ns3:doi "10.6084/m9.figshare.3169117.v1" ;
+    ns3:freetextKeyword "FORCE2016",
         "GigaDB",
         "Open Science",
         "Scholarly Communications",
@@ -2335,9 +2457,9 @@ publishing their data.</p>""" ;
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3175135.v1> a ns1:ConferencePoster ;
     rdfs:label "SOPHIA - Social Phrases Having Impact" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3175135.v1-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract """<div>
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3175135.v1-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract """<div>
 			<div>
 				<div>
 					<div>
@@ -2361,8 +2483,8 @@ researchers / institutions for a given topic </p>
 				</div>
 			</div>
 		</div>""" ;
-    ns4:doi "10.6084/m9.figshare.3175135.v1" ;
-    ns4:freetextKeyword "FORCE16",
+    ns3:doi "10.6084/m9.figshare.3175135.v1" ;
+    ns3:freetextKeyword "FORCE16",
         "altmetrics" ;
     ns1:dateCreated <http://openvivo.org/a/date2016-04-13> ;
     ns1:dateModified <http://openvivo.org/a/date2016-04-13> ;
@@ -2371,11 +2493,11 @@ researchers / institutions for a given topic </p>
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1> a ns1:ConferencePoster ;
     rdfs:label "Couture Curricula - BD2K Data Science Tailored to Your Needs" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "Poster presentation at Force2016 conference (https://www.force11.org/meetings/force2016) discussing BD2K funded work to develop open educational resources and data science skills courses at Oregon Health & Science University." ;
-    ns4:doi "10.6084/m9.figshare.3159493.v1" ;
-    ns4:freetextKeyword "BD2K",
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3159493.v1-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "Poster presentation at Force2016 conference (https://www.force11.org/meetings/force2016) discussing BD2K funded work to develop open educational resources and data science skills courses at Oregon Health & Science University." ;
+    ns3:doi "10.6084/m9.figshare.3159493.v1" ;
+    ns3:freetextKeyword "BD2K",
         "FORCE16",
         "FORCE2016",
         "big data",
@@ -2389,11 +2511,11 @@ researchers / institutions for a given topic </p>
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3174703.v2> a ns1:ConferencePoster ;
     rdfs:label "A Publishing Analytics Data Alliance" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3174703.v2-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "<div>Technology has made collecting data and producing metrics easier than ever before. In the realm of research communication, data from the digital distribution of scholarly content provides new opportunities to understand the publishing ecosystem.  However, there is growing concern about ownership of, access to, and analysis of this data, as evidenced by the recently published <i>NISO Consensus Principles on Users' Digital Privacy in Library, Publisher, and Software-Provided Systems</i>.  Furthermore, the practical challenges associated with gathering, integrating, interpreting, and reporting usage data limit the ability of individual publishers and libraries to identify—much less predict—important usage trends and opportunities through which they might extend their impact.</div><div><br></div><div>We invite publishers, libraries, research centers, data aggregators, and other stakeholders in scholarly communication to join Project Meerkat to inform nascent standards and create a neutral apparatus for the ongoing collection and aggregation of usage data related to digital scholarly monographs.  Project Meerkat will build a new cooperative—the Publishing Analytics Data Trust—in which members will collaborate to represent the interests of all stakeholders in academic publishing, including researchers and administrators, to sustain the outcomes of Project Meerkat and provide its members with shared governance of collected data.  While the organizational model of the cooperative is still to be determined, it is imagined that member organizations will agree to a code of practice as a condition of membership.</div><div><br></div><div>This poster will present the project and preliminary vision for the cooperative in more detail.</div>" ;
-    ns4:doi "10.6084/m9.figshare.3174703.v2" ;
-    ns4:freetextKeyword "FORCE16" ;
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3174703.v2-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "<div>Technology has made collecting data and producing metrics easier than ever before. In the realm of research communication, data from the digital distribution of scholarly content provides new opportunities to understand the publishing ecosystem.  However, there is growing concern about ownership of, access to, and analysis of this data, as evidenced by the recently published <i>NISO Consensus Principles on Users' Digital Privacy in Library, Publisher, and Software-Provided Systems</i>.  Furthermore, the practical challenges associated with gathering, integrating, interpreting, and reporting usage data limit the ability of individual publishers and libraries to identify—much less predict—important usage trends and opportunities through which they might extend their impact.</div><div><br></div><div>We invite publishers, libraries, research centers, data aggregators, and other stakeholders in scholarly communication to join Project Meerkat to inform nascent standards and create a neutral apparatus for the ongoing collection and aggregation of usage data related to digital scholarly monographs.  Project Meerkat will build a new cooperative—the Publishing Analytics Data Trust—in which members will collaborate to represent the interests of all stakeholders in academic publishing, including researchers and administrators, to sustain the outcomes of Project Meerkat and provide its members with shared governance of collected data.  While the organizational model of the cooperative is still to be determined, it is imagined that member organizations will agree to a code of practice as a condition of membership.</div><div><br></div><div>This poster will present the project and preliminary vision for the cooperative in more detail.</div>" ;
+    ns3:doi "10.6084/m9.figshare.3174703.v2" ;
+    ns3:freetextKeyword "FORCE16" ;
     ns1:dateCreated <http://openvivo.org/a/date2016-04-13> ;
     ns1:dateModified <http://openvivo.org/a/date2016-04-13> ;
     ns1:datePublished <http://openvivo.org/a/date2016-04-13> ;
@@ -2401,11 +2523,11 @@ researchers / institutions for a given topic </p>
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3175417.v2> a ns1:ConferencePoster ;
     rdfs:label "Data Publication and Dissemination with the Structural Biology Data Grid" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3175417.v2-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "<p>Access to experimental X--‐‑ray diffraction image data is fundamental for validation and reproduction of macromolecular models and indispensable for development of structural biology processing methods. In response to evolving needs of the structural biology community, we established a diffraction data publication and dissemination system, Structural Biology Data Grid (SBDG, url: data.sbgrid.org), to preserve primary experimental datasets that support journal publications. Datasets archived with the SBDG are freely available to the research community under a public domain dedication license and the metadata for all datasets is published under the DataCite schema. Datasets are accessible to researchers through the Data Access Alliance infrastructure, which facilitates global and institutional data access. Our analysis of a pilot collection of crystallographic datasets demonstrates that the information archived by SBDG is sufficient to reprocess data to statistics that meet or exceed the quality of the original published structures. It is anticipated that access to the experimental datasets will enable paradigm shift in the community from the static archive towards a much more dynamic body of continuously improving refined models. Following the success of this pilot study, the SBDG has extended its services to the entire community and will be used to develop support for other types of biomedical datasets, such as MicroED, Molecular Dynamics trajectories and LaPice Light--‐‑Sheet Microscopy.</p>" ;
-    ns4:doi "10.6084/m9.figshare.3175417.v2" ;
-    ns4:freetextKeyword "FORCE2016" ;
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3175417.v2-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "<p>Access to experimental X--‐‑ray diffraction image data is fundamental for validation and reproduction of macromolecular models and indispensable for development of structural biology processing methods. In response to evolving needs of the structural biology community, we established a diffraction data publication and dissemination system, Structural Biology Data Grid (SBDG, url: data.sbgrid.org), to preserve primary experimental datasets that support journal publications. Datasets archived with the SBDG are freely available to the research community under a public domain dedication license and the metadata for all datasets is published under the DataCite schema. Datasets are accessible to researchers through the Data Access Alliance infrastructure, which facilitates global and institutional data access. Our analysis of a pilot collection of crystallographic datasets demonstrates that the information archived by SBDG is sufficient to reprocess data to statistics that meet or exceed the quality of the original published structures. It is anticipated that access to the experimental datasets will enable paradigm shift in the community from the static archive towards a much more dynamic body of continuously improving refined models. Following the success of this pilot study, the SBDG has extended its services to the entire community and will be used to develop support for other types of biomedical datasets, such as MicroED, Molecular Dynamics trajectories and LaPice Light--‐‑Sheet Microscopy.</p>" ;
+    ns3:doi "10.6084/m9.figshare.3175417.v2" ;
+    ns3:freetextKeyword "FORCE2016" ;
     ns1:dateCreated <http://openvivo.org/a/date2016-04-13> ;
     ns1:dateModified <http://openvivo.org/a/date2016-04-13> ;
     ns1:datePublished <http://openvivo.org/a/date2016-04-13> ;
@@ -2413,11 +2535,11 @@ researchers / institutions for a given topic </p>
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3180007.v1> a ns1:ConferencePoster ;
     rdfs:label "Dash: Data Sharing Made Easy" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3180007.v1-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "To facilitate data publication from within the University of California system and beyond, the University of California Curation Center (UC3) is developing a new ingest and discovery overlay layer for our data curation service, Dash.The new overlay– dubbed Stash (STore And SHare)– will feature an enhanced user interface with a simple and intuitive deposit workflow, that nevertheless accommodates rich user-supplied metadata. Through Stash, researchers will upload their data by browsing local files or by drag-and-drop; describe it with scientifically-meaningful metadata such as methods, references, and geospatial location; obtain persistent identifiers for data citation and retrieval; and preserve and publish their data. Data published through Stash will be discoverable through faceted search and browse, including search by geospatial location. Stash can be implemented in conjunction with any standards-compliant repository that supports the SWORD protocol for deposit and OAI-PMH or ResourceSync for metadata harvesting. UC3 will develop support for the DataCite and Dublin Core metadata schemas, but Stash is designed with a pluggable architecture that can accommodate other schemas to support discipline-specific applications. By alleviating many of the barriers that have historically precluded wider adoption of open data principles, Stash empowers individual scholars to assert active control over their research outputs; encourages data preservation, publication, sharing, and reuse; and promotes open scholarly inquiry and advancement." ;
-    ns4:doi "10.6084/m9.figshare.3180007.v1" ;
-    ns4:freetextKeyword "CDL",
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3180007.v1-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "To facilitate data publication from within the University of California system and beyond, the University of California Curation Center (UC3) is developing a new ingest and discovery overlay layer for our data curation service, Dash.The new overlay– dubbed Stash (STore And SHare)– will feature an enhanced user interface with a simple and intuitive deposit workflow, that nevertheless accommodates rich user-supplied metadata. Through Stash, researchers will upload their data by browsing local files or by drag-and-drop; describe it with scientifically-meaningful metadata such as methods, references, and geospatial location; obtain persistent identifiers for data citation and retrieval; and preserve and publish their data. Data published through Stash will be discoverable through faceted search and browse, including search by geospatial location. Stash can be implemented in conjunction with any standards-compliant repository that supports the SWORD protocol for deposit and OAI-PMH or ResourceSync for metadata harvesting. UC3 will develop support for the DataCite and Dublin Core metadata schemas, but Stash is designed with a pluggable architecture that can accommodate other schemas to support discipline-specific applications. By alleviating many of the barriers that have historically precluded wider adoption of open data principles, Stash empowers individual scholars to assert active control over their research outputs; encourages data preservation, publication, sharing, and reuse; and promotes open scholarly inquiry and advancement." ;
+    ns3:doi "10.6084/m9.figshare.3180007.v1" ;
+    ns3:freetextKeyword "CDL",
         "Dash",
         "FORCE16" ;
     ns1:dateCreated <http://openvivo.org/a/date2016-04-15> ;
@@ -2427,9 +2549,9 @@ researchers / institutions for a given topic </p>
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172396.v1> a ns1:ConferencePoster ;
     rdfs:label "Find me the data - Discover and explore Springer Nature’s Scientific Data datasets with the ISA-explorer tool" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3172396.v1-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract """Find me the data - Discover and explore Springer Nature’s Scientific Data datasets with the ISA-explorer tool<br><br><br><div><div>Scientific
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3172396.v1-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract """Find me the data - Discover and explore Springer Nature’s Scientific Data datasets with the ISA-explorer tool<br><br><br><div><div>Scientific
  Data is a Springer Nature journal focused on data publication. The main article 
 type is a Data Descriptor, which depicts rigorously described, reusable 
 datasets. Each Data Descriptor is accompanied by metadata represented in
@@ -2460,8 +2582,8 @@ richer knowledge representations (such as linkedISA [2]).
 and Philippe Rocca-Serra. linkedISA: semantic representation of ISA-Tab 
 experimental metadata. BMC Bioinformatics 2014, 15(Suppl 14):S4. 
 <a href="http://dx.doi.org/10.1186/1471-2105-15-S14-S4" target="_blank">http://dx.doi.org/10.1186/1471-2105-15-S14-S4</a></div></div><div><div>URL to Project: </div><div><div><a href="http://scientificdata.isa-explorer.org/" target="_blank">http://scientificdata.isa-explorer.org/</a></div></div></div><br><br><br>""" ;
-    ns4:doi "10.6084/m9.figshare.3172396.v1" ;
-    ns4:freetextKeyword "FORCE16",
+    ns3:doi "10.6084/m9.figshare.3172396.v1" ;
+    ns3:freetextKeyword "FORCE16",
         "ISA",
         "ISA-tools",
         "Scientific Data",
@@ -2473,11 +2595,11 @@ experimental metadata. BMC Bioinformatics 2014, 15(Suppl 14):S4.
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172834.v2> a ns1:ConferencePoster ;
     rdfs:label "BioSharing poster - April 2016 (focus on databases)" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3172834.v2-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "A curated, searchable portal of inter-related data standards, databases, and policies in the life, environmental and biomedical sciences: https://biosharing.org" ;
-    ns4:doi "10.6084/m9.figshare.3172834.v2" ;
-    ns4:freetextKeyword "BioSharing",
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3172834.v2-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "A curated, searchable portal of inter-related data standards, databases, and policies in the life, environmental and biomedical sciences: https://biosharing.org" ;
+    ns3:doi "10.6084/m9.figshare.3172834.v2" ;
+    ns3:freetextKeyword "BioSharing",
         "Biocuration",
         "FORCE16",
         "databases",
@@ -2491,11 +2613,11 @@ experimental metadata. BMC Bioinformatics 2014, 15(Suppl 14):S4.
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172855> a ns1:ConferencePoster ;
     rdfs:label "BioSharing poster - April 2016 (focus on standards)" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3172855-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "A curated, searchable portal of inter-related data standards, databases, and policies in the life, environmental and biomedical sciences<div><b>https://biosharing.org</b></div>" ;
-    ns4:doi "10.6084/m9.figshare.3172855" ;
-    ns4:freetextKeyword "BioSharing",
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3172855-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "A curated, searchable portal of inter-related data standards, databases, and policies in the life, environmental and biomedical sciences<div><b>https://biosharing.org</b></div>" ;
+    ns3:doi "10.6084/m9.figshare.3172855" ;
+    ns3:freetextKeyword "BioSharing",
         "Biocuration",
         "FORCE16",
         "databases",
@@ -2509,11 +2631,11 @@ experimental metadata. BMC Bioinformatics 2014, 15(Suppl 14):S4.
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3175198.v1> a ns1:ConferencePoster ;
     rdfs:label "Attribution of Work in the Scholarly Ecosystem" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3175198.v1-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "In this project we have outlined a list of contributor roles identified by the Force 11 Attribution Working Group. Contributor roles from existing taxonomies were leveraged (CRediT) and further enhanced with more finely-resolved contributor roles based on an in-depth investigation of activities and outputs. We have also collated and reviewed existing efforts on scholarly contribution taxonomies to determine their unique aspects, and how they complement each other. We reviewed the landscape of taxonomies and systems in order to compare and contrast key types of contributions.  We also considered the objectives needed to create a contributorship model that is robust enough to cover various fields of research, and specific enough to adequately describe contribution in a meaningful way.<br><br>We found there to be a diverse landscape of projects and groups working in this area, though each with its own perspective. A brief outline of the coverage, goals and relevant factors of these projects or groups is provided. Several projects were identified as being relevant to this inquiry, including Contributor Roles Taxonomy Project (CRediT), VIVO-ISF ontology, Provenance (PROV), the Becker Model and other impact frameworks, Transitive Credit, Academic Careers Understood through Measurement and Norms (ACUMEN Project), and the Scholarly Contributions and Roles Ontology (SCoRO). Additionally, several working groups were identified: Global Alliance for Genomics and Health (GA4GH), National Information Standards Organization (NISO), and the Force 11 Attribution Working Group.<br><br>Through the in-depth study of different contribution roles in the scholarly process, we were able to better understand how these contributions might be structured – in terms of a particular output (manuscript, dataset, etc.) and also contributions to the project as a whole.  Moreover, we developed a 2-level hierarchy to enable more complete representation of these roles through major classes such as author, communication, data, IP, project and team management, regulatory administration, software development, and so on.<br><br>While there are projects and ongoing efforts to better understand the diverse roles that professionals take on when contributing to the scholarly ecosystem, it is clear that more work is needed to fully explore the area of contributorship roles. Several leaders in this area have proposed projects to define an informatics infrastructure that enables the collection and dissemination on contributor attribution data to various stakeholder audiences. Projects of that nature bring excitement and expectation, as we wait to see where they will take us and how greatly they will impact the scholarly ecosystem. Perhaps most important is the need to accomplish this work in an open, collaborative manner, leveraging data standards along the way to enable interoperability and integration with existing architectures. <br><br>" ;
-    ns4:doi "10.6084/m9.figshare.3175198.v1" ;
-    ns4:freetextKeyword "FORCE11",
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3175198.v1-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "In this project we have outlined a list of contributor roles identified by the Force 11 Attribution Working Group. Contributor roles from existing taxonomies were leveraged (CRediT) and further enhanced with more finely-resolved contributor roles based on an in-depth investigation of activities and outputs. We have also collated and reviewed existing efforts on scholarly contribution taxonomies to determine their unique aspects, and how they complement each other. We reviewed the landscape of taxonomies and systems in order to compare and contrast key types of contributions.  We also considered the objectives needed to create a contributorship model that is robust enough to cover various fields of research, and specific enough to adequately describe contribution in a meaningful way.<br><br>We found there to be a diverse landscape of projects and groups working in this area, though each with its own perspective. A brief outline of the coverage, goals and relevant factors of these projects or groups is provided. Several projects were identified as being relevant to this inquiry, including Contributor Roles Taxonomy Project (CRediT), VIVO-ISF ontology, Provenance (PROV), the Becker Model and other impact frameworks, Transitive Credit, Academic Careers Understood through Measurement and Norms (ACUMEN Project), and the Scholarly Contributions and Roles Ontology (SCoRO). Additionally, several working groups were identified: Global Alliance for Genomics and Health (GA4GH), National Information Standards Organization (NISO), and the Force 11 Attribution Working Group.<br><br>Through the in-depth study of different contribution roles in the scholarly process, we were able to better understand how these contributions might be structured – in terms of a particular output (manuscript, dataset, etc.) and also contributions to the project as a whole.  Moreover, we developed a 2-level hierarchy to enable more complete representation of these roles through major classes such as author, communication, data, IP, project and team management, regulatory administration, software development, and so on.<br><br>While there are projects and ongoing efforts to better understand the diverse roles that professionals take on when contributing to the scholarly ecosystem, it is clear that more work is needed to fully explore the area of contributorship roles. Several leaders in this area have proposed projects to define an informatics infrastructure that enables the collection and dissemination on contributor attribution data to various stakeholder audiences. Projects of that nature bring excitement and expectation, as we wait to see where they will take us and how greatly they will impact the scholarly ecosystem. Perhaps most important is the need to accomplish this work in an open, collaborative manner, leveraging data standards along the way to enable interoperability and integration with existing architectures. <br><br>" ;
+    ns3:doi "10.6084/m9.figshare.3175198.v1" ;
+    ns3:freetextKeyword "FORCE11",
         "FORCE16",
         "ScholComm",
         "attribution",
@@ -2527,11 +2649,11 @@ experimental metadata. BMC Bioinformatics 2014, 15(Suppl 14):S4.
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3175072.v1> a ns1:ConferencePoster ;
     rdfs:label "OpenVIVO: A VIVO anyone can join" ;
-    ns3:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3175072.v1-vcard> ;
-    ns3:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns4:abstract "OpenVIVO is a hosted open VIVO that anyone can join.  Supporting sign on via ORCiD and data from ORCiD, Figshare, Grid, CrossRef, NLM, Force16 and user entry.  OpenVIVO demonstrates a connected, identified ecosystem of people, works and organizations" ;
-    ns4:doi "10.6084/m9.figshare.3175072.v1" ;
-    ns4:freetextKeyword "FORCE16",
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3175072.v1-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "OpenVIVO is a hosted open VIVO that anyone can join.  Supporting sign on via ORCiD and data from ORCiD, Figshare, Grid, CrossRef, NLM, Force16 and user entry.  OpenVIVO demonstrates a connected, identified ecosystem of people, works and organizations" ;
+    ns3:doi "10.6084/m9.figshare.3175072.v1" ;
+    ns3:freetextKeyword "FORCE16",
         "Ontology",
         "Open Scence",
         "OpenVIVO",
@@ -2542,7 +2664,7 @@ experimental metadata. BMC Bioinformatics 2014, 15(Suppl 14):S4.
     ns1:datePublished <http://openvivo.org/a/date2016-04-13> ;
     ns1:dateTimeValue <http://openvivo.org/a/date2016-04-13> .
 
-<http://openvivo.org/a/eventFORCE2016> ns3:RO_0002234 <http://openvivo.org/a/doi10.6084/m9.figshare.3117073.v2>,
+<http://openvivo.org/a/eventFORCE2016> ns4:RO_0002234 <http://openvivo.org/a/doi10.6084/m9.figshare.3117073.v2>,
         <http://openvivo.org/a/doi10.6084/m9.figshare.3117115.v2>,
         <http://openvivo.org/a/doi10.6084/m9.figshare.3145315.v3>,
         <http://openvivo.org/a/doi10.6084/m9.figshare.3145318.v2>,
@@ -2573,7 +2695,7 @@ experimental metadata. BMC Bioinformatics 2014, 15(Suppl 14):S4.
         <http://openvivo.org/a/doi10.6084/m9.figshare.3175054.v1>,
         <http://openvivo.org/a/doi10.6084/m9.figshare.3175072.v1>,
         <http://openvivo.org/a/doi10.6084/m9.figshare.3175135.v1>,
-        <http://openvivo.org/a/doi10.6084/m9.figshare.3175144.v1>,
+        <http://openvivo.org/a/doi10.6084/m9.figshare.3175144.v3>,
         <http://openvivo.org/a/doi10.6084/m9.figshare.3175168.v1>,
         <http://openvivo.org/a/doi10.6084/m9.figshare.3175198.v1>,
         <http://openvivo.org/a/doi10.6084/m9.figshare.3175417.v2>,
@@ -2584,6 +2706,9 @@ experimental metadata. BMC Bioinformatics 2014, 15(Suppl 14):S4.
         <http://openvivo.org/a/doi10.6084/m9.figshare.3179935.v2>,
         <http://openvivo.org/a/doi10.6084/m9.figshare.3179965.v1>,
         <http://openvivo.org/a/doi10.6084/m9.figshare.3180007.v1>,
-        <http://openvivo.org/a/doi10.6084/m9.figshare.3180100.v1> .
+        <http://openvivo.org/a/doi10.6084/m9.figshare.3180100.v1>,
+        <http://openvivo.org/a/doi10.6084/m9.figshare.3180130.v2>,
+        <http://openvivo.org/a/doi10.6084/m9.figshare.3180232.v2>,
+        <http://openvivo.org/a/doi10.6084/m9.figshare.3180235.v1> .
 
 
