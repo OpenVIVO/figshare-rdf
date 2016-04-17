@@ -330,7 +330,7 @@
 <http://openvivo.org/a/doi10.6084/m9.figshare.3172927.v1-authorship1> a ns1:Authorship ;
     ns1:rank 1 ;
     ns1:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3172927.v1>,
-        <http://openvivo.org/a/vcardLawrence--Amanda--> .
+        <http://openvivo.org/a/orcid0000-0003-2194-8178> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3173089.v1-authorship1> a ns1:Authorship ;
     ns1:rank 1 ;
@@ -716,6 +716,16 @@
     ns1:rank 1 ;
     ns1:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3180235.v1>,
         <http://openvivo.org/a/vcardMartone--Maryann--> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3180256.v1-authorship1> a ns1:Authorship ;
+    ns1:rank 1 ;
+    ns1:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3180256.v1>,
+        <http://openvivo.org/a/orcid0000-0002-8876-7606> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3180259.v2-authorship1> a ns1:Authorship ;
+    ns1:rank 1 ;
+    ns1:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3180259.v2>,
+        <http://openvivo.org/a/orcid0000-0002-7574-5985> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3117073.v2-vcard> a ns2:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3117073.v2> ;
@@ -1131,6 +1141,24 @@
     ns1:rank 1 ;
     ns2:url "https://figshare.com/articles/Hypothes_is_at_FORCE2016/3180235"^^xsd:anyURI .
 
+<http://openvivo.org/a/doi10.6084/m9.figshare.3180256.v1-vcard> a ns2:Kind ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3180256.v1> ;
+    ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3180256.v1-vcard-figshare> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3180256.v1-vcard-figshare> a ns2:URL ;
+    rdfs:label "Figshare Page" ;
+    ns1:rank 1 ;
+    ns2:url "https://figshare.com/articles/Making_it_machine_readable_or_the_public_doesn_t_get_it_/3180256"^^xsd:anyURI .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3180259.v2-vcard> a ns2:Kind ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3180259.v2> ;
+    ns2:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3180259.v2-vcard-figshare> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3180259.v2-vcard-figshare> a ns2:URL ;
+    rdfs:label "Figshare Page" ;
+    ns1:rank 1 ;
+    ns2:url "https://figshare.com/articles/Force16_Poster_Linking_research_infrastructure_and_funding_to_scholarly_output_in_astronomy_pdf/3180259"^^xsd:anyURI .
+
 <http://openvivo.org/a/orcid0000-0001-5208-3432> a <http://xmlns.com/foaf/0.1/Person> ;
     rdfs:label "Vasilevsky, Nicole" ;
     ns1:orcidId <http://orcid.org/0000-0001-5208-3432> .
@@ -1219,6 +1247,10 @@
     rdfs:label "Louden, Diana" ;
     ns1:orcidId <http://orcid.org/0000-0002-6161-5557> .
 
+<http://openvivo.org/a/orcid0000-0002-7574-5985> a <http://xmlns.com/foaf/0.1/Person> ;
+    rdfs:label "Zegler-Poleska, Ewa" ;
+    ns1:orcidId <http://orcid.org/0000-0002-7574-5985> .
+
 <http://openvivo.org/a/orcid0000-0002-7583-0792> a <http://xmlns.com/foaf/0.1/Person> ;
     rdfs:label "Rademaker, Alexandre" ;
     ns1:orcidId <http://orcid.org/0000-0002-7583-0792> .
@@ -1226,6 +1258,10 @@
 <http://openvivo.org/a/orcid0000-0002-8155-6806> a <http://xmlns.com/foaf/0.1/Person> ;
     rdfs:label "Stephan, Eric" ;
     ns1:orcidId <http://orcid.org/0000-0002-8155-6806> .
+
+<http://openvivo.org/a/orcid0000-0002-8876-7606> a <http://xmlns.com/foaf/0.1/Person> ;
+    rdfs:label "Hong, Neil Chue" ;
+    ns1:orcidId <http://orcid.org/0000-0002-8876-7606> .
 
 <http://openvivo.org/a/orcid0000-0002-9533-3531> a <http://xmlns.com/foaf/0.1/Person> ;
     rdfs:label "Randles, Bernie" ;
@@ -1238,6 +1274,10 @@
 <http://openvivo.org/a/orcid0000-0003-1367-2220> a <http://xmlns.com/foaf/0.1/Person> ;
     rdfs:label "Banks, Marcus" ;
     ns1:orcidId <http://orcid.org/0000-0003-1367-2220> .
+
+<http://openvivo.org/a/orcid0000-0003-2194-8178> a <http://xmlns.com/foaf/0.1/Person> ;
+    rdfs:label "Lawrence, Amanda" ;
+    ns1:orcidId <http://orcid.org/0000-0003-2194-8178> .
 
 <http://openvivo.org/a/orcid0000-0003-3150-8758> a <http://xmlns.com/foaf/0.1/Person> ;
     rdfs:label "Eichmann, David" ;
@@ -1433,13 +1473,6 @@
 <http://openvivo.org/a/vcardLawless--Ted--name> a ns2:Name ;
     ns2:familyName "Lawless" ;
     ns2:givenName "Ted" .
-
-<http://openvivo.org/a/vcardLawrence--Amanda--> a ns2:Individual ;
-    ns2:hasName <http://openvivo.org/a/vcardLawrence--Amanda--name> .
-
-<http://openvivo.org/a/vcardLawrence--Amanda--name> a ns2:Name ;
-    ns2:familyName "Lawrence" ;
-    ns2:givenName "Amanda" .
 
 <http://openvivo.org/a/vcardLi--Peter--> a ns2:Individual ;
     ns2:hasName <http://openvivo.org/a/vcardLi--Peter--name> .
@@ -1756,9 +1789,13 @@
 
 <http://orcid.org/0000-0002-7277-7834> a <http://www.w3.org/2002/07/owl#Thing> .
 
+<http://orcid.org/0000-0002-7574-5985> a <http://www.w3.org/2002/07/owl#Thing> .
+
 <http://orcid.org/0000-0002-7583-0792> a <http://www.w3.org/2002/07/owl#Thing> .
 
 <http://orcid.org/0000-0002-8155-6806> a <http://www.w3.org/2002/07/owl#Thing> .
+
+<http://orcid.org/0000-0002-8876-7606> a <http://www.w3.org/2002/07/owl#Thing> .
 
 <http://orcid.org/0000-0002-9533-3531> a <http://www.w3.org/2002/07/owl#Thing> .
 
@@ -1767,6 +1804,8 @@
 <http://orcid.org/0000-0002-9610-5370> a <http://www.w3.org/2002/07/owl#Thing> .
 
 <http://orcid.org/0000-0003-1367-2220> a <http://www.w3.org/2002/07/owl#Thing> .
+
+<http://orcid.org/0000-0003-2194-8178> a <http://www.w3.org/2002/07/owl#Thing> .
 
 <http://orcid.org/0000-0003-2588-3084> a <http://www.w3.org/2002/07/owl#Thing> .
 
@@ -2228,6 +2267,45 @@ communication. <br>""" ;
     ns3:abstract "Slide for FORCE2016 demonstration of Hypothes.is for display at conference" ;
     ns3:doi "10.6084/m9.figshare.3180235.v1" ;
     ns3:freetextKeyword "FORCE2016" ;
+    ns1:dateCreated <http://openvivo.org/a/date2016-04-16> ;
+    ns1:dateModified <http://openvivo.org/a/date2016-04-16> ;
+    ns1:datePublished <http://openvivo.org/a/date2016-04-16> ;
+    ns1:dateTimeValue <http://openvivo.org/a/date2016-04-16> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3180256.v1> a ns3:Slideshow ;
+    rdfs:label "Making it machine readable or the public (doesn't) get it!" ;
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3180256.v1-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract """<p>Presentation at FORCE2016 in session "No see, no touch traps: still struggling to escape or free at last?"</p><p><br></p><p>Abstract: Open
+Access has made research available to everyone by freeing the licensing
+restrictions on it. But in many cases it is still impenetrable and unusable
+from people outside the field it is published in. If we really want to open our
+research, we must make it available for reuse and reproduction by others: which
+can only be done effectively if it can be made machine understandable. In
+particular for data, this allows rich new tools and interfaces to be developed,
+enabling others to explore and understand the underlying information. This
+relies on researchers having a basic understanding of computational literacy to
+help make the connections - the modern equivalent of being able to understand
+how to cite and reference works properly.</p>
+
+<p><br></p>""" ;
+    ns3:doi "10.6084/m9.figshare.3180256.v1" ;
+    ns3:freetextKeyword "FORCE16",
+        "Open Access",
+        "Open Science" ;
+    ns1:dateCreated <http://openvivo.org/a/date2016-04-16> ;
+    ns1:dateModified <http://openvivo.org/a/date2016-04-16> ;
+    ns1:datePublished <http://openvivo.org/a/date2016-04-16> ;
+    ns1:dateTimeValue <http://openvivo.org/a/date2016-04-16> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3180259.v2> a ns1:ConferencePoster ;
+    rdfs:label "Linking research infrastructure and funding to scholarly output in astronomy" ;
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3180259.v2-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
+    ns3:abstract "Poster, Force11 conference https://www.force11.org/entityform/110" ;
+    ns3:doi "10.6084/m9.figshare.3180259.v2" ;
+    ns3:freetextKeyword "FORCE16",
+        "scholarly communication" ;
     ns1:dateCreated <http://openvivo.org/a/date2016-04-16> ;
     ns1:dateModified <http://openvivo.org/a/date2016-04-16> ;
     ns1:datePublished <http://openvivo.org/a/date2016-04-16> ;
@@ -2709,6 +2787,8 @@ experimental metadata. BMC Bioinformatics 2014, 15(Suppl 14):S4.
         <http://openvivo.org/a/doi10.6084/m9.figshare.3180100.v1>,
         <http://openvivo.org/a/doi10.6084/m9.figshare.3180130.v2>,
         <http://openvivo.org/a/doi10.6084/m9.figshare.3180232.v2>,
-        <http://openvivo.org/a/doi10.6084/m9.figshare.3180235.v1> .
+        <http://openvivo.org/a/doi10.6084/m9.figshare.3180235.v1>,
+        <http://openvivo.org/a/doi10.6084/m9.figshare.3180256.v1>,
+        <http://openvivo.org/a/doi10.6084/m9.figshare.3180259.v2> .
 
 
