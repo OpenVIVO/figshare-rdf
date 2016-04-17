@@ -2532,7 +2532,7 @@ through multiple data sources from all over the world *in one place*! <br><br>Re
     ns1:datePublished <http://openvivo.org/a/date2016-04-13> ;
     ns1:dateTimeValue <http://openvivo.org/a/date2016-04-13> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3180376.v2> a ns1:Dataset ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3180376.v2> a ns1:ConferencePoster ;
     rdfs:label "Join the Data Sharing Effort" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3180376.v2-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
