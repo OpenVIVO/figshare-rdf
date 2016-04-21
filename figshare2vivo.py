@@ -18,7 +18,7 @@ import logging
 __author__ = "Michael Conlon"
 __copyright__ = "Copyright 2016 (c) Michael Conlon"
 __license__ = "Apache License 2.0"
-__version__ = "0.02"
+__version__ = "0.03"
 
 #   Constants
 
@@ -136,8 +136,21 @@ def get_figshare_article(article_id):
     :return: JSON object containing Figshare metadata
     """
     import requests
+    import re
+    version = re.compile('v[0-9]*')
     article_result = requests.get('https://api.figshare.com/v2/articles/{}'.format(article_id)).content
     article_result = json.loads(article_result)
+
+    #   Figshare uses versioned DOI.  VIVO is only interested in the most recent version.
+    #   If Figshare returns a versioned DOI, chop off the version
+
+    if 'doi' in article_result and len(article_result['doi']) > 0:
+        doi = article_result['doi']
+        p = re.search(version, doi)
+        if p is not None:
+            doi = doi.replace('.' + p.group(), '')
+            print 'chopped version before', article_result['doi'], 'after', doi
+            article_result['doi'] = doi
     return article_result
 
 
@@ -153,17 +166,6 @@ def get_figshare_articles_by_tag(tag):
     req = urllib2.Request(url, data)
     rsp = urllib2.urlopen(req)
     article_results = json.loads(rsp.read())
-
-    # #   Remove articles that do not contain the specified tag
-    #
-    # for article_result in article_results:
-    #     delete = True
-    #     if 'tags' in article_result:
-    #         for tag_value in work['tags']:
-    #             if tag_value == tag:
-    #                 delete = False
-    #     if delete:
-    #         article_results.remove(article_result)
     return article_results
 
 
@@ -269,8 +271,6 @@ if __name__ == '__main__':
             print count
         article = get_figshare_article(str(figshare_work['id']))
         if 'force2016' in [x.lower() for x in article['tags']] or 'force16' in [x.lower() for x in article['tags']]:
-            print '\n', article['title']
-            print article
             return_graph = make_figshare_rdf(article)
             if return_graph is not None:
                 figshare_graph += return_graph
