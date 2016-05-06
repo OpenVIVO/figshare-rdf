@@ -18,7 +18,7 @@ people are included in the RDF.
 Same as above.  Given an ORCiD identifier, the harvester finds all content in Figshare for the author, producing RDF for each work.
 The Harvester uses OpenVIVO URI conventions for dates and people.  Only identified works are included in the RDF.
 
-*Note:  The Figshare Harvester for OpenVIVO is being developed for a demonstration of OpenVIVO at Force2016 (http://force206.org). We
+*Note:  The Figshare Harvester for OpenVIVO is being developed for a demonstration of OpenVIVO at Force2016 (http://force2016.org). We
 will see how far we get.*
 
 ## Development
