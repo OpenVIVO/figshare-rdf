@@ -1,4 +1,3 @@
 rdflib
-lxml
 requests
 vcrpy
