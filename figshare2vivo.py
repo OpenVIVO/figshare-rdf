@@ -247,11 +247,11 @@ def make_figshare_rdf(work):
 if __name__ == '__main__':
     figshare_graph = Graph()
     triples_file = open('figshare.rdf', 'w')
-    works_2016 = get_figshare_articles_by_tag('force2016')
-    print len(works_2016), "works identified by force2016 tag"
+    works_2016 = get_figshare_articles_by_tag('vivo2016')
+    print len(works_2016), "works identified by vivo2016 tag"
 
-    works_16 = get_figshare_articles_by_tag('force16')
-    print len(works_16), "works identified by force16 tag"
+    works_16 = get_figshare_articles_by_tag('vivo16')
+    print len(works_16), "works identified by vivo16 tag"
 
     # works_collection = get_figshare_articles('131')  # 36 is VIVO, 131 is Force16
     # print works_collection
@@ -270,7 +270,7 @@ if __name__ == '__main__':
         if count % 10 == 0:
             print count
         article = get_figshare_article(str(figshare_work['id']))
-        if 'force2016' in [x.lower() for x in article['tags']] or 'force16' in [x.lower() for x in article['tags']]:
+        if 'vivo2016' in [x.lower() for x in article['tags']] or 'vivo16' in [x.lower() for x in article['tags']]:
             return_graph = make_figshare_rdf(article)
             if return_graph is not None:
                 figshare_graph += return_graph
