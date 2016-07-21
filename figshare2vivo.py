@@ -169,7 +169,23 @@ def get_figshare_articles_by_tag(tag):
     return article_results
 
 
-def get_figshare_articles(institution_id):
+def get_figshare_articles_by_orcid_id(orcid_id):
+    """
+    Given an orcid identifier, return a JSON object containing the article metadata for articles by the
+    author with that orcid identifier
+    :param orcid_id: orcid_id
+    :return: JSON object containing Figshare metadata
+    """
+    import urllib2
+    url = 'https://api.figshare.com/v2/articles/search'
+    data = '{ "search_for": "{}", "page_size": 1000}'.replace('{}', orcid_id)
+    req = urllib2.Request(url, data)
+    rsp = urllib2.urlopen(req)
+    article_results = json.loads(rsp.read())
+    return article_results
+
+
+def get_figshare_articles_by_institution(institution_id):
     """
     Given a figshare institution id, return a JSON object containing the article metadata for articles with
     that institution id
@@ -247,6 +263,12 @@ def make_figshare_rdf(work):
 if __name__ == '__main__':
     figshare_graph = Graph()
     triples_file = open('figshare.rdf', 'w')
+
+    orcid_id = '0000-0002-1304-8447'
+    works_by_orcid = get_figshare_articles_by_orcid_id(orcid_id)
+    print works_by_orcid
+    print len(works_by_orcid), "works identified for orcid identifier", orcid_id
+
     works_2016 = get_figshare_articles_by_tag('vivo2016')
     print len(works_2016), "works identified by vivo2016 tag"
 
