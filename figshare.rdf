@@ -1,16 +1,26 @@
-@prefix ns1: <http://vivoweb.org/ontology/core#> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
 @prefix ns2: <http://purl.obolibrary.org/obo/> .
-@prefix ns3: <http://purl.org/ontology/bibo/> .
+@prefix ns3: <http://vivoweb.org/ontology/core#> .
 @prefix ns4: <http://www.w3.org/2006/vcard/ns#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3466265-authorship1> a ns1:Authorship ;
-    ns1:rank 1 ;
-    ns1:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3466265>,
+<http://openvivo.org/a/doi10.6084/m9.figshare.3466265-authorship1> a ns3:Authorship ;
+    ns3:rank 1 ;
+    ns3:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3466265>,
         <http://openvivo.org/a/orcid0000-0003-1088-1043> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3555810-authorship1> a ns3:Authorship ;
+    ns3:rank 1 ;
+    ns3:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3555810>,
+        <http://openvivo.org/a/orcid0000-0002-6151-8423> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3565989-authorship1> a ns3:Authorship ;
+    ns3:rank 1 ;
+    ns3:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3565989>,
+        <http://openvivo.org/a/orcid0000-0002-1304-8447> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3466265-vcard> a ns4:Kind ;
     ns2:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3466265> ;
@@ -18,28 +28,89 @@
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3466265-vcard-figshare> a ns4:URL ;
     rdfs:label "Figshare Page" ;
-    ns1:rank 1 ;
+    ns3:rank 1 ;
     ns4:url "https://figshare.com/articles/Voted_Most_Popular_CVs_in_Scholars_Duke/3466265"^^xsd:anyURI .
 
-<http://openvivo.org/a/eventFORCE2016> ns2:RO_0002234 <http://openvivo.org/a/doi10.6084/m9.figshare.3466265> .
+<http://openvivo.org/a/doi10.6084/m9.figshare.3555810-vcard> a ns4:Kind ;
+    ns2:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3555810> ;
+    ns4:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3555810-vcard-figshare> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3555810-vcard-figshare> a ns4:URL ;
+    rdfs:label "Figshare Page" ;
+    ns3:rank 1 ;
+    ns4:url "https://figshare.com/articles/Figmeta_Community_driven_metadata_for_figshare/3555810"^^xsd:anyURI .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3565989-vcard> a ns4:Kind ;
+    ns2:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3565989> ;
+    ns4:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3565989-vcard-figshare> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3565989-vcard-figshare> a ns4:URL ;
+    rdfs:label "Figshare Page" ;
+    ns3:rank 1 ;
+    ns4:url "https://figshare.com/articles/Persistent_Identifiers_and_VIVO/3565989"^^xsd:anyURI .
+
+<http://openvivo.org/a/orcid0000-0002-1304-8447> a <http://xmlns.com/foaf/0.1/Person> ;
+    rdfs:label "Conlon, Michael" ;
+    ns3:orcidId <http://orcid.org/0000-0002-1304-8447> .
+
+<http://openvivo.org/a/orcid0000-0002-6151-8423> a <http://xmlns.com/foaf/0.1/Person> ;
+    rdfs:label "Porter, Simon" ;
+    ns3:orcidId <http://orcid.org/0000-0002-6151-8423> .
 
 <http://openvivo.org/a/orcid0000-0003-1088-1043> a <http://xmlns.com/foaf/0.1/Person> ;
     rdfs:label "Trimmer, Julia" ;
-    ns1:orcidId <http://orcid.org/0000-0003-1088-1043> .
+    ns3:orcidId <http://orcid.org/0000-0003-1088-1043> .
+
+<http://orcid.org/0000-0002-1304-8447> a <http://www.w3.org/2002/07/owl#Thing> .
+
+<http://orcid.org/0000-0002-6151-8423> a <http://www.w3.org/2002/07/owl#Thing> .
 
 <http://orcid.org/0000-0003-1088-1043> a <http://www.w3.org/2002/07/owl#Thing> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3466265> a ns3:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3466265> a ns1:Slideshow ;
     rdfs:label "Voted Most Popular: CVs in Scholars@Duke" ;
     ns2:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3466265-vcard> ;
-    ns2:RO_0002353 <http://openvivo.org/a/eventFORCE2016> ;
-    ns3:abstract "Presentation for the 2016 VIVO conference<br>" ;
-    ns3:doi "10.6084/m9.figshare.3466265" ;
-    ns3:freetextKeyword "vivo tools",
+    ns2:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
+    ns1:abstract "Presentation for the 2016 VIVO conference<br>" ;
+    ns1:doi "10.6084/m9.figshare.3466265" ;
+    ns1:freetextKeyword "vivo tools",
         "vivo16" ;
-    ns1:dateCreated <http://openvivo.org/a/date2016-06-28> ;
-    ns1:dateModified <http://openvivo.org/a/date2016-06-28> ;
-    ns1:datePublished <http://openvivo.org/a/date2016-06-28> ;
-    ns1:dateTimeValue <http://openvivo.org/a/date2016-06-28> .
+    ns3:dateCreated <http://openvivo.org/a/date2016-08-10> ;
+    ns3:dateModified <http://openvivo.org/a/date2016-08-10> ;
+    ns3:datePublished <http://openvivo.org/a/date2016-08-10> ;
+    ns3:dateTimeValue <http://openvivo.org/a/date2016-08-10> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3555810> a ns3:Dataset ;
+    rdfs:label "Figmeta: Community driven metadata for figshare" ;
+    ns2:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3555810-vcard> ;
+    ns2:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
+    ns1:abstract "<div><div><div>First Draft:</div><div><br></div><div>One of the challenges for the progression of research metadata standards is that technology often gets in the way. Bound by the pressure not to be weighed down by technical debt,and the desire to appeal to as broader an audience as possible, the adoption of metadata standards within technology platforms is conservative.</div><div>Ideally, this is not how things should be.The adoption of standards and practices should be community led, with technology functioning as the enabler. Figmeta showcases one attempt to move closer towards this goal by semantically enabling figshare as a basis for rapid ontology development and adoption.</div></div></div>" ;
+    ns1:doi "10.6084/m9.figshare.3555810" ;
+    ns1:freetextKeyword "vivo16" ;
+    ns3:dateCreated <http://openvivo.org/a/date2016-08-09> ;
+    ns3:dateModified <http://openvivo.org/a/date2016-08-09> ;
+    ns3:datePublished <http://openvivo.org/a/date2016-08-09> ;
+    ns3:dateTimeValue <http://openvivo.org/a/date2016-08-09> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3565989> a ns1:Slideshow ;
+    rdfs:label "Persistent Identifiers and VIVO" ;
+    ns2:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3565989-vcard> ;
+    ns2:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
+    ns1:abstract "Presented at the 2016 VIVO Conference, Denver, CO" ;
+    ns1:doi "10.6084/m9.figshare.3565989" ;
+    ns1:freetextKeyword "DOI",
+        "GRID",
+        "Identifiers",
+        "ORCID",
+        "VIVO",
+        "vivo16" ;
+    ns3:dateCreated <http://openvivo.org/a/date2016-08-10> ;
+    ns3:dateModified <http://openvivo.org/a/date2016-08-10> ;
+    ns3:datePublished <http://openvivo.org/a/date2016-08-10> ;
+    ns3:dateTimeValue <http://openvivo.org/a/date2016-08-10> .
+
+<http://openvivo.org/a/eventVIVO2016> ns2:RO_0002234 <http://openvivo.org/a/doi10.6084/m9.figshare.3466265>,
+        <http://openvivo.org/a/doi10.6084/m9.figshare.3555810>,
+        <http://openvivo.org/a/doi10.6084/m9.figshare.3565989> .
 
 

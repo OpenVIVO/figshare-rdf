@@ -27,7 +27,7 @@ date_prefix = 'http://openvivo.org/a/date'
 author_prefix = 'http://openvivo.org/a/orcid'
 vcard_prefix = 'http://openvivo.org/a/vcard'
 orcid_prefix = 'http://orcid.org/'
-event_uri = URIRef('http://openvivo.org/a/eventFORCE2016')
+event_uri = URIRef('http://openvivo.org/a/eventVIVO2016')
 
 VIVO = Namespace('http://vivoweb.org/ontology/core#')
 BIBO = Namespace('http://purl.org/ontology/bibo/')
@@ -264,10 +264,10 @@ if __name__ == '__main__':
     figshare_graph = Graph()
     triples_file = open('figshare.rdf', 'w')
 
-    orcid_id = '0000-0002-1304-8447'
-    works_by_orcid = get_figshare_articles_by_orcid_id(orcid_id)
-    print works_by_orcid
-    print len(works_by_orcid), "works identified for orcid identifier", orcid_id
+    # orcid_id = '0000-0002-1304-8447'
+    # works_by_orcid = get_figshare_articles_by_orcid_id(orcid_id)
+    # print works_by_orcid
+    # print len(works_by_orcid), "works identified for orcid identifier", orcid_id
 
     works_2016 = get_figshare_articles_by_tag('vivo2016')
     print len(works_2016), "works identified by vivo2016 tag"
