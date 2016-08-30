@@ -223,7 +223,7 @@ def make_figshare_rdf(work):
             g.add((uri, RDF.type, BIBO.InformationResource))  # If unknown, just add the parent type
 
     if 'title' in work:
-        g.add((uri, RDFS.label, Literal(work['title'])))
+        g.add((uri, RDFS.label, Literal(work['title'].replace('/', ''))))
 
     if 'description' in work:
         g.add((uri, BIBO.abstract, Literal(work['description'])))
