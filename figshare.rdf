@@ -1,6 +1,6 @@
-@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix ns1: <http://www.w3.org/2006/vcard/ns#> .
 @prefix ns2: <http://vivoweb.org/ontology/core#> .
-@prefix ns3: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ns3: <http://purl.org/ontology/bibo/> .
 @prefix ns4: <http://purl.obolibrary.org/obo/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -567,527 +567,541 @@
     ns2:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3798105>,
         <http://openvivo.org/a/orcid0000-0002-6151-8423> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3466265-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3806262-authorship1> a ns2:Authorship ;
+    ns2:rank 1 ;
+    ns2:relates <http://openvivo.org/a/doi10.6084/m9.figshare.3806262>,
+        <http://openvivo.org/a/orcid0000-0002-2127-1892> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3466265-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3466265> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3466265-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3466265-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3466265-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3466265-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Voted_Most_Popular_CVs_in_Scholars_Duke/3466265"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Voted_Most_Popular_CVs_in_Scholars_Duke/3466265"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3555810-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3555810-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3555810> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3555810-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3555810-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3555810-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3555810-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Figmeta_Community_driven_metadata_for_figshare/3555810"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Figmeta_Community_driven_metadata_for_figshare/3555810"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3565989-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3565989-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3565989> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3565989-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3565989-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3565989-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3565989-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Persistent_Identifiers_and_VIVO/3565989"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Persistent_Identifiers_and_VIVO/3565989"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3580737-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3580737-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3580737> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3580737-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3580737-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3580737-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3580737-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Accelerating_Semantic_Web_Content_Using_PULSAR_and_Amazon_Web_Services/3580737"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Accelerating_Semantic_Web_Content_Using_PULSAR_and_Amazon_Web_Services/3580737"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3581238-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3581238-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3581238> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3581238-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3581238-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3581238-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3581238-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Pimp_My_VIVO_Poster/3581238"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Pimp_My_VIVO_Poster/3581238"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3581247-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3581247-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3581247> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3581247-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3581247-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3581247-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3581247-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/The_Impact_Journey/3581247"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/The_Impact_Journey/3581247"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3581253-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3581253-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3581253> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3581253-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3581253-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3581253-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3581253-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Streamlining_Assessment_Exercises_and_Faculty_Activity_Reviews/3581253"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Streamlining_Assessment_Exercises_and_Faculty_Activity_Reviews/3581253"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3593283-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3593283-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3593283> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3593283-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3593283-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3593283-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3593283-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Optimizng_VIVO_Under_the_Hood_of_1_8_1/3593283"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Optimizng_VIVO_Under_the_Hood_of_1_8_1/3593283"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3595134-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3595134-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3595134> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3595134-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3595134-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3595134-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3595134-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Graph-based_modeling_of_the_bibliographic_items_and_linked_open_data_for_the_citation_records/3595134"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Graph-based_modeling_of_the_bibliographic_items_and_linked_open_data_for_the_citation_records/3595134"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3596883-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3596883-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3596883> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3596883-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3596883-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3596883-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3596883-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/VIVO_Counts_Results_from_the_2016_VIVO_Site_Survey/3596883"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/VIVO_Counts_Results_from_the_2016_VIVO_Site_Survey/3596883"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3596997-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3596997-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3596997> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3596997-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3596997-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3596997-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3596997-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Start_here_On_Ramps_for_the_VIVO_Project/3596997"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Start_here_On_Ramps_for_the_VIVO_Project/3596997"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3611484-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3611484-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3611484> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3611484-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3611484-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3611484-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3611484-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/VIVO2016-Presentation_Faceted_Searching_in_Scholars_Duke-1_pptx/3611484"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/VIVO2016-Presentation_Faceted_Searching_in_Scholars_Duke-1_pptx/3611484"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3619716-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3619716-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3619716> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3619716-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3619716-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3619716-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3619716-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Getting_Data_from_Your_VIVO_An_Introduction_to_SPARQL/3619716"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Getting_Data_from_Your_VIVO_An_Introduction_to_SPARQL/3619716"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3633993-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3633993-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3633993> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3633993-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3633993-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3633993-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3633993-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/VIVO_2016_Opening_Session/3633993"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/VIVO_2016_Opening_Session/3633993"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3635802-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3635802-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3635802> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3635802-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3635802-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3635802-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3635802-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Digital_Science_Poster_A_New_Research_Data_Mechanics_/3635802"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Digital_Science_Poster_A_New_Research_Data_Mechanics_/3635802"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3639639-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3639639-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3639639> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3639639-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3639639-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3639639-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3639639-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/The_VIVO_Pump_A_new_tool_for_managing_VIVO_data_using_spreadsheets/3639639"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/The_VIVO_Pump_A_new_tool_for_managing_VIVO_data_using_spreadsheets/3639639"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3644991-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3644991-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3644991> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3644991-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3644991-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3644991-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3644991-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Classifying_Interdisciplinary_Research_in_Scholars_TAMU/3644991"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Classifying_Interdisciplinary_Research_in_Scholars_TAMU/3644991"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3645399-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3645399-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3645399> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3645399-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3645399-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3645399-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3645399-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/FHCRC-VivoConferencePoster-August2016_pdf/3645399"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/FHCRC-VivoConferencePoster-August2016_pdf/3645399"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3652143-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3652143-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3652143> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3652143-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3652143-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3652143-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3652143-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/SHARE_a_Collaborative_Open_Dataset_of_Linked_Metadata_about_Scholarly_Research_Outputs/3652143"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/SHARE_a_Collaborative_Open_Dataset_of_Linked_Metadata_about_Scholarly_Research_Outputs/3652143"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3652707-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3652707-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3652707> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3652707-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3652707-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3652707-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3652707-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/An_Early_Look_at_SHARE_Link-_SHARE_VIVO_Fedora_pdf/3652707"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/An_Early_Look_at_SHARE_Link-_SHARE_VIVO_Fedora_pdf/3652707"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3667890-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3667890-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3667890> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3667890-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3667890-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3667890-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3667890-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Semantic_Web_Without_SPARQL_pdf/3667890"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Semantic_Web_Without_SPARQL_pdf/3667890"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3680310-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3680310-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3680310> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3680310-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3680310-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3680310-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3680310-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/The_Future_is_Federated/3680310"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/The_Future_is_Federated/3680310"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3680718-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3680718-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3680718> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3680718-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3680718-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3680718-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3680718-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/OpenVIVOV_Goals_and_Results/3680718"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/OpenVIVOV_Goals_and_Results/3680718"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3701292-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3701292-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3701292> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3701292-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3701292-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3701292-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3701292-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Connect_UNAVCO_a_VIVO_For_a_Scienctific_Community/3701292"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Connect_UNAVCO_a_VIVO_For_a_Scienctific_Community/3701292"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3702594-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3702594-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3702594> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3702594-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3702594-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3702594-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3702594-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/10_simple_ways_UCSF_Profiles_has_been_used_to_win_funding_find_collaborators_and_get_the_job_done/3702594"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/10_simple_ways_UCSF_Profiles_has_been_used_to_win_funding_find_collaborators_and_get_the_job_done/3702594"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3702687-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3702687-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3702687> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3702687-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3702687-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3702687-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3702687-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/ORNG_VIVO16_pdf/3702687"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/ORNG_VIVO16_pdf/3702687"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3702861-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3702861-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3702861> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3702861-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3702861-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3702861-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3702861-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/VivoPoster2016v4_JO_pdf/3702861"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/VivoPoster2016v4_JO_pdf/3702861"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3703428-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3703428-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3703428> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3703428-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3703428-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3703428-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3703428-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/VIVO_2016_Audience_Participation/3703428"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/VIVO_2016_Audience_Participation/3703428"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3718740-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3718740-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3718740> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3718740-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3718740-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3718740-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3718740-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Persistent_Identifiers_Where_are_we_now_and_the_Role_of_Networking_Profile_Systems_in_Shaping_Their_Future/3718740"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Persistent_Identifiers_Where_are_we_now_and_the_Role_of_Networking_Profile_Systems_in_Shaping_Their_Future/3718740"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3725442-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3725442-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3725442> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3725442-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3725442-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3725442-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3725442-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/VIVO2016-Khan_Mayenik_Maull-Crosslinking_final_pptx/3725442"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/VIVO2016-Khan_Mayenik_Maull-Crosslinking_final_pptx/3725442"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3749268-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3749268-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3749268> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3749268-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3749268-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3749268-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3749268-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/VIVO_Final_Courtney_Srivastava_pdf/3749268"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/VIVO_Final_Courtney_Srivastava_pdf/3749268"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3749610-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3749610-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3749610> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3749610-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3749610-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3749610-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3749610-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/vivo4hp_vivo16_pdf/3749610"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/vivo4hp_vivo16_pdf/3749610"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3749673-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3749673-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3749673> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3749673-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3749673-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3749673-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3749673-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Integrating_and_Building_on_Elasticsearch_and_VIVO-ISF_Data/3749673"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Integrating_and_Building_on_Elasticsearch_and_VIVO-ISF_Data/3749673"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3749682-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3749682-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3749682> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3749682-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3749682-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3749682-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3749682-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Introduction_to_VIVO_VIVO_2016_Conference_Workshop/3749682"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Introduction_to_VIVO_VIVO_2016_Conference_Workshop/3749682"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3750003-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3750003-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3750003> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3750003-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3750003-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3750003-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3750003-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Update_on_ReCiter_Author_Disambiguation_Engine/3750003"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Update_on_ReCiter_Author_Disambiguation_Engine/3750003"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3753258-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3753258-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3753258> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3753258-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3753258-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3753258-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3753258-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Using_VIVO_for_Scientific_Applications/3753258"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Using_VIVO_for_Scientific_Applications/3753258"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3756399-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3756399-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3756399> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3756399-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3756399-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3756399-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3756399-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Verifiable_linked_open_knowledge_that_anyone_can_edit/3756399"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Verifiable_linked_open_knowledge_that_anyone_can_edit/3756399"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3756894-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3756894-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3756894> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3756894-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3756894-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3756894-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3756894-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Visualizing_Virtual_Communities_in_the_VIVO_Profile_Ecosystem/3756894"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Visualizing_Virtual_Communities_in_the_VIVO_Profile_Ecosystem/3756894"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3756906-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3756906-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3756906> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3756906-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3756906-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3756906-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3756906-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Service-Driven_Profile_Linkage_-_The_CTSAsearch_CrossLinks_Experience/3756906"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Service-Driven_Profile_Linkage_-_The_CTSAsearch_CrossLinks_Experience/3756906"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3758931-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3758931-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3758931> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3758931-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3758931-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3758931-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3758931-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/LD4L-VIVO2016-final_pdf/3758931"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/LD4L-VIVO2016-final_pdf/3758931"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3759189-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3759189-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3759189> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3759189-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3759189-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3759189-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3759189-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Using_VIVO_and_Other_Tools_to_Achieve_a_Strategic_Vision/3759189"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Using_VIVO_and_Other_Tools_to_Achieve_a_Strategic_Vision/3759189"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3774444-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3774444-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3774444> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3774444-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3774444-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3774444-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3774444-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Publication_Data_Enrichment_at_the_University_of_Florida_with_the_Web_of_Science/3774444"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Publication_Data_Enrichment_at_the_University_of_Florida_with_the_Web_of_Science/3774444"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3782241-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3782241-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3782241> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3782241-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3782241-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3782241-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3782241-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Comparing_Measures_of_Research_Output/3782241"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Comparing_Measures_of_Research_Output/3782241"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792066-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792066-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3792066> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3792066-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3792066-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792066-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792066-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/VIVO_Around_the_World_2016/3792066"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/VIVO_Around_the_World_2016/3792066"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792069-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792069-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3792069> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3792069-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3792069-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792069-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792069-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Scholarly_Infrastructure_Sustainability_and_Community/3792069"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Scholarly_Infrastructure_Sustainability_and_Community/3792069"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792075-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792075-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3792075> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3792075-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3792075-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792075-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792075-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/VIVO_2016_Conference_welcome_loop/3792075"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/VIVO_2016_Conference_welcome_loop/3792075"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792078-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792078-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3792078> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3792078-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3792078-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792078-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792078-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/VIVO_2016_Thursday_Welcome/3792078"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/VIVO_2016_Thursday_Welcome/3792078"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792090-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792090-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3792090> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3792090-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3792090-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792090-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792090-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Collaboration_Through_Linking_A_Bilateral_Project_Between_University_of_Florida_and_Elsevier_for_Access_to_Articles_by_UF_Authors/3792090"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Collaboration_Through_Linking_A_Bilateral_Project_Between_University_of_Florida_and_Elsevier_for_Access_to_Articles_by_UF_Authors/3792090"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792093-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792093-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3792093> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3792093-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3792093-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792093-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792093-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Using_VIVO_at_the_Laboratory_for_Atmospheric_and_Space_Physics_LASP_/3792093"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Using_VIVO_at_the_Laboratory_for_Atmospheric_and_Space_Physics_LASP_/3792093"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792096-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792096-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3792096> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3792096-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3792096-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792096-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792096-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/The_SEO_State_of_the_Union_2016_Five_Data-Driven_Steps_to_Make_Your_Research_Networking_Site_Discoverable_by_Real_Users_Based_on_Google_Results/3792096"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/The_SEO_State_of_the_Union_2016_Five_Data-Driven_Steps_to_Make_Your_Research_Networking_Site_Discoverable_by_Real_Users_Based_on_Google_Results/3792096"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792099-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792099-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3792099> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3792099-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3792099-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792099-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792099-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/How_to_read_100_million_publications_VIVO_and_Comprehensive_Open_Publication_Databases/3792099"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/How_to_read_100_million_publications_VIVO_and_Comprehensive_Open_Publication_Databases/3792099"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792105-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792105-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3792105> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3792105-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3792105-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792105-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792105-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Towards_Deeper_RNS_Engagement_How_to_get_users_to_sign_in_for_personalized_content/3792105"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Towards_Deeper_RNS_Engagement_How_to_get_users_to_sign_in_for_personalized_content/3792105"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792108-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792108-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3792108> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3792108-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3792108-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792108-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792108-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Using_VIVO_for_Scientific_Applications_at_Earthcollab/3792108"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Using_VIVO_for_Scientific_Applications_at_Earthcollab/3792108"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792111-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792111-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3792111> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3792111-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3792111-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792111-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792111-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Examining_Federal_Expert_Networking_and_the_Economies_of_Scale_Moving_the_HHS_Profiles_Pilot_Towards_Experts_gov_/3792111"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Examining_Federal_Expert_Networking_and_the_Economies_of_Scale_Moving_the_HHS_Profiles_Pilot_Towards_Experts_gov_/3792111"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792180-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792180-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3792180> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3792180-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3792180-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792180-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792180-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Usability_vs_Purity_How_UCSF_and_Duke_Enabled_Data_Reuse_by_Going_Beyond_Linked_Data/3792180"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Usability_vs_Purity_How_UCSF_and_Duke_Enabled_Data_Reuse_by_Going_Beyond_Linked_Data/3792180"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792600-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792600-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3792600> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3792600-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3792600-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792600-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792600-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/CIT_VIVO_2016_pdf/3792600"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/CIT_VIVO_2016_pdf/3792600"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3793197-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3793197-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3793197> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3793197-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3793197-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3793197-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3793197-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/How_can_we_help_researchers_increase_the_reach_and_impact_of_their_work_/3793197"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/How_can_we_help_researchers_increase_the_reach_and_impact_of_their_work_/3793197"^^xsd:anyURI .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3798105-vcard> a ns3:Kind ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3798105-vcard> a ns1:Kind ;
     ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3798105> ;
-    ns3:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3798105-vcard-figshare> .
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3798105-vcard-figshare> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3798105-vcard-figshare> a ns3:URL ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3798105-vcard-figshare> a ns1:URL ;
     rdfs:label "Figshare Page" ;
     ns2:rank 1 ;
-    ns3:url "https://figshare.com/articles/Pimp_My_VIVO_Slides/3798105"^^xsd:anyURI .
+    ns1:url "https://figshare.com/articles/Pimp_My_VIVO_Slides/3798105"^^xsd:anyURI .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3806262-vcard> a ns1:Kind ;
+    ns4:ARG_2000029 <http://openvivo.org/a/doi10.6084/m9.figshare.3806262> ;
+    ns1:hasURL <http://openvivo.org/a/doi10.6084/m9.figshare.3806262-vcard-figshare> .
+
+<http://openvivo.org/a/doi10.6084/m9.figshare.3806262-vcard-figshare> a ns1:URL ;
+    rdfs:label "Figshare Page" ;
+    ns2:rank 1 ;
+    ns1:url "https://figshare.com/articles/NETE-Vivo-poster-final-forprint-36by48_jpg/3806262"^^xsd:anyURI .
 
 <http://openvivo.org/a/orcid0000-0001-5156-4621> a <http://xmlns.com/foaf/0.1/Person> ;
     rdfs:label "Khan, Huda" ;
@@ -1129,6 +1143,10 @@
     rdfs:label "Furfey, John" ;
     ns2:orcidId <http://orcid.org/0000-0002-1077-1680> .
 
+<http://openvivo.org/a/orcid0000-0002-2127-1892> a <http://xmlns.com/foaf/0.1/Person> ;
+    rdfs:label "Chacko, George" ;
+    ns2:orcidId <http://orcid.org/0000-0002-2127-1892> .
+
 <http://openvivo.org/a/orcid0000-0002-2974-6725> a <http://xmlns.com/foaf/0.1/Person> ;
     rdfs:label "Cannon, Ulysses" ;
     ns2:orcidId <http://orcid.org/0000-0002-2974-6725> .
@@ -1165,334 +1183,334 @@
     rdfs:label "Brophy, Keith" ;
     ns2:orcidId <http://orcid.org/0000-0003-2786-5234> .
 
-<http://openvivo.org/a/vcardAlbert--Paul--name> a ns3:Name ;
-    ns3:familyName "Albert" ;
-    ns3:givenName "Paul" .
+<http://openvivo.org/a/vcardAlbert--Paul--name> a ns1:Name ;
+    ns1:familyName "Albert" ;
+    ns1:givenName "Paul" .
 
-<http://openvivo.org/a/vcardAli--Sabih--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardAli--Sabih--name> .
+<http://openvivo.org/a/vcardAli--Sabih--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardAli--Sabih--name> .
 
-<http://openvivo.org/a/vcardAli--Sabih--name> a ns3:Name ;
-    ns3:familyName "Ali" ;
-    ns3:givenName "Sabih" .
+<http://openvivo.org/a/vcardAli--Sabih--name> a ns1:Name ;
+    ns1:familyName "Ali" ;
+    ns1:givenName "Sabih" .
 
-<http://openvivo.org/a/vcardBack--Claire-Valdivia-> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardBack--Claire-Valdivia-name> .
+<http://openvivo.org/a/vcardBack--Claire-Valdivia-> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardBack--Claire-Valdivia-name> .
 
-<http://openvivo.org/a/vcardBack--Claire-Valdivia-name> a ns3:Name ;
-    ns3:additionalName "Valdivia" ;
-    ns3:familyName "Back" ;
-    ns3:givenName "Claire" .
+<http://openvivo.org/a/vcardBack--Claire-Valdivia-name> a ns1:Name ;
+    ns1:additionalName "Valdivia" ;
+    ns1:familyName "Back" ;
+    ns1:givenName "Claire" .
 
-<http://openvivo.org/a/vcardBales--Michael--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardBales--Michael--name> .
+<http://openvivo.org/a/vcardBales--Michael--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardBales--Michael--name> .
 
-<http://openvivo.org/a/vcardBales--Michael--name> a ns3:Name ;
-    ns3:familyName "Bales" ;
-    ns3:givenName "Michael" .
+<http://openvivo.org/a/vcardBales--Michael--name> a ns1:Name ;
+    ns1:familyName "Bales" ;
+    ns1:givenName "Michael" .
 
-<http://openvivo.org/a/vcardBarnes--Christopher-P-> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardBarnes--Christopher-P-name> .
+<http://openvivo.org/a/vcardBarnes--Christopher-P-> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardBarnes--Christopher-P-name> .
 
-<http://openvivo.org/a/vcardBarnes--Christopher-P-name> a ns3:Name ;
-    ns3:additionalName "P" ;
-    ns3:familyName "Barnes" ;
-    ns3:givenName "Christopher" .
+<http://openvivo.org/a/vcardBarnes--Christopher-P-name> a ns1:Name ;
+    ns1:additionalName "P" ;
+    ns1:familyName "Barnes" ;
+    ns1:givenName "Christopher" .
 
-<http://openvivo.org/a/vcardBenik--Nick--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardBenik--Nick--name> .
+<http://openvivo.org/a/vcardBenik--Nick--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardBenik--Nick--name> .
 
-<http://openvivo.org/a/vcardBenik--Nick--name> a ns3:Name ;
-    ns3:familyName "Benik" ;
-    ns3:givenName "Nick" .
+<http://openvivo.org/a/vcardBenik--Nick--name> a ns1:Name ;
+    ns1:familyName "Benik" ;
+    ns1:givenName "Nick" .
 
-<http://openvivo.org/a/vcardBerrellez--Jessica-N-> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardBerrellez--Jessica-N-name> .
+<http://openvivo.org/a/vcardBerrellez--Jessica-N-> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardBerrellez--Jessica-N-name> .
 
-<http://openvivo.org/a/vcardBerrellez--Jessica-N-name> a ns3:Name ;
-    ns3:additionalName "N" ;
-    ns3:familyName "Berrellez" ;
-    ns3:givenName "Jessica" .
+<http://openvivo.org/a/vcardBerrellez--Jessica-N-name> a ns1:Name ;
+    ns1:additionalName "N" ;
+    ns1:familyName "Berrellez" ;
+    ns1:givenName "Jessica" .
 
-<http://openvivo.org/a/vcardBolton--Michael--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardBolton--Michael--name> .
+<http://openvivo.org/a/vcardBolton--Michael--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardBolton--Michael--name> .
 
-<http://openvivo.org/a/vcardBolton--Michael--name> a ns3:Name ;
-    ns3:familyName "Bolton" ;
-    ns3:givenName "Michael" .
+<http://openvivo.org/a/vcardBolton--Michael--name> a ns1:Name ;
+    ns1:familyName "Bolton" ;
+    ns1:givenName "Michael" .
 
-<http://openvivo.org/a/vcardCascio--Rachel--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardCascio--Rachel--name> .
+<http://openvivo.org/a/vcardCascio--Rachel--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardCascio--Rachel--name> .
 
-<http://openvivo.org/a/vcardCascio--Rachel--name> a ns3:Name ;
-    ns3:familyName "Cascio" ;
-    ns3:givenName "Rachel" .
+<http://openvivo.org/a/vcardCascio--Rachel--name> a ns1:Name ;
+    ns1:familyName "Cascio" ;
+    ns1:givenName "Rachel" .
 
-<http://openvivo.org/a/vcardChatterjee--Anirvan--name> a ns3:Name ;
-    ns3:familyName "Chatterjee" ;
-    ns3:givenName "Anirvan" .
+<http://openvivo.org/a/vcardChatterjee--Anirvan--name> a ns1:Name ;
+    ns1:familyName "Chatterjee" ;
+    ns1:givenName "Anirvan" .
 
-<http://openvivo.org/a/vcardChiang--Katherine--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardChiang--Katherine--name> .
+<http://openvivo.org/a/vcardChiang--Katherine--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardChiang--Katherine--name> .
 
-<http://openvivo.org/a/vcardChiang--Katherine--name> a ns3:Name ;
-    ns3:familyName "Chiang" ;
-    ns3:givenName "Katherine" .
+<http://openvivo.org/a/vcardChiang--Katherine--name> a ns1:Name ;
+    ns1:familyName "Chiang" ;
+    ns1:givenName "Katherine" .
 
-<http://openvivo.org/a/vcardClark--Ann-Marie-> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardClark--Ann-Marie-name> .
+<http://openvivo.org/a/vcardClark--Ann-Marie-> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardClark--Ann-Marie-name> .
 
-<http://openvivo.org/a/vcardClark--Ann-Marie-name> a ns3:Name ;
-    ns3:additionalName "Marie" ;
-    ns3:familyName "Clark" ;
-    ns3:givenName "Ann" .
+<http://openvivo.org/a/vcardClark--Ann-Marie-name> a ns1:Name ;
+    ns1:additionalName "Marie" ;
+    ns1:familyName "Clark" ;
+    ns1:givenName "Ann" .
 
-<http://openvivo.org/a/vcardCorson-Rikert--Jon--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardCorson-Rikert--Jon--name> .
+<http://openvivo.org/a/vcardCorson-Rikert--Jon--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardCorson-Rikert--Jon--name> .
 
-<http://openvivo.org/a/vcardCorson-Rikert--Jon--name> a ns3:Name ;
-    ns3:familyName "Corson-Rikert" ;
-    ns3:givenName "Jon" .
+<http://openvivo.org/a/vcardCorson-Rikert--Jon--name> a ns1:Name ;
+    ns1:familyName "Corson-Rikert" ;
+    ns1:givenName "Jon" .
 
-<http://openvivo.org/a/vcardCrawford--Tami--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardCrawford--Tami--name> .
+<http://openvivo.org/a/vcardCrawford--Tami--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardCrawford--Tami--name> .
 
-<http://openvivo.org/a/vcardCrawford--Tami--name> a ns3:Name ;
-    ns3:familyName "Crawford" ;
-    ns3:givenName "Tami" .
+<http://openvivo.org/a/vcardCrawford--Tami--name> a ns1:Name ;
+    ns1:familyName "Crawford" ;
+    ns1:givenName "Tami" .
 
-<http://openvivo.org/a/vcardCraze--Santina--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardCraze--Santina--name> .
+<http://openvivo.org/a/vcardCraze--Santina--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardCraze--Santina--name> .
 
-<http://openvivo.org/a/vcardCraze--Santina--name> a ns3:Name ;
-    ns3:familyName "Craze" ;
-    ns3:givenName "Santina" .
+<http://openvivo.org/a/vcardCraze--Santina--name> a ns1:Name ;
+    ns1:familyName "Craze" ;
+    ns1:givenName "Santina" .
 
-<http://openvivo.org/a/vcardDenmark--Signe--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardDenmark--Signe--name> .
+<http://openvivo.org/a/vcardDenmark--Signe--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardDenmark--Signe--name> .
 
-<http://openvivo.org/a/vcardDenmark--Signe--name> a ns3:Name ;
-    ns3:familyName "Denmark" ;
-    ns3:givenName "Signe" .
+<http://openvivo.org/a/vcardDenmark--Signe--name> a ns1:Name ;
+    ns1:familyName "Denmark" ;
+    ns1:givenName "Signe" .
 
-<http://openvivo.org/a/vcardElsborg--Don--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardElsborg--Don--name> .
+<http://openvivo.org/a/vcardElsborg--Don--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardElsborg--Don--name> .
 
-<http://openvivo.org/a/vcardElsborg--Don--name> a ns3:Name ;
-    ns3:familyName "Elsborg" ;
-    ns3:givenName "Don" .
+<http://openvivo.org/a/vcardElsborg--Don--name> a ns1:Name ;
+    ns1:familyName "Elsborg" ;
+    ns1:givenName "Don" .
 
-<http://openvivo.org/a/vcardEyler--Allysha--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardEyler--Allysha--name> .
+<http://openvivo.org/a/vcardEyler--Allysha--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardEyler--Allysha--name> .
 
-<http://openvivo.org/a/vcardEyler--Allysha--name> a ns3:Name ;
-    ns3:familyName "Eyler" ;
-    ns3:givenName "Allysha" .
+<http://openvivo.org/a/vcardEyler--Allysha--name> a ns1:Name ;
+    ns1:familyName "Eyler" ;
+    ns1:givenName "Allysha" .
 
-<http://openvivo.org/a/vcardGonzalez--Sara--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardGonzalez--Sara--name> .
+<http://openvivo.org/a/vcardGonzalez--Sara--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardGonzalez--Sara--name> .
 
-<http://openvivo.org/a/vcardGonzalez--Sara--name> a ns3:Name ;
-    ns3:familyName "Gonzalez" ;
-    ns3:givenName "Sara" .
+<http://openvivo.org/a/vcardGonzalez--Sara--name> a ns1:Name ;
+    ns1:familyName "Gonzalez" ;
+    ns1:givenName "Sara" .
 
-<http://openvivo.org/a/vcardHahn--Doug--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardHahn--Doug--name> .
+<http://openvivo.org/a/vcardHahn--Doug--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardHahn--Doug--name> .
 
-<http://openvivo.org/a/vcardHahn--Doug--name> a ns3:Name ;
-    ns3:familyName "Hahn" ;
-    ns3:givenName "Doug" .
+<http://openvivo.org/a/vcardHahn--Doug--name> a ns1:Name ;
+    ns1:familyName "Hahn" ;
+    ns1:givenName "Doug" .
 
-<http://openvivo.org/a/vcardHanson--Kevin-S-> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardHanson--Kevin-S-name> .
+<http://openvivo.org/a/vcardHanson--Kevin-S-> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardHanson--Kevin-S-name> .
 
-<http://openvivo.org/a/vcardHanson--Kevin-S-name> a ns3:Name ;
-    ns3:additionalName "S" ;
-    ns3:familyName "Hanson" ;
-    ns3:givenName "Kevin" .
+<http://openvivo.org/a/vcardHanson--Kevin-S-name> a ns1:Name ;
+    ns1:additionalName "S" ;
+    ns1:familyName "Hanson" ;
+    ns1:givenName "Kevin" .
 
-<http://openvivo.org/a/vcardKing--James--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardKing--James--name> .
+<http://openvivo.org/a/vcardKing--James--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardKing--James--name> .
 
-<http://openvivo.org/a/vcardKing--James--name> a ns3:Name ;
-    ns3:familyName "King" ;
-    ns3:givenName "James" .
+<http://openvivo.org/a/vcardKing--James--name> a ns1:Name ;
+    ns1:familyName "King" ;
+    ns1:givenName "James" .
 
-<http://openvivo.org/a/vcardKulkarni--Rohit--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardKulkarni--Rohit--name> .
+<http://openvivo.org/a/vcardKulkarni--Rohit--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardKulkarni--Rohit--name> .
 
-<http://openvivo.org/a/vcardKulkarni--Rohit--name> a ns3:Name ;
-    ns3:familyName "Kulkarni" ;
-    ns3:givenName "Rohit" .
+<http://openvivo.org/a/vcardKulkarni--Rohit--name> a ns1:Name ;
+    ns1:familyName "Kulkarni" ;
+    ns1:givenName "Rohit" .
 
-<http://openvivo.org/a/vcardLawless--Ted--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardLawless--Ted--name> .
+<http://openvivo.org/a/vcardLawless--Ted--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardLawless--Ted--name> .
 
-<http://openvivo.org/a/vcardLawless--Ted--name> a ns3:Name ;
-    ns3:familyName "Lawless" ;
-    ns3:givenName "Ted" .
+<http://openvivo.org/a/vcardLawless--Ted--name> a ns1:Name ;
+    ns1:familyName "Lawless" ;
+    ns1:givenName "Ted" .
 
-<http://openvivo.org/a/vcardLenert--Leslie--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardLenert--Leslie--name> .
+<http://openvivo.org/a/vcardLenert--Leslie--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardLenert--Leslie--name> .
 
-<http://openvivo.org/a/vcardLenert--Leslie--name> a ns3:Name ;
-    ns3:familyName "Lenert" ;
-    ns3:givenName "Leslie" .
+<http://openvivo.org/a/vcardLenert--Leslie--name> a ns1:Name ;
+    ns1:familyName "Lenert" ;
+    ns1:givenName "Leslie" .
 
-<http://openvivo.org/a/vcardLevine--Beth--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardLevine--Beth--name> .
+<http://openvivo.org/a/vcardLevine--Beth--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardLevine--Beth--name> .
 
-<http://openvivo.org/a/vcardLevine--Beth--name> a ns3:Name ;
-    ns3:familyName "Levine" ;
-    ns3:givenName "Beth" .
+<http://openvivo.org/a/vcardLevine--Beth--name> a ns1:Name ;
+    ns1:familyName "Levine" ;
+    ns1:givenName "Beth" .
 
-<http://openvivo.org/a/vcardLin--Jennifer--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardLin--Jennifer--name> .
+<http://openvivo.org/a/vcardLin--Jennifer--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardLin--Jennifer--name> .
 
-<http://openvivo.org/a/vcardLin--Jennifer--name> a ns3:Name ;
-    ns3:familyName "Lin" ;
-    ns3:givenName "Jennifer" .
+<http://openvivo.org/a/vcardLin--Jennifer--name> a ns1:Name ;
+    ns1:familyName "Lin" ;
+    ns1:givenName "Jennifer" .
 
-<http://openvivo.org/a/vcardLowe--Brian--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardLowe--Brian--name> .
+<http://openvivo.org/a/vcardLowe--Brian--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardLowe--Brian--name> .
 
-<http://openvivo.org/a/vcardLowe--Brian--name> a ns3:Name ;
-    ns3:familyName "Lowe" ;
-    ns3:givenName "Brian" .
+<http://openvivo.org/a/vcardLowe--Brian--name> a ns1:Name ;
+    ns1:familyName "Lowe" ;
+    ns1:givenName "Brian" .
 
-<http://openvivo.org/a/vcardMayernick--Matt--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardMayernick--Matt--name> .
+<http://openvivo.org/a/vcardMayernick--Matt--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardMayernick--Matt--name> .
 
-<http://openvivo.org/a/vcardMayernick--Matt--name> a ns3:Name ;
-    ns3:familyName "Mayernick" ;
-    ns3:givenName "Matt" .
+<http://openvivo.org/a/vcardMayernick--Matt--name> a ns1:Name ;
+    ns1:familyName "Mayernick" ;
+    ns1:givenName "Matt" .
 
-<http://openvivo.org/a/vcardMcEnerney--Joseph-R-> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardMcEnerney--Joseph-R-name> .
+<http://openvivo.org/a/vcardMcEnerney--Joseph-R-> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardMcEnerney--Joseph-R-name> .
 
-<http://openvivo.org/a/vcardMcEnerney--Joseph-R-name> a ns3:Name ;
-    ns3:additionalName "R" ;
-    ns3:familyName "McEnerney" ;
-    ns3:givenName "Joseph" .
+<http://openvivo.org/a/vcardMcEnerney--Joseph-R-name> a ns1:Name ;
+    ns1:additionalName "R" ;
+    ns1:familyName "McEnerney" ;
+    ns1:givenName "Joseph" .
 
-<http://openvivo.org/a/vcardMeeks,--Eric--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardMeeks,--Eric--name> .
+<http://openvivo.org/a/vcardMeeks,--Eric--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardMeeks,--Eric--name> .
 
-<http://openvivo.org/a/vcardMeeks,--Eric--name> a ns3:Name ;
-    ns3:familyName "Meeks," ;
-    ns3:givenName "Eric" .
+<http://openvivo.org/a/vcardMeeks,--Eric--name> a ns1:Name ;
+    ns1:familyName "Meeks," ;
+    ns1:givenName "Eric" .
 
-<http://openvivo.org/a/vcardMejia--Ethel--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardMejia--Ethel--name> .
+<http://openvivo.org/a/vcardMejia--Ethel--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardMejia--Ethel--name> .
 
-<http://openvivo.org/a/vcardMejia--Ethel--name> a ns3:Name ;
-    ns3:familyName "Mejia" ;
-    ns3:givenName "Ethel" .
+<http://openvivo.org/a/vcardMejia--Ethel--name> a ns1:Name ;
+    ns1:familyName "Mejia" ;
+    ns1:givenName "Ethel" .
 
-<http://openvivo.org/a/vcardMinson--Valerie--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardMinson--Valerie--name> .
+<http://openvivo.org/a/vcardMinson--Valerie--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardMinson--Valerie--name> .
 
-<http://openvivo.org/a/vcardMinson--Valerie--name> a ns3:Name ;
-    ns3:familyName "Minson" ;
-    ns3:givenName "Valerie" .
+<http://openvivo.org/a/vcardMinson--Valerie--name> a ns1:Name ;
+    ns1:familyName "Minson" ;
+    ns1:givenName "Valerie" .
 
-<http://openvivo.org/a/vcardObeid--Jihad--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardObeid--Jihad--name> .
+<http://openvivo.org/a/vcardObeid--Jihad--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardObeid--Jihad--name> .
 
-<http://openvivo.org/a/vcardObeid--Jihad--name> a ns3:Name ;
-    ns3:familyName "Obeid" ;
-    ns3:givenName "Jihad" .
+<http://openvivo.org/a/vcardObeid--Jihad--name> a ns1:Name ;
+    ns1:familyName "Obeid" ;
+    ns1:givenName "Jihad" .
 
-<http://openvivo.org/a/vcardOckerbloom--John-Mark-> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardOckerbloom--John-Mark-name> .
+<http://openvivo.org/a/vcardOckerbloom--John-Mark-> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardOckerbloom--John-Mark-name> .
 
-<http://openvivo.org/a/vcardOckerbloom--John-Mark-name> a ns3:Name ;
-    ns3:additionalName "Mark" ;
-    ns3:familyName "Ockerbloom" ;
-    ns3:givenName "John" .
+<http://openvivo.org/a/vcardOckerbloom--John-Mark-name> a ns1:Name ;
+    ns1:additionalName "Mark" ;
+    ns1:familyName "Ockerbloom" ;
+    ns1:givenName "John" .
 
-<http://openvivo.org/a/vcardPayette--Sandy--name> a ns3:Name ;
-    ns3:familyName "Payette" ;
-    ns3:givenName "Sandy" .
+<http://openvivo.org/a/vcardPayette--Sandy--name> a ns1:Name ;
+    ns1:familyName "Payette" ;
+    ns1:givenName "Sandy" .
 
-<http://openvivo.org/a/vcardPrewitt--Nate--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardPrewitt--Nate--name> .
+<http://openvivo.org/a/vcardPrewitt--Nate--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardPrewitt--Nate--name> .
 
-<http://openvivo.org/a/vcardPrewitt--Nate--name> a ns3:Name ;
-    ns3:familyName "Prewitt" ;
-    ns3:givenName "Nate" .
+<http://openvivo.org/a/vcardPrewitt--Nate--name> a ns1:Name ;
+    ns1:familyName "Prewitt" ;
+    ns1:givenName "Nate" .
 
-<http://openvivo.org/a/vcardRejack--Nicholas--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardRejack--Nicholas--name> .
+<http://openvivo.org/a/vcardRejack--Nicholas--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardRejack--Nicholas--name> .
 
-<http://openvivo.org/a/vcardRejack--Nicholas--name> a ns3:Name ;
-    ns3:familyName "Rejack" ;
-    ns3:givenName "Nicholas" .
+<http://openvivo.org/a/vcardRejack--Nicholas--name> a ns1:Name ;
+    ns1:familyName "Rejack" ;
+    ns1:givenName "Nicholas" .
 
-<http://openvivo.org/a/vcardRussell--Judy--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardRussell--Judy--name> .
+<http://openvivo.org/a/vcardRussell--Judy--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardRussell--Judy--name> .
 
-<http://openvivo.org/a/vcardRussell--Judy--name> a ns3:Name ;
-    ns3:familyName "Russell" ;
-    ns3:givenName "Judy" .
+<http://openvivo.org/a/vcardRussell--Judy--name> a ns1:Name ;
+    ns1:familyName "Russell" ;
+    ns1:givenName "Judy" .
 
-<http://openvivo.org/a/vcardScience--Digital--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardScience--Digital--name> .
+<http://openvivo.org/a/vcardScience--Digital--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardScience--Digital--name> .
 
-<http://openvivo.org/a/vcardScience--Digital--name> a ns3:Name ;
-    ns3:familyName "Science" ;
-    ns3:givenName "Digital" .
+<http://openvivo.org/a/vcardScience--Digital--name> a ns1:Name ;
+    ns1:familyName "Science" ;
+    ns1:givenName "Digital" .
 
-<http://openvivo.org/a/vcardSnyders--Lissa-N-> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardSnyders--Lissa-N-name> .
+<http://openvivo.org/a/vcardSnyders--Lissa-N-> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardSnyders--Lissa-N-name> .
 
-<http://openvivo.org/a/vcardSnyders--Lissa-N-name> a ns3:Name ;
-    ns3:additionalName "N" ;
-    ns3:familyName "Snyders" ;
-    ns3:givenName "Lissa" .
+<http://openvivo.org/a/vcardSnyders--Lissa-N-name> a ns1:Name ;
+    ns1:additionalName "N" ;
+    ns1:familyName "Snyders" ;
+    ns1:givenName "Lissa" .
 
-<http://openvivo.org/a/vcardSymplectic--Team--name> a ns3:Name ;
-    ns3:familyName "Symplectic" ;
-    ns3:givenName "Team" .
+<http://openvivo.org/a/vcardSymplectic--Team--name> a ns1:Name ;
+    ns1:familyName "Symplectic" ;
+    ns1:givenName "Team" .
 
-<http://openvivo.org/a/vcardSzekely--Pedro--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardSzekely--Pedro--name> .
+<http://openvivo.org/a/vcardSzekely--Pedro--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardSzekely--Pedro--name> .
 
-<http://openvivo.org/a/vcardSzekely--Pedro--name> a ns3:Name ;
-    ns3:familyName "Szekely" ;
-    ns3:givenName "Pedro" .
+<http://openvivo.org/a/vcardSzekely--Pedro--name> a ns1:Name ;
+    ns1:familyName "Szekely" ;
+    ns1:givenName "Pedro" .
 
-<http://openvivo.org/a/vcardTrimarchi--Michaeleen--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardTrimarchi--Michaeleen--name> .
+<http://openvivo.org/a/vcardTrimarchi--Michaeleen--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardTrimarchi--Michaeleen--name> .
 
-<http://openvivo.org/a/vcardTrimarchi--Michaeleen--name> a ns3:Name ;
-    ns3:familyName "Trimarchi" ;
-    ns3:givenName "Michaeleen" .
+<http://openvivo.org/a/vcardTrimarchi--Michaeleen--name> a ns1:Name ;
+    ns1:familyName "Trimarchi" ;
+    ns1:givenName "Michaeleen" .
 
-<http://openvivo.org/a/vcardTurner--Brian--name> a ns3:Name ;
-    ns3:familyName "Turner" ;
-    ns3:givenName "Brian" .
+<http://openvivo.org/a/vcardTurner--Brian--name> a ns1:Name ;
+    ns1:familyName "Turner" ;
+    ns1:givenName "Brian" .
 
-<http://openvivo.org/a/vcardWilson--Anne--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardWilson--Anne--name> .
+<http://openvivo.org/a/vcardWilson--Anne--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardWilson--Anne--name> .
 
-<http://openvivo.org/a/vcardWilson--Anne--name> a ns3:Name ;
-    ns3:familyName "Wilson" ;
-    ns3:givenName "Anne" .
+<http://openvivo.org/a/vcardWilson--Anne--name> a ns1:Name ;
+    ns1:familyName "Wilson" ;
+    ns1:givenName "Anne" .
 
-<http://openvivo.org/a/vcardWilson--Jill-E-> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardWilson--Jill-E-name> .
+<http://openvivo.org/a/vcardWilson--Jill-E-> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardWilson--Jill-E-name> .
 
-<http://openvivo.org/a/vcardWilson--Jill-E-name> a ns3:Name ;
-    ns3:additionalName "E" ;
-    ns3:familyName "Wilson" ;
-    ns3:givenName "Jill" .
+<http://openvivo.org/a/vcardWilson--Jill-E-name> a ns1:Name ;
+    ns1:additionalName "E" ;
+    ns1:familyName "Wilson" ;
+    ns1:givenName "Jill" .
 
-<http://openvivo.org/a/vcardanil.srivastava@ohsl.us----> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardanil.srivastava@ohsl.us----name> .
+<http://openvivo.org/a/vcardanil.srivastava@ohsl.us----> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardanil.srivastava@ohsl.us----name> .
 
-<http://openvivo.org/a/vcardanil.srivastava@ohsl.us----name> a ns3:Name ;
-    ns3:familyName "anil.srivastava@ohsl.us" .
+<http://openvivo.org/a/vcardanil.srivastava@ohsl.us----name> a ns1:Name ;
+    ns1:familyName "anil.srivastava@ohsl.us" .
 
 <http://orcid.org/0000-0001-5059-4132> a <http://www.w3.org/2002/07/owl#Thing> .
 
@@ -1523,6 +1541,8 @@
 <http://orcid.org/0000-0002-1304-8447> a <http://www.w3.org/2002/07/owl#Thing> .
 
 <http://orcid.org/0000-0002-1550-6325> a <http://www.w3.org/2002/07/owl#Thing> .
+
+<http://orcid.org/0000-0002-2127-1892> a <http://www.w3.org/2002/07/owl#Thing> .
 
 <http://orcid.org/0000-0002-2974-6725> a <http://www.w3.org/2002/07/owl#Thing> .
 
@@ -1588,34 +1608,34 @@
     rdfs:label "Eichmann, David" ;
     ns2:orcidId <http://orcid.org/0000-0003-3150-8758> .
 
-<http://openvivo.org/a/vcardChatterjee--Anirvan--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardChatterjee--Anirvan--name> .
+<http://openvivo.org/a/vcardChatterjee--Anirvan--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardChatterjee--Anirvan--name> .
 
-<http://openvivo.org/a/vcardPayette--Sandy--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardPayette--Sandy--name> .
+<http://openvivo.org/a/vcardPayette--Sandy--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardPayette--Sandy--name> .
 
-<http://openvivo.org/a/vcardTurner--Brian--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardTurner--Brian--name> .
+<http://openvivo.org/a/vcardTurner--Brian--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardTurner--Brian--name> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3555810> a ns2:Dataset ;
     rdfs:label "Figmeta: Community driven metadata for figshare" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3555810-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "<div><div><div>First Draft:</div><div><br></div><div>One of the challenges for the progression of research metadata standards is that technology often gets in the way. Bound by the pressure not to be weighed down by technical debt,and the desire to appeal to as broader an audience as possible, the adoption of metadata standards within technology platforms is conservative.</div><div>Ideally, this is not how things should be.The adoption of standards and practices should be community led, with technology functioning as the enabler. Figmeta showcases one attempt to move closer towards this goal by semantically enabling figshare as a basis for rapid ontology development and adoption.</div></div></div>" ;
-    ns1:doi "10.6084/m9.figshare.3555810" ;
-    ns1:freetextKeyword "vivo16" ;
+    ns3:abstract "<div><div><div>First Draft:</div><div><br></div><div>One of the challenges for the progression of research metadata standards is that technology often gets in the way. Bound by the pressure not to be weighed down by technical debt,and the desire to appeal to as broader an audience as possible, the adoption of metadata standards within technology platforms is conservative.</div><div>Ideally, this is not how things should be.The adoption of standards and practices should be community led, with technology functioning as the enabler. Figmeta showcases one attempt to move closer towards this goal by semantically enabling figshare as a basis for rapid ontology development and adoption.</div></div></div>" ;
+    ns3:doi "10.6084/m9.figshare.3555810" ;
+    ns3:freetextKeyword "vivo16" ;
     ns2:dateCreated <http://openvivo.org/a/date2016-08-09> ;
     ns2:dateModified <http://openvivo.org/a/date2016-08-09> ;
     ns2:datePublished <http://openvivo.org/a/date2016-08-09> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-09> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3565989> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3565989> a ns3:Slideshow ;
     rdfs:label "Persistent Identifiers and VIVO" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3565989-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Presented at the 2016 VIVO Conference, Denver, CO" ;
-    ns1:doi "10.6084/m9.figshare.3565989" ;
-    ns1:freetextKeyword "DOI",
+    ns3:abstract "Presented at the 2016 VIVO Conference, Denver, CO" ;
+    ns3:doi "10.6084/m9.figshare.3565989" ;
+    ns3:freetextKeyword "DOI",
         "GRID",
         "Identifiers",
         "ORCID",
@@ -1630,9 +1650,9 @@
     rdfs:label "Accelerating Semantic Web Content Using PULSAR and Amazon Web Services" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3580737-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "<div>Semantic Web technologies are being increasingly adopted in various fields and roles. VIVO and Profiles Researcher Networking Software (PRNS) are two Researcher Profile systems that power specific examples of large public facing websites. The task of efficiently running Semantic Web powered websites that service significant Internet traffic presents an interesting technical problem. The future of the Semantic Web cannot be fully realized unless technologies exist that are capable of handling web scale traffic patterns in a reliable manner and at a reasonable cost.</div><div><br></div><div>For this presentation, the data layer module was written for PULSAR was that uses the Amazon Simple Storage Service (Amazon S3), a cloud-based storage solution, to archive Semantic Web content from a Researcher Profile system. Further developments to PULSAR were completed to use the Semantic Web's URI dereferencing action to perform traffic offloading based on the requested content type.</div>" ;
-    ns1:doi "10.6084/m9.figshare.3580737" ;
-    ns1:freetextKeyword "Cloud computing, Security and Privacy, Information Technology, IT, Software as a service,  Platform as a service",
+    ns3:abstract "<div>Semantic Web technologies are being increasingly adopted in various fields and roles. VIVO and Profiles Researcher Networking Software (PRNS) are two Researcher Profile systems that power specific examples of large public facing websites. The task of efficiently running Semantic Web powered websites that service significant Internet traffic presents an interesting technical problem. The future of the Semantic Web cannot be fully realized unless technologies exist that are capable of handling web scale traffic patterns in a reliable manner and at a reasonable cost.</div><div><br></div><div>For this presentation, the data layer module was written for PULSAR was that uses the Amazon Simple Storage Service (Amazon S3), a cloud-based storage solution, to archive Semantic Web content from a Researcher Profile system. Further developments to PULSAR were completed to use the Semantic Web's URI dereferencing action to perform traffic offloading based on the requested content type.</div>" ;
+    ns3:doi "10.6084/m9.figshare.3580737" ;
+    ns3:freetextKeyword "Cloud computing, Security and Privacy, Information Technology, IT, Software as a service,  Platform as a service",
         "Linked Data",
         "Semantic Web",
         "Semantic Web Technology",
@@ -1648,7 +1668,7 @@
     rdfs:label "Streamlining Assessment Exercises and Faculty Activity Reviews" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3581253-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract """A presentation given by Jonathan Breeze, Symplectic at the VIVO 2016 conference in Denver, CO.<br><br>Abstract: 
+    ns3:abstract """A presentation given by Jonathan Breeze, Symplectic at the VIVO 2016 conference in Denver, CO.<br><br>Abstract: 
 
 	
 		
@@ -1688,8 +1708,8 @@ reentry.
 				</div>
 			</div>
 		</div>""" ;
-    ns1:doi "10.6084/m9.figshare.3581253" ;
-    ns1:freetextKeyword "Information management, information systems, information engineering.",
+    ns3:doi "10.6084/m9.figshare.3581253" ;
+    ns3:freetextKeyword "Information management, information systems, information engineering.",
         "Research Information Management",
         "VIVO",
         "VIVO16" ;
@@ -1698,37 +1718,37 @@ reentry.
     ns2:datePublished <http://openvivo.org/a/date2016-08-18> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-18> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3593283> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3593283> a ns3:Slideshow ;
     rdfs:label "Optimizing VIVO: Under the Hood of 1.8.1" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3593283-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "A look at how the performance of VIVO was improved in the version 1.8.1 release." ;
-    ns1:doi "10.6084/m9.figshare.3593283" ;
-    ns1:freetextKeyword "vivo16" ;
+    ns3:abstract "A look at how the performance of VIVO was improved in the version 1.8.1 release." ;
+    ns3:doi "10.6084/m9.figshare.3593283" ;
+    ns3:freetextKeyword "vivo16" ;
     ns2:dateCreated <http://openvivo.org/a/date2016-08-18> ;
     ns2:dateModified <http://openvivo.org/a/date2016-08-18> ;
     ns2:datePublished <http://openvivo.org/a/date2016-08-18> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-18> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3611484> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3611484> a ns3:Slideshow ;
     rdfs:label "VIVO2016-Presentation_Faceted_Searching_in_Scholars@Duke-1.pptx" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3611484-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Faceted Searching in Scholars@Duke presentation for VIVO 2016 Conference<br>" ;
-    ns1:doi "10.6084/m9.figshare.3611484" ;
-    ns1:freetextKeyword "vivo16" ;
+    ns3:abstract "Faceted Searching in Scholars@Duke presentation for VIVO 2016 Conference<br>" ;
+    ns3:doi "10.6084/m9.figshare.3611484" ;
+    ns3:freetextKeyword "vivo16" ;
     ns2:dateCreated <http://openvivo.org/a/date2016-08-17> ;
     ns2:dateModified <http://openvivo.org/a/date2016-08-17> ;
     ns2:datePublished <http://openvivo.org/a/date2016-08-17> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-17> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3633993> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3633993> a ns3:Slideshow ;
     rdfs:label "VIVO 2016 Opening Session" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3633993-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Thursday morning opening session, VIVO Conference 2016, Denver, CO" ;
-    ns1:doi "10.6084/m9.figshare.3633993" ;
-    ns1:freetextKeyword "vivo",
+    ns3:abstract "Thursday morning opening session, VIVO Conference 2016, Denver, CO" ;
+    ns3:doi "10.6084/m9.figshare.3633993" ;
+    ns3:freetextKeyword "vivo",
         "vivo updates",
         "vivo16" ;
     ns2:dateCreated <http://openvivo.org/a/date2016-08-18> ;
@@ -1736,13 +1756,13 @@ reentry.
     ns2:datePublished <http://openvivo.org/a/date2016-08-18> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-18> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3639639> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3639639> a ns3:Slideshow ;
     rdfs:label "The VIVO Pump: A new tool for managing VIVO data using spreadsheets" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3639639-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Presented at VIVO 2016, Denver, CO" ;
-    ns1:doi "10.6084/m9.figshare.3639639" ;
-    ns1:freetextKeyword "ontology",
+    ns3:abstract "Presented at VIVO 2016, Denver, CO" ;
+    ns3:doi "10.6084/m9.figshare.3639639" ;
+    ns3:freetextKeyword "ontology",
         "vivo",
         "vivo pump",
         "vivo16" ;
@@ -1755,9 +1775,9 @@ reentry.
     rdfs:label "SHARE, a Collaborative Open Dataset of Linked Metadata about Scholarly Research Outputs" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3652143-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "<div>SHARE is an academic community driven initiative which is addressing the need to maximize research impact by developing an open, structured dataset which links to a variety of outputs across the research lifecycle. This poster addresses the goals of SHARE, the development of its first service, SHARE Notify, upcoming work within the next phase of SHARE, and related efforts to the VIVO community.</div><div><br></div><div>SHARE is funded by Sloan and IMLS; led by ARL and COS; and co-sponsored by the AAU and APLU. SHARE is collaboratively building a dataset of linked metadata about research release events for all. This standards-based initiative is being developed by participants representing libraries, repositories, university administrations, publishers, and non-profit organizations.</div><div><br></div><div><br></div>" ;
-    ns1:doi "10.6084/m9.figshare.3652143" ;
-    ns1:freetextKeyword "SHARE project",
+    ns3:abstract "<div>SHARE is an academic community driven initiative which is addressing the need to maximize research impact by developing an open, structured dataset which links to a variety of outputs across the research lifecycle. This poster addresses the goals of SHARE, the development of its first service, SHARE Notify, upcoming work within the next phase of SHARE, and related efforts to the VIVO community.</div><div><br></div><div>SHARE is funded by Sloan and IMLS; led by ARL and COS; and co-sponsored by the AAU and APLU. SHARE is collaboratively building a dataset of linked metadata about research release events for all. This standards-based initiative is being developed by participants representing libraries, repositories, university administrations, publishers, and non-profit organizations.</div><div><br></div><div><br></div>" ;
+    ns3:doi "10.6084/m9.figshare.3652143" ;
+    ns3:freetextKeyword "SHARE project",
         "VIVO",
         "Vivo16" ;
     ns2:dateCreated <http://openvivo.org/a/date2016-08-18> ;
@@ -1765,13 +1785,13 @@ reentry.
     ns2:datePublished <http://openvivo.org/a/date2016-08-18> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-18> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3652707> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3652707> a ns3:Slideshow ;
     rdfs:label "An Early Look at SHARE Link- SHARE, VIVO, Fedora.pdf" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3652707-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "<p>As an extension of the Linked Data for Libraries project (LD4L) and parallel work to integrate VIVO and SHARE, the Hesburgh Libraries at the University of Notre Dame is working to link Fedora 4, Hydra, VIVO, and SHARE together to further realize the paradigm proposed within LD4L with a focus on research lifecycle events. This project dubbed SHARE Link is focused towards two primary aims desired by many institutions: institution level research activity tracking, curation, and sharing; enhanced search, browse and discovery of research events and related materials.</p><p><br></p><p>Subsequently, bringing SHARE, VIVO, and Fedora 4 together makes it possible to create a dashboard of research events including links to repository materials. In turn, the metadata in each system are enriched in ways not possible with any one solution. The underlying unified research and repository information graph (between Fedora and VIVO) will also allow browsing the virtual shelves of repository materials across venue, subject, and other person affinities like specialization, institution, or co-authors. It will allow creating a recommendation list when viewing a related work. While wider adoption within the Fedora community will be sought, this effort is initially focused on developing a reference implementation of VIVO paired with an Institutional Repository utilizing the Hydra Framework on top of Fedora 4.</p><p><br></p><p>This presentation describes progress to date in the early life of this project.</p>" ;
-    ns1:doi "10.6084/m9.figshare.3652707" ;
-    ns1:freetextKeyword "Duraspace",
+    ns3:abstract "<p>As an extension of the Linked Data for Libraries project (LD4L) and parallel work to integrate VIVO and SHARE, the Hesburgh Libraries at the University of Notre Dame is working to link Fedora 4, Hydra, VIVO, and SHARE together to further realize the paradigm proposed within LD4L with a focus on research lifecycle events. This project dubbed SHARE Link is focused towards two primary aims desired by many institutions: institution level research activity tracking, curation, and sharing; enhanced search, browse and discovery of research events and related materials.</p><p><br></p><p>Subsequently, bringing SHARE, VIVO, and Fedora 4 together makes it possible to create a dashboard of research events including links to repository materials. In turn, the metadata in each system are enriched in ways not possible with any one solution. The underlying unified research and repository information graph (between Fedora and VIVO) will also allow browsing the virtual shelves of repository materials across venue, subject, and other person affinities like specialization, institution, or co-authors. It will allow creating a recommendation list when viewing a related work. While wider adoption within the Fedora community will be sought, this effort is initially focused on developing a reference implementation of VIVO paired with an Institutional Repository utilizing the Hydra Framework on top of Fedora 4.</p><p><br></p><p>This presentation describes progress to date in the early life of this project.</p>" ;
+    ns3:doi "10.6084/m9.figshare.3652707" ;
+    ns3:freetextKeyword "Duraspace",
         "Fedora",
         "Hydra",
         "SHARE project",
@@ -1782,13 +1802,13 @@ reentry.
     ns2:datePublished <http://openvivo.org/a/date2016-08-18> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-18> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3667890> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3667890> a ns3:Slideshow ;
     rdfs:label "Semantic Web Without SPARQL.pdf" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3667890-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Discuss the creation of large Semantic Web applications with billions of triples. Instead of using a traditional SPARQL endpoint, our toolchain is a pure JSON toolchain using JSON-LD and ElasticSearch to support queries. The toolchain is familiar to all developers, does not require knowledge of Semantic Web technologies, and performance is 10X better than using SPARQL endpoints. The presentation illustrates the approach in the context of an application to fight human trafficking, using data from over 100 million pages. The application is deployed to law enforcement agencies in the United States and United Kingdom." ;
-    ns1:doi "10.6084/m9.figshare.3667890" ;
-    ns1:freetextKeyword "information integration",
+    ns3:abstract "Discuss the creation of large Semantic Web applications with billions of triples. Instead of using a traditional SPARQL endpoint, our toolchain is a pure JSON toolchain using JSON-LD and ElasticSearch to support queries. The toolchain is familiar to all developers, does not require knowledge of Semantic Web technologies, and performance is 10X better than using SPARQL endpoints. The presentation illustrates the approach in the context of an application to fight human trafficking, using data from over 100 million pages. The application is deployed to law enforcement agencies in the United States and United Kingdom." ;
+    ns3:doi "10.6084/m9.figshare.3667890" ;
+    ns3:freetextKeyword "information integration",
         "knowledge graph",
         "rdf",
         "semantic web",
@@ -1799,13 +1819,13 @@ reentry.
     ns2:datePublished <http://openvivo.org/a/date2016-08-18> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-18> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3680310> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3680310> a ns3:Slideshow ;
     rdfs:label "The Future is Federated" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3680310-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Slides for my talk at the VIVO 2016 conference" ;
-    ns1:doi "10.6084/m9.figshare.3680310" ;
-    ns1:freetextKeyword "RDF",
+    ns3:abstract "Slides for my talk at the VIVO 2016 conference" ;
+    ns3:doi "10.6084/m9.figshare.3680310" ;
+    ns3:freetextKeyword "RDF",
         "SPARQL",
         "federated querying",
         "linked data",
@@ -1818,13 +1838,13 @@ reentry.
     ns2:datePublished <http://openvivo.org/a/date2016-08-19> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-19> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3680718> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3680718> a ns3:Slideshow ;
     rdfs:label "OpenVIVO: Goals and Results" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3680718-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Presented at VIVO 2016, Denver CO" ;
-    ns1:doi "10.6084/m9.figshare.3680718" ;
-    ns1:freetextKeyword "openvivo",
+    ns3:abstract "Presented at VIVO 2016, Denver CO" ;
+    ns3:doi "10.6084/m9.figshare.3680718" ;
+    ns3:freetextKeyword "openvivo",
         "vivo",
         "vivo16" ;
     ns2:dateCreated <http://openvivo.org/a/date2016-08-19> ;
@@ -1832,13 +1852,13 @@ reentry.
     ns2:datePublished <http://openvivo.org/a/date2016-08-19> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-19> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3701292> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3701292> a ns3:Slideshow ;
     rdfs:label "Connect UNAVCO, a VIVO for a Scientific Community" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3701292-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Presented at the 2016 VIVO Conference in Denver, Colorado." ;
-    ns1:doi "10.6084/m9.figshare.3701292" ;
-    ns1:freetextKeyword "earth science",
+    ns3:abstract "Presented at the 2016 VIVO Conference in Denver, Colorado." ;
+    ns3:doi "10.6084/m9.figshare.3701292" ;
+    ns3:freetextKeyword "earth science",
         "earthcube",
         "elasticsearch",
         "geodesy",
@@ -1859,21 +1879,21 @@ reentry.
     rdfs:label "Use of ORNG and code sharing across UCSF (Profiles RNS - .NET) and UOW (VIVO - Java)" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3702687-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Use of ORNG and code sharing across UCSF (Profiles RNS - .NET) and UOW (VIVO - Java)" ;
-    ns1:doi "10.6084/m9.figshare.3702687" ;
-    ns1:freetextKeyword "VIVO16" ;
+    ns3:abstract "Use of ORNG and code sharing across UCSF (Profiles RNS - .NET) and UOW (VIVO - Java)" ;
+    ns3:doi "10.6084/m9.figshare.3702687" ;
+    ns3:freetextKeyword "VIVO16" ;
     ns2:dateCreated <http://openvivo.org/a/date2016-08-19> ;
     ns2:dateModified <http://openvivo.org/a/date2016-08-19> ;
     ns2:datePublished <http://openvivo.org/a/date2016-08-19> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-19> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3703428> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3703428> a ns3:Slideshow ;
     rdfs:label "VIVO 2016 Audience Participation" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3703428-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Audience participation results from the 2016 VIVO Conference held in Denver, CO" ;
-    ns1:doi "10.6084/m9.figshare.3703428" ;
-    ns1:freetextKeyword "survey",
+    ns3:abstract "Audience participation results from the 2016 VIVO Conference held in Denver, CO" ;
+    ns3:doi "10.6084/m9.figshare.3703428" ;
+    ns3:freetextKeyword "survey",
         "vivo",
         "vivo16" ;
     ns2:dateCreated <http://openvivo.org/a/date2016-08-19> ;
@@ -1881,13 +1901,13 @@ reentry.
     ns2:datePublished <http://openvivo.org/a/date2016-08-19> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-19> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3725442> a ns1:Collection ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3725442> a ns3:Collection ;
     rdfs:label "VIVO2016-Khan_Mayenik_Maull-Crosslinking_final.pptx" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3725442-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Presented at the VIVO16 conference<br>" ;
-    ns1:doi "10.6084/m9.figshare.3725442" ;
-    ns1:freetextKeyword "semantic web",
+    ns3:abstract "Presented at the VIVO16 conference<br>" ;
+    ns3:doi "10.6084/m9.figshare.3725442" ;
+    ns3:freetextKeyword "semantic web",
         "vivo",
         "vivo16" ;
     ns2:dateCreated <http://openvivo.org/a/date2016-08-19> ;
@@ -1895,38 +1915,38 @@ reentry.
     ns2:datePublished <http://openvivo.org/a/date2016-08-19> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-19> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3750003> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3750003> a ns3:Slideshow ;
     rdfs:label "Update on ReCiter: Author Disambiguation Engine" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3750003-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Presentation at VIVO16 Conference in Denver, Colorado by Paul Albert." ;
-    ns1:doi "10.6084/m9.figshare.3750003" ;
-    ns1:freetextKeyword "Disambiguation",
+    ns3:abstract "Presentation at VIVO16 Conference in Denver, Colorado by Paul Albert." ;
+    ns3:doi "10.6084/m9.figshare.3750003" ;
+    ns3:freetextKeyword "Disambiguation",
         "VIVO16" ;
     ns2:dateCreated <http://openvivo.org/a/date2016-08-22> ;
     ns2:dateModified <http://openvivo.org/a/date2016-08-22> ;
     ns2:datePublished <http://openvivo.org/a/date2016-08-22> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-22> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3753258> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3753258> a ns3:Slideshow ;
     rdfs:label "Using VIVO for Scientific Applications" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3753258-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Presented at the 2016 VIVO Conference in Denver, Colorado." ;
-    ns1:doi "10.6084/m9.figshare.3753258" ;
-    ns1:freetextKeyword "vivo16" ;
+    ns3:abstract "Presented at the 2016 VIVO Conference in Denver, Colorado." ;
+    ns3:doi "10.6084/m9.figshare.3753258" ;
+    ns3:freetextKeyword "vivo16" ;
     ns2:dateCreated <http://openvivo.org/a/date2016-08-23> ;
     ns2:dateModified <http://openvivo.org/a/date2016-08-23> ;
     ns2:datePublished <http://openvivo.org/a/date2016-08-23> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-23> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3756399> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3756399> a ns3:Slideshow ;
     rdfs:label "Verifiable, linked open knowledge that anyone can edit" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3756399-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Slides from the closing keynote at VIVO '16 on Wikidata, Wikicite and collaboratively created linked open knowledge." ;
-    ns1:doi "10.6084/m9.figshare.3756399" ;
-    ns1:freetextKeyword "Altmetrics",
+    ns3:abstract "Slides from the closing keynote at VIVO '16 on Wikidata, Wikicite and collaboratively created linked open knowledge." ;
+    ns3:doi "10.6084/m9.figshare.3756399" ;
+    ns3:freetextKeyword "Altmetrics",
         "Bibliographic metadata",
         "Citation graph",
         "VIVO16",
@@ -1938,37 +1958,37 @@ reentry.
     ns2:datePublished <http://openvivo.org/a/date2016-08-25> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-25> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3756894> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3756894> a ns3:Slideshow ;
     rdfs:label "Visualizing Virtual Communities in the VIVO Profile Ecosystem" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3756894-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Slides from VIVO 2016 talk." ;
-    ns1:doi "10.6084/m9.figshare.3756894" ;
-    ns1:freetextKeyword "VIVO16" ;
+    ns3:abstract "Slides from VIVO 2016 talk." ;
+    ns3:doi "10.6084/m9.figshare.3756894" ;
+    ns3:freetextKeyword "VIVO16" ;
     ns2:dateCreated <http://openvivo.org/a/date2016-08-25> ;
     ns2:dateModified <http://openvivo.org/a/date2016-08-25> ;
     ns2:datePublished <http://openvivo.org/a/date2016-08-25> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-25> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3756906> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3756906> a ns3:Slideshow ;
     rdfs:label "Service-Driven Profile Linkage - The CTSAsearch  CrossLinks Experience" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3756906-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Slides from VIVO 2016 talk." ;
-    ns1:doi "10.6084/m9.figshare.3756906" ;
-    ns1:freetextKeyword "VIVO16" ;
+    ns3:abstract "Slides from VIVO 2016 talk." ;
+    ns3:doi "10.6084/m9.figshare.3756906" ;
+    ns3:freetextKeyword "VIVO16" ;
     ns2:dateCreated <http://openvivo.org/a/date2016-08-25> ;
     ns2:dateModified <http://openvivo.org/a/date2016-08-25> ;
     ns2:datePublished <http://openvivo.org/a/date2016-08-25> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-25> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3758931> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3758931> a ns3:Slideshow ;
     rdfs:label "Linked Data for Libraries (LD4L): Expanding the Linked Data Ecosystem" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3758931-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "<div>The Linked Data for Libraries (LD4L) team, consisting of librarians, ontologists, metadata experts, and developers from Cornell, Harvard, and Stanford libraries with support from the Andrew W. Mellon Foundation, has recently completed its first two years of work on adapting and developing LOD standards for describing and sharing information about scholarly information resources. In this presentation, we will describe how to access and use the LOD created by the project, representing some 29 million scholarly information resources cataloged by the three partner institutions. We will also describe the demonstration Blacklight search operating over the combined dataset.</div><div>We will then describe the follow-on work currently underway in two closely related efforts. LD4L Labs is a partnership of Cornell, Harvard, Iowa, and Stanford focused on creating tools to support original cataloging of scholarly information resources using linked data, as well as tools to support using linked data to organize, annotate, visualize, browse, and discover these resources. The LD4P (Linked Data for metadata Production) project is a partnership of Stanford, Columbia, Cornell, Princeton, Harvard, and the Library of Congress to do original and copy cataloging of a wide range of collections and materials, including unique collections of Hip-Hop LPs, performed music, cartographic materials, audiovisual and sound recordings, two and three-dimensional art objects, and the personal library of a famous author and scholar.</div><div>Finally, we will draw on the use cases and examples embodied in this work to discuss some of the opportunities to engage directly with VIVO profiles, the VIVO community, and the broader researcher profiling ecosystem. Several of the efforts within LD4L Labs and LD4P will be looking at using VIVO profiles as local authorities during the process of cataloging scholarly resources. There are also potential opportunities for VIVO instances to take advantage of some of the ontology refinements that LD4L uses in describing scholarly works. We will explore some of the implications that these developments might have for how VIVO is used and evolves at academic institutions.</div><div><br></div>" ;
-    ns1:doi "10.6084/m9.figshare.3758931" ;
-    ns1:freetextKeyword "Library",
+    ns3:abstract "<div>The Linked Data for Libraries (LD4L) team, consisting of librarians, ontologists, metadata experts, and developers from Cornell, Harvard, and Stanford libraries with support from the Andrew W. Mellon Foundation, has recently completed its first two years of work on adapting and developing LOD standards for describing and sharing information about scholarly information resources. In this presentation, we will describe how to access and use the LOD created by the project, representing some 29 million scholarly information resources cataloged by the three partner institutions. We will also describe the demonstration Blacklight search operating over the combined dataset.</div><div>We will then describe the follow-on work currently underway in two closely related efforts. LD4L Labs is a partnership of Cornell, Harvard, Iowa, and Stanford focused on creating tools to support original cataloging of scholarly information resources using linked data, as well as tools to support using linked data to organize, annotate, visualize, browse, and discover these resources. The LD4P (Linked Data for metadata Production) project is a partnership of Stanford, Columbia, Cornell, Princeton, Harvard, and the Library of Congress to do original and copy cataloging of a wide range of collections and materials, including unique collections of Hip-Hop LPs, performed music, cartographic materials, audiovisual and sound recordings, two and three-dimensional art objects, and the personal library of a famous author and scholar.</div><div>Finally, we will draw on the use cases and examples embodied in this work to discuss some of the opportunities to engage directly with VIVO profiles, the VIVO community, and the broader researcher profiling ecosystem. Several of the efforts within LD4L Labs and LD4P will be looking at using VIVO profiles as local authorities during the process of cataloging scholarly resources. There are also potential opportunities for VIVO instances to take advantage of some of the ontology refinements that LD4L uses in describing scholarly works. We will explore some of the implications that these developments might have for how VIVO is used and evolves at academic institutions.</div><div><br></div>" ;
+    ns3:doi "10.6084/m9.figshare.3758931" ;
+    ns3:freetextKeyword "Library",
         "library catalogues",
         "linked open data",
         "vivo16" ;
@@ -1981,21 +2001,21 @@ reentry.
     rdfs:label "Comparing Measures of Research Output" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3782241-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Multidisciplinarity and collaboration are increasingly recognized as necessary in order to exchange knowledge across disciplines, foster learning, and address problems that transcend a single distinct academic field.<br><br>Existing bibliometric measures, such as citation counts and the h-index tend to reinforce research output within a single<br>field.<br><br>Going beyond counts of publications and citations, we are interested in analyzing and quantifying the degree to which a<br>researcher, a research activity, and a set of research outputs are collaborative and multidisciplinary. Further, we seek to understand how these new measures compare with more<br>traditional measures of productivity.<br><br>In this poster, we present the results of our comparative analysis of several measures of research output for a large<br>multidisciplinary team.<br>" ;
-    ns1:doi "10.6084/m9.figshare.3782241" ;
-    ns1:freetextKeyword "VIVO16" ;
+    ns3:abstract "Multidisciplinarity and collaboration are increasingly recognized as necessary in order to exchange knowledge across disciplines, foster learning, and address problems that transcend a single distinct academic field.<br><br>Existing bibliometric measures, such as citation counts and the h-index tend to reinforce research output within a single<br>field.<br><br>Going beyond counts of publications and citations, we are interested in analyzing and quantifying the degree to which a<br>researcher, a research activity, and a set of research outputs are collaborative and multidisciplinary. Further, we seek to understand how these new measures compare with more<br>traditional measures of productivity.<br><br>In this poster, we present the results of our comparative analysis of several measures of research output for a large<br>multidisciplinary team.<br>" ;
+    ns3:doi "10.6084/m9.figshare.3782241" ;
+    ns3:freetextKeyword "VIVO16" ;
     ns2:dateCreated <http://openvivo.org/a/date2016-08-27> ;
     ns2:dateModified <http://openvivo.org/a/date2016-08-27> ;
     ns2:datePublished <http://openvivo.org/a/date2016-08-27> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-27> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792066> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792066> a ns3:Slideshow ;
     rdfs:label "VIVO Around the World 2016" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3792066-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Examples of VIVO implementations around the world.  Sites contributed information about their VIVO implementation." ;
-    ns1:doi "10.6084/m9.figshare.3792066" ;
-    ns1:freetextKeyword "adoption",
+    ns3:abstract "Examples of VIVO implementations around the world.  Sites contributed information about their VIVO implementation." ;
+    ns3:doi "10.6084/m9.figshare.3792066" ;
+    ns3:freetextKeyword "adoption",
         "implementation",
         "vivo",
         "vivo2016" ;
@@ -2004,13 +2024,13 @@ reentry.
     ns2:datePublished <http://openvivo.org/a/date2016-08-28> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-28> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792069> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792069> a ns3:Slideshow ;
     rdfs:label "Scholarly Infrastructure, Sustainability, and Community" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3792069-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Invited presentation at VIVO 2016, Denver, Colorado" ;
-    ns1:doi "10.6084/m9.figshare.3792069" ;
-    ns1:freetextKeyword "community",
+    ns3:abstract "Invited presentation at VIVO 2016, Denver, Colorado" ;
+    ns3:doi "10.6084/m9.figshare.3792069" ;
+    ns3:freetextKeyword "community",
         "scholarly ecosystem",
         "scholarship",
         "sustainability",
@@ -2021,39 +2041,39 @@ reentry.
     ns2:datePublished <http://openvivo.org/a/date2016-08-28> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-28> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792075> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792075> a ns3:Slideshow ;
     rdfs:label "VIVO 2016 Conference welcome loop" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3792075-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Slides presented at the VIVO 2016 Conference in Denver, CO." ;
-    ns1:doi "10.6084/m9.figshare.3792075" ;
-    ns1:freetextKeyword "vivo",
+    ns3:abstract "Slides presented at the VIVO 2016 Conference in Denver, CO." ;
+    ns3:doi "10.6084/m9.figshare.3792075" ;
+    ns3:freetextKeyword "vivo",
         "vivo16" ;
     ns2:dateCreated <http://openvivo.org/a/date2016-08-28> ;
     ns2:dateModified <http://openvivo.org/a/date2016-08-28> ;
     ns2:datePublished <http://openvivo.org/a/date2016-08-28> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-28> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792078> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792078> a ns3:Slideshow ;
     rdfs:label "VIVO 2016 Thursday Welcome" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3792078-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Slides presented at the VIVO 2016 Conference, Denver, CO" ;
-    ns1:doi "10.6084/m9.figshare.3792078" ;
-    ns1:freetextKeyword "vivo",
+    ns3:abstract "Slides presented at the VIVO 2016 Conference, Denver, CO" ;
+    ns3:doi "10.6084/m9.figshare.3792078" ;
+    ns3:freetextKeyword "vivo",
         "vivo2016" ;
     ns2:dateCreated <http://openvivo.org/a/date2016-08-28> ;
     ns2:dateModified <http://openvivo.org/a/date2016-08-28> ;
     ns2:datePublished <http://openvivo.org/a/date2016-08-28> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-28> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792093> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792093> a ns3:Slideshow ;
     rdfs:label "Using VIVO at the Laboratory for Atmospheric and Space Physics (LASP)" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3792093-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Presentation at the 2016 VIVO COnference, Denver, CO" ;
-    ns1:doi "10.6084/m9.figshare.3792093" ;
-    ns1:freetextKeyword "Atmospheric science",
+    ns3:abstract "Presentation at the 2016 VIVO COnference, Denver, CO" ;
+    ns3:doi "10.6084/m9.figshare.3792093" ;
+    ns3:freetextKeyword "Atmospheric science",
         "LASP",
         "space physics",
         "vivo",
@@ -2063,13 +2083,13 @@ reentry.
     ns2:datePublished <http://openvivo.org/a/date2016-08-28> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-28> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792096> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792096> a ns3:Slideshow ;
     rdfs:label "The SEO State of the Union 2016:  Five Data-Driven Steps to Make Your Research Networking Site Discoverable by Real Users—Based on Google Results" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3792096-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Presentation at VIVO 2016, Denver, CO" ;
-    ns1:doi "10.6084/m9.figshare.3792096" ;
-    ns1:freetextKeyword "google",
+    ns3:abstract "Presentation at VIVO 2016, Denver, CO" ;
+    ns3:doi "10.6084/m9.figshare.3792096" ;
+    ns3:freetextKeyword "google",
         "seo",
         "vivo",
         "vivo16",
@@ -2079,13 +2099,13 @@ reentry.
     ns2:datePublished <http://openvivo.org/a/date2016-08-28> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-28> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792099> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792099> a ns3:Slideshow ;
     rdfs:label "How to read 100 million publications:  VIVO and Comprehensive Open Publication Databases" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3792099-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Presented at VIVO 2016 in Denver, CO" ;
-    ns1:doi "10.6084/m9.figshare.3792099" ;
-    ns1:freetextKeyword "library science",
+    ns3:abstract "Presented at VIVO 2016 in Denver, CO" ;
+    ns3:doi "10.6084/m9.figshare.3792099" ;
+    ns3:freetextKeyword "library science",
         "open science",
         "vivo",
         "vivo16" ;
@@ -2094,13 +2114,13 @@ reentry.
     ns2:datePublished <http://openvivo.org/a/date2016-08-28> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-28> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792105> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792105> a ns3:Slideshow ;
     rdfs:label "Towards Deeper RNS Engagement: How to get users to sign in for personalized content" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3792105-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Presented at VIVO 2016, Denver, CO" ;
-    ns1:doi "10.6084/m9.figshare.3792105" ;
-    ns1:freetextKeyword "community engagement",
+    ns3:abstract "Presented at VIVO 2016, Denver, CO" ;
+    ns3:doi "10.6084/m9.figshare.3792105" ;
+    ns3:freetextKeyword "community engagement",
         "rns",
         "vivo",
         "vivo16" ;
@@ -2109,13 +2129,13 @@ reentry.
     ns2:datePublished <http://openvivo.org/a/date2016-08-28> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-28> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792108> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792108> a ns3:Slideshow ;
     rdfs:label "Using VIVO for Scientific Applications at Earthcollab" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3792108-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Presented at VIVO 2016, Denver, CO" ;
-    ns1:doi "10.6084/m9.figshare.3792108" ;
-    ns1:freetextKeyword "earthcollab",
+    ns3:abstract "Presented at VIVO 2016, Denver, CO" ;
+    ns3:doi "10.6084/m9.figshare.3792108" ;
+    ns3:freetextKeyword "earthcollab",
         "vivo",
         "vivo16" ;
     ns2:dateCreated <http://openvivo.org/a/date2016-08-28> ;
@@ -2127,21 +2147,21 @@ reentry.
     rdfs:label "Usability vs. Purity: How UCSF and Duke Enabled Data Reuse by Going Beyond Linked Data" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3792180-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Presenters: Julia Trimmer, Anirvan Chatterjee, Eric Meeks, Richard Outten and Brian Turner<br><br>Duke and UCSF have come up with ways to make their research networking platforms indispensable at their institutions, winning friends and allies, and strengthening the case for renewed funding. Others can do this too — but only if we retrofit VIVO, Profiles, and other platforms with simple data reuse mechanisms. In this session, we’ll talk about techniques for developers, traffic growth on downstream sites, and researcher engagement. We’ll look at examples of sites that consume VIVO and Profiles data and talk about what it’s like to share data across nearly 50 local websites and apps.<br>" ;
-    ns1:doi "10.6084/m9.figshare.3792180" ;
-    ns1:freetextKeyword "vivo16" ;
+    ns3:abstract "Presenters: Julia Trimmer, Anirvan Chatterjee, Eric Meeks, Richard Outten and Brian Turner<br><br>Duke and UCSF have come up with ways to make their research networking platforms indispensable at their institutions, winning friends and allies, and strengthening the case for renewed funding. Others can do this too — but only if we retrofit VIVO, Profiles, and other platforms with simple data reuse mechanisms. In this session, we’ll talk about techniques for developers, traffic growth on downstream sites, and researcher engagement. We’ll look at examples of sites that consume VIVO and Profiles data and talk about what it’s like to share data across nearly 50 local websites and apps.<br>" ;
+    ns3:doi "10.6084/m9.figshare.3792180" ;
+    ns3:freetextKeyword "vivo16" ;
     ns2:dateCreated <http://openvivo.org/a/date2016-08-29> ;
     ns2:dateModified <http://openvivo.org/a/date2016-08-29> ;
     ns2:datePublished <http://openvivo.org/a/date2016-08-29> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-29> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792600> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792600> a ns3:Slideshow ;
     rdfs:label "Citation Impact Tool: Visualizing Percentile Rank of Times Cited" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3792600-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "<p>Presentation by Michael Bales at VIVO16 Conference in Denver, Colorado.</p>" ;
-    ns1:doi "10.6084/m9.figshare.3792600" ;
-    ns1:freetextKeyword "VIVO16" ;
+    ns3:abstract "<p>Presentation by Michael Bales at VIVO16 Conference in Denver, Colorado.</p>" ;
+    ns3:doi "10.6084/m9.figshare.3792600" ;
+    ns3:freetextKeyword "VIVO16" ;
     ns2:dateCreated <http://openvivo.org/a/date2016-08-29> ;
     ns2:dateModified <http://openvivo.org/a/date2016-08-29> ;
     ns2:datePublished <http://openvivo.org/a/date2016-08-29> ;
@@ -2151,9 +2171,9 @@ reentry.
     rdfs:label "How can we help researchers increase the reach and impact of their work?" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3793197-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "<div>The Kudos project was set up in 2013. We have been providing researchers with a platform for explaining their work in plain language, and for centrally managing their sharing of that work - we give them a trackable link and can then see how they share (email, social media, academic networks, etc) and map this against publication metrics (downloads, citations and altmetrics). By building up a central dataset in this area we are able to provide insight (to researchers, institutions, publishers, societies, funders etc) into which sharing media are most effective, and the extent to which metrics are improved. </div><div><br></div><div>During 2015-2016, the altmetrics team from Nanyang Technological University analysed the data we've built up so far, and determined that when researchers actively explain and share their work via Kudos, it increases downloads by 23% on average. The study also found that researchers are more likely to use Facebook than Twitter, for sharing their work, but that shares via LinkedIn are most likely to be clicked on. These results can (a) help libraries etc provide more tailored guidance to researchers and (b) help early career researchers demonstrate to their supervisors that small outreach efforts are a good use of time, as they can substantially increase readership and from there, impact. </div>" ;
-    ns1:doi "10.6084/m9.figshare.3793197" ;
-    ns1:freetextKeyword "Scholarly Publishing",
+    ns3:abstract "<div>The Kudos project was set up in 2013. We have been providing researchers with a platform for explaining their work in plain language, and for centrally managing their sharing of that work - we give them a trackable link and can then see how they share (email, social media, academic networks, etc) and map this against publication metrics (downloads, citations and altmetrics). By building up a central dataset in this area we are able to provide insight (to researchers, institutions, publishers, societies, funders etc) into which sharing media are most effective, and the extent to which metrics are improved. </div><div><br></div><div>During 2015-2016, the altmetrics team from Nanyang Technological University analysed the data we've built up so far, and determined that when researchers actively explain and share their work via Kudos, it increases downloads by 23% on average. The study also found that researchers are more likely to use Facebook than Twitter, for sharing their work, but that shares via LinkedIn are most likely to be clicked on. These results can (a) help libraries etc provide more tailored guidance to researchers and (b) help early career researchers demonstrate to their supervisors that small outreach efforts are a good use of time, as they can substantially increase readership and from there, impact. </div>" ;
+    ns3:doi "10.6084/m9.figshare.3793197" ;
+    ns3:freetextKeyword "Scholarly Publishing",
         "impact",
         "metrics",
         "research",
@@ -2165,23 +2185,36 @@ reentry.
     ns2:datePublished <http://openvivo.org/a/date2016-08-30> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-30> .
 
+<http://openvivo.org/a/doi10.6084/m9.figshare.3806262> a ns2:ConferencePoster ;
+    rdfs:label "NETE-Vivo-poster-final-forprint-36by48.jpg" ;
+    ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3806262-vcard> ;
+    ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
+    ns3:abstract "The poster provides a very high-level summary of the array of information technology services provided by NET ESOLUTION Corporation (NETE). As an example, a workflow that was designed and implemented for a federal client illustrates the ability to used linked research data from a data warehouse solution developed by NETE comprising publications, patents, clinical trials, drugs and biologicals, and grant records. Such data play an important role when used  to inform science policy discussions." ;
+    ns3:doi "10.6084/m9.figshare.3806262" ;
+    ns3:freetextKeyword "Research Assessement",
+        "vivo16" ;
+    ns2:dateCreated <http://openvivo.org/a/date2016-09-04> ;
+    ns2:dateModified <http://openvivo.org/a/date2016-09-04> ;
+    ns2:datePublished <http://openvivo.org/a/date2016-09-04> ;
+    ns2:dateTimeValue <http://openvivo.org/a/date2016-09-04> .
+
 <http://openvivo.org/a/orcid0000-0002-9983-1327> a <http://xmlns.com/foaf/0.1/Person> ;
     rdfs:label "Viggio, Alex" ;
     ns2:orcidId <http://orcid.org/0000-0002-9983-1327> .
 
-<http://openvivo.org/a/vcardAlbert--Paul--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardAlbert--Paul--name> .
+<http://openvivo.org/a/vcardAlbert--Paul--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardAlbert--Paul--name> .
 
-<http://openvivo.org/a/vcardSymplectic--Team--> a ns3:Individual ;
-    ns3:hasName <http://openvivo.org/a/vcardSymplectic--Team--name> .
+<http://openvivo.org/a/vcardSymplectic--Team--> a ns1:Individual ;
+    ns1:hasName <http://openvivo.org/a/vcardSymplectic--Team--name> .
 
 <http://openvivo.org/a/doi10.6084/m9.figshare.3581247> a ns2:ConferencePoster ;
     rdfs:label "The Impact Journey" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3581247-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "<p>For many disciplines, the citation frequency of scholarly articles, alongside measures of the outlet in which they are published, remains a common (albeit controversial) means of evaluating the academic impact of research. However, evidence of the wider effects of impact (eg. societal, economic, or environmental) can’t always be captured via traditional metrics. In recent years, a growing number of funding agencies (such as the NIH and NSF) have started to ask institutions and researchers to provide qualitative evidence of the impact generated as a result of externally funded research, and this trend is expected to continue. </p><p>Previously, there hasn’t been a standardised method for recording this qualitative data. At the end of 2015, Symplectic released an update to their leading Research Information Management System, Elements, which aims to tackle this. The Impact Module offers a system to help capture a narrative of emerging evidence of research impact. </p><p>This presentation will explore how an impact narrative can be both captured and optionally displayed in a public-facing profile tool. Capturing and reusing impact data means researchers no longer have to rewrite the proof of the impact of their work during grant applications.</p><div><br></div>" ;
-    ns1:doi "10.6084/m9.figshare.3581247" ;
-    ns1:freetextKeyword "linked data",
+    ns3:abstract "<p>For many disciplines, the citation frequency of scholarly articles, alongside measures of the outlet in which they are published, remains a common (albeit controversial) means of evaluating the academic impact of research. However, evidence of the wider effects of impact (eg. societal, economic, or environmental) can’t always be captured via traditional metrics. In recent years, a growing number of funding agencies (such as the NIH and NSF) have started to ask institutions and researchers to provide qualitative evidence of the impact generated as a result of externally funded research, and this trend is expected to continue. </p><p>Previously, there hasn’t been a standardised method for recording this qualitative data. At the end of 2015, Symplectic released an update to their leading Research Information Management System, Elements, which aims to tackle this. The Impact Module offers a system to help capture a narrative of emerging evidence of research impact. </p><p>This presentation will explore how an impact narrative can be both captured and optionally displayed in a public-facing profile tool. Capturing and reusing impact data means researchers no longer have to rewrite the proof of the impact of their work during grant applications.</p><div><br></div>" ;
+    ns3:doi "10.6084/m9.figshare.3581247" ;
+    ns3:freetextKeyword "linked data",
         "openvivo",
         "symplectic",
         "symplectic elements",
@@ -2196,9 +2229,9 @@ reentry.
     rdfs:label "VIVO Counts: Results from the 2016 VIVO Site Survey" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3596883-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "<div>Presented at the VIVO 2016 Conference in Denver, CO</div>" ;
-    ns1:doi "10.6084/m9.figshare.3596883" ;
-    ns1:freetextKeyword "survey",
+    ns3:abstract "<div>Presented at the VIVO 2016 Conference in Denver, CO</div>" ;
+    ns3:doi "10.6084/m9.figshare.3596883" ;
+    ns3:freetextKeyword "survey",
         "vivo",
         "vivo16" ;
     ns2:dateCreated <http://openvivo.org/a/date2016-08-17> ;
@@ -2206,13 +2239,13 @@ reentry.
     ns2:datePublished <http://openvivo.org/a/date2016-08-17> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-17> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3619716> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3619716> a ns3:Slideshow ;
     rdfs:label "Getting Data from Your VIVO:  An Introduction to SPARQL" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3619716-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Presented as a workshop at VIVO 2016 in Denver, CO" ;
-    ns1:doi "10.6084/m9.figshare.3619716" ;
-    ns1:freetextKeyword "ontologies",
+    ns3:abstract "Presented as a workshop at VIVO 2016 in Denver, CO" ;
+    ns3:doi "10.6084/m9.figshare.3619716" ;
+    ns3:freetextKeyword "ontologies",
         "sparql",
         "vivo",
         "vivo16" ;
@@ -2225,10 +2258,10 @@ reentry.
     rdfs:label "Digital Science Poster: A New 'Research Data Mechanics'" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3635802-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract """A summary poster version presented by Simon Porter at Vivo 2016 of his white paper: A New 'Research Data Mechanics'. Full white paper here: https://figshare.com/articles/Digital_Science_White_Paper_A_New_Research_Data_Mechanics_/3514859<div><br>The research community has been building towards a new understanding of research information management.</div><div>
+    ns3:abstract """A summary poster version presented by Simon Porter at Vivo 2016 of his white paper: A New 'Research Data Mechanics'. Full white paper here: https://figshare.com/articles/Digital_Science_White_Paper_A_New_Research_Data_Mechanics_/3514859<div><br>The research community has been building towards a new understanding of research information management.</div><div>
 <p>It is time to conceive of a new Research Data Mechanics that brings to the fore the ways in which information travels through systems and, in the process, to create a template for a more efficient research cycle.</p></div>""" ;
-    ns1:doi "10.6084/m9.figshare.3635802" ;
-    ns1:freetextKeyword "Research Data Management",
+    ns3:doi "10.6084/m9.figshare.3635802" ;
+    ns3:freetextKeyword "Research Data Management",
         "Research Data Services",
         "Research metadata",
         "research data management system",
@@ -2244,9 +2277,9 @@ reentry.
     rdfs:label "VIVO Final Courtney Srivastava.pdf" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3749268-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "This poster describes the assessment of using IBM Watson AlchemyLanguage services to augment the results of a PubMed search by keywords alone." ;
-    ns1:doi "10.6084/m9.figshare.3749268" ;
-    ns1:freetextKeyword "IBM Watson",
+    ns3:abstract "This poster describes the assessment of using IBM Watson AlchemyLanguage services to augment the results of a PubMed search by keywords alone." ;
+    ns3:doi "10.6084/m9.figshare.3749268" ;
+    ns3:freetextKeyword "IBM Watson",
         "NLP",
         "PubMed",
         "VIVO16" ;
@@ -2255,13 +2288,13 @@ reentry.
     ns2:datePublished <http://openvivo.org/a/date2016-08-22> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-22> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3798105> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3798105> a ns3:Slideshow ;
     rdfs:label "Pimp My VIVO Slides" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3798105-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Slides about the new Bootstrapped VIVO theme created by Symplectic and Digital Science. Presented at the VIVO Conference 2016 in Denver, CO by Simon Porter and Sabih Ali." ;
-    ns1:doi "10.6084/m9.figshare.3798105" ;
-    ns1:freetextKeyword "OpenVIVO",
+    ns3:abstract "Slides about the new Bootstrapped VIVO theme created by Symplectic and Digital Science. Presented at the VIVO Conference 2016 in Denver, CO by Simon Porter and Sabih Ali." ;
+    ns3:doi "10.6084/m9.figshare.3798105" ;
+    ns3:freetextKeyword "OpenVIVO",
         "VIVO16",
         "VIVO2016",
         "VIVOConference2016",
@@ -2272,13 +2305,13 @@ reentry.
     ns2:datePublished <http://openvivo.org/a/date2016-08-31> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-31> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3466265> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3466265> a ns3:Slideshow ;
     rdfs:label "Voted Most Popular: CVs in Scholars@Duke" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3466265-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Presentation for the 2016 VIVO conference<br>" ;
-    ns1:doi "10.6084/m9.figshare.3466265" ;
-    ns1:freetextKeyword "vivo tools",
+    ns3:abstract "Presentation for the 2016 VIVO conference<br>" ;
+    ns3:doi "10.6084/m9.figshare.3466265" ;
+    ns3:freetextKeyword "vivo tools",
         "vivo16" ;
     ns2:dateCreated <http://openvivo.org/a/date2016-08-10> ;
     ns2:dateModified <http://openvivo.org/a/date2016-08-17> ;
@@ -2289,9 +2322,9 @@ reentry.
     rdfs:label "Pimp My VIVO Poster" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3581238-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Abstract:<div><div>Over the past few years, VIVO has gained global appeal amongst institutions. However, many institutions struggle to get past the early adopter phase and ‘go live’ with their own VIVO. As Registered Service Providers of VIVO, we are often asked for ‘showcase’ VIVO systems to display. We will typically send them examples where institutions have undertaken large customisation projects on top their VIVO, like Griffith University.</div><div>Institutions who adopt VIVO still struggle to find a focus for the ‘stock’ version. For it to be an effective showcase of an institution’s data, there needs to be consideration of usability and design to realise its full potential, to make it a true centre of the expertise of an institution. Many institutions do not always have the resource or expertise to achieve this.</div><div>In this presentation, we will demonstrate the first iteration of a user-focused, modern reimagining of the VIVO interface. Using Bootstrap and CSS, we will show how some layout and design improvements can work wonders on the stock VIVO interface. Coupled with some basic SEO knowledge, any institution can use these simple methods to drastically improve their own VIVO and make it the ‘expertise’ hub it’s destined to be. We will also demonstrate a new set of integrations with products such as Altmetric, figshare and The Conversation to help further enrich and showcase institutional data and expertise.</div></div>" ;
-    ns1:doi "10.6084/m9.figshare.3581238" ;
-    ns1:freetextKeyword "bootstrap",
+    ns3:abstract "Abstract:<div><div>Over the past few years, VIVO has gained global appeal amongst institutions. However, many institutions struggle to get past the early adopter phase and ‘go live’ with their own VIVO. As Registered Service Providers of VIVO, we are often asked for ‘showcase’ VIVO systems to display. We will typically send them examples where institutions have undertaken large customisation projects on top their VIVO, like Griffith University.</div><div>Institutions who adopt VIVO still struggle to find a focus for the ‘stock’ version. For it to be an effective showcase of an institution’s data, there needs to be consideration of usability and design to realise its full potential, to make it a true centre of the expertise of an institution. Many institutions do not always have the resource or expertise to achieve this.</div><div>In this presentation, we will demonstrate the first iteration of a user-focused, modern reimagining of the VIVO interface. Using Bootstrap and CSS, we will show how some layout and design improvements can work wonders on the stock VIVO interface. Coupled with some basic SEO knowledge, any institution can use these simple methods to drastically improve their own VIVO and make it the ‘expertise’ hub it’s destined to be. We will also demonstrate a new set of integrations with products such as Altmetric, figshare and The Conversation to help further enrich and showcase institutional data and expertise.</div></div>" ;
+    ns3:doi "10.6084/m9.figshare.3581238" ;
+    ns3:freetextKeyword "bootstrap",
         "linked open data",
         "open source",
         "openvivo",
@@ -2309,9 +2342,9 @@ reentry.
     rdfs:label "Start here: On Ramps for the VIVO Project" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3596997-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Presented at the VIVO 2016 conference in Denver, CO" ;
-    ns1:doi "10.6084/m9.figshare.3596997" ;
-    ns1:freetextKeyword "project resources",
+    ns3:abstract "Presented at the VIVO 2016 conference in Denver, CO" ;
+    ns3:doi "10.6084/m9.figshare.3596997" ;
+    ns3:freetextKeyword "project resources",
         "vivo",
         "vivo16" ;
     ns2:dateCreated <http://openvivo.org/a/date2016-08-17> ;
@@ -2319,13 +2352,13 @@ reentry.
     ns2:datePublished <http://openvivo.org/a/date2016-08-17> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-17> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3749610> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3749610> a ns3:Slideshow ;
     rdfs:label "VIVO for Historical Persons (VIVO4HP)" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3749610-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "VIVO for Historical Persons (VIVO4HP) is an experiment to re-use and extend the OpenRIF VIVO-ISF ontology to accommodate historical persons, using early Stuart diplomats (1603-1649) as a use case. These slides are from our team's VIVO 2016 Featured Presentation." ;
-    ns1:doi "10.6084/m9.figshare.3749610" ;
-    ns1:freetextKeyword "Early Stuart Diplomats",
+    ns3:abstract "VIVO for Historical Persons (VIVO4HP) is an experiment to re-use and extend the OpenRIF VIVO-ISF ontology to accommodate historical persons, using early Stuart diplomats (1603-1649) as a use case. These slides are from our team's VIVO 2016 Featured Presentation." ;
+    ns3:doi "10.6084/m9.figshare.3749610" ;
+    ns3:freetextKeyword "Early Stuart Diplomats",
         "Historical Persons",
         "Karma",
         "Linked Data",
@@ -2343,9 +2376,9 @@ reentry.
     rdfs:label "Integrating and Building on Elasticsearch and VIVO-ISF Data" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3749673-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Poster presentation at VIVO 2016 conference on integrating Elasticsearch with the University of Colorado Boulder's VIVO instance (\"CU Experts\"), and then leveraging this to build faceted search and capability mapping functionality." ;
-    ns1:doi "10.6084/m9.figshare.3749673" ;
-    ns1:freetextKeyword "Elasticsearch",
+    ns3:abstract "Poster presentation at VIVO 2016 conference on integrating Elasticsearch with the University of Colorado Boulder's VIVO instance (\"CU Experts\"), and then leveraging this to build faceted search and capability mapping functionality." ;
+    ns3:doi "10.6084/m9.figshare.3749673" ;
+    ns3:freetextKeyword "Elasticsearch",
         "Facetview2",
         "JSON",
         "JSON-LD",
@@ -2360,7 +2393,7 @@ reentry.
     rdfs:label "Using VIVO and Other Tools to Achieve a Strategic Vision" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3759189-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract """A globally interconnected research world
+    ns3:abstract """A globally interconnected research world
 is the norm. This offers great opportunities
 for communication and collaboration across
 fields of research, but it also comes with
@@ -2418,8 +2451,8 @@ disciplines including output for the humanities.
 It will also showcase some other use cases of
 metrics in institutional repositories, analytics
 reports and researcher dashboards.</div>""" ;
-    ns1:doi "10.6084/m9.figshare.3759189" ;
-    ns1:freetextKeyword "ORCID",
+    ns3:doi "10.6084/m9.figshare.3759189" ;
+    ns3:freetextKeyword "ORCID",
         "Plum Analytics",
         "PlumX",
         "VIVO",
@@ -2432,13 +2465,13 @@ reports and researcher dashboards.</div>""" ;
     ns2:datePublished <http://openvivo.org/a/date2016-08-25> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-25> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792090> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792090> a ns3:Slideshow ;
     rdfs:label "Collaboration Through Linking:  A Bilateral Project Between University of Florida and Elsevier for Access to Articles by UF Authors" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3792090-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Presentation at VIVO 2016, Denver Colorado" ;
-    ns1:doi "10.6084/m9.figshare.3792090" ;
-    ns1:freetextKeyword "University of florida",
+    ns3:abstract "Presentation at VIVO 2016, Denver Colorado" ;
+    ns3:doi "10.6084/m9.figshare.3792090" ;
+    ns3:freetextKeyword "University of florida",
         "elsevier",
         "library",
         "vivo",
@@ -2460,26 +2493,26 @@ reports and researcher dashboards.</div>""" ;
     rdfs:label "10 simple ways UCSF Profiles has been used to win funding, find collaborators and get the job done" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3702594-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract """UCSF Profiles launched
+    ns3:abstract """UCSF Profiles launched
 officially in 2010. After many years of
 promotion, using a myriad of engagement strategies, UCSF Profiles is now a
 system that is “relied upon by the enterprise.” Here are some examples
 that  justify this status""" ;
-    ns1:doi "10.6084/m9.figshare.3702594" ;
-    ns1:freetextKeyword "VIVO16",
+    ns3:doi "10.6084/m9.figshare.3702594" ;
+    ns3:freetextKeyword "VIVO16",
         "vivo16" ;
     ns2:dateCreated <http://openvivo.org/a/date2016-08-19> ;
     ns2:dateModified <http://openvivo.org/a/date2016-08-19> ;
     ns2:datePublished <http://openvivo.org/a/date2016-08-19> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-19> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3718740> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3718740> a ns3:Slideshow ;
     rdfs:label "Persistent Identifiers: Where are we now and the Role of Networking Profile Systems in Shaping Their Future" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3718740-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Presentations from the invited persistent identifiers panel VIVO 16 presented at Denver CO" ;
-    ns1:doi "10.6084/m9.figshare.3718740" ;
-    ns1:freetextKeyword "persistent identifiers",
+    ns3:abstract "Presentations from the invited persistent identifiers panel VIVO 16 presented at Denver CO" ;
+    ns3:doi "10.6084/m9.figshare.3718740" ;
+    ns3:freetextKeyword "persistent identifiers",
         "pid",
         "vivo",
         "vivo16" ;
@@ -2488,13 +2521,13 @@ that  justify this status""" ;
     ns2:datePublished <http://openvivo.org/a/date2016-08-19> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-19> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3774444> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3774444> a ns3:Slideshow ;
     rdfs:label "Publication Data Enrichment at the University of Florida with the Web of Science" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3774444-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "This talk will focus on a publications data enrichment project at the University of Florida. We will describe how the team has utilized web services from the Web of Science™ to automate processes and to add unique identifiers to existing publications. We will also explain modifications to VIVO’s core queries and templates that allow for adding important contextual links to VIVO, which enhance browsing and discovery. Data processing code, methods and lessons learned will be shared with attendees." ;
-    ns1:doi "10.6084/m9.figshare.3774444" ;
-    ns1:freetextKeyword "PERSISTENT IDENTIFIERS",
+    ns3:abstract "This talk will focus on a publications data enrichment project at the University of Florida. We will describe how the team has utilized web services from the Web of Science™ to automate processes and to add unique identifiers to existing publications. We will also explain modifications to VIVO’s core queries and templates that allow for adding important contextual links to VIVO, which enhance browsing and discovery. Data processing code, methods and lessons learned will be shared with attendees." ;
+    ns3:doi "10.6084/m9.figshare.3774444" ;
+    ns3:freetextKeyword "PERSISTENT IDENTIFIERS",
         "VIVO16",
         "Web of science",
         "Web services" ;
@@ -2503,13 +2536,13 @@ that  justify this status""" ;
     ns2:datePublished <http://openvivo.org/a/date2016-08-26> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-26> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3792111> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3792111> a ns3:Slideshow ;
     rdfs:label "Examining Federal Expert Networking and the Economies of Scale:  Moving the “HHS Profiles” Pilot Towards “Experts.gov”" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3792111-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Presentation at VIVO 2016, Denver, CO" ;
-    ns1:doi "10.6084/m9.figshare.3792111" ;
-    ns1:freetextKeyword "expert finding",
+    ns3:abstract "Presentation at VIVO 2016, Denver, CO" ;
+    ns3:doi "10.6084/m9.figshare.3792111" ;
+    ns3:freetextKeyword "expert finding",
         "vivo",
         "vivo16" ;
     ns2:dateCreated <http://openvivo.org/a/date2016-08-28> ;
@@ -2521,33 +2554,33 @@ that  justify this status""" ;
     rdfs:label "Classifying Interdisciplinary Research in Scholars@TAMU" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3644991-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "<div>Texas A&M University (TAMU) recently identified six interdisciplinary and societally-relevant research themes as strengths of the institution that address societal grand challenges.</div><div><br></div><div>TAMU Libraries are interested in adapting and extending the VIVO ontology in order to create a dashboard that represents research products (i.e., manuscripts and grants), accomplishments, and the communities addressing each of these themes.</div><div><br></div><div><div>This would support and demonstrate TAMU’s societal impact.</div><div><br></div><div>This poster presents a plan for the experimental classification of multidisciplinary research studies.</div></div>" ;
-    ns1:doi "10.6084/m9.figshare.3644991" ;
-    ns1:freetextKeyword "vivo16" ;
+    ns3:abstract "<div>Texas A&M University (TAMU) recently identified six interdisciplinary and societally-relevant research themes as strengths of the institution that address societal grand challenges.</div><div><br></div><div>TAMU Libraries are interested in adapting and extending the VIVO ontology in order to create a dashboard that represents research products (i.e., manuscripts and grants), accomplishments, and the communities addressing each of these themes.</div><div><br></div><div><div>This would support and demonstrate TAMU’s societal impact.</div><div><br></div><div>This poster presents a plan for the experimental classification of multidisciplinary research studies.</div></div>" ;
+    ns3:doi "10.6084/m9.figshare.3644991" ;
+    ns3:freetextKeyword "vivo16" ;
     ns2:dateCreated <http://openvivo.org/a/date2016-08-18> ;
     ns2:dateModified <http://openvivo.org/a/date2016-08-18> ;
     ns2:datePublished <http://openvivo.org/a/date2016-08-18> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-18> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3702861> a ns1:Collection ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3702861> a ns3:Collection ;
     rdfs:label "VivoPoster2016v4_JO.pdf" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3702861-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Using data from research studies and clinical trials to enrich researcher profiles.<br>" ;
-    ns1:doi "10.6084/m9.figshare.3702861" ;
-    ns1:freetextKeyword "VIVO16" ;
+    ns3:abstract "Using data from research studies and clinical trials to enrich researcher profiles.<br>" ;
+    ns3:doi "10.6084/m9.figshare.3702861" ;
+    ns3:freetextKeyword "VIVO16" ;
     ns2:dateCreated <http://openvivo.org/a/date2016-08-19> ;
     ns2:dateModified <http://openvivo.org/a/date2016-08-19> ;
     ns2:datePublished <http://openvivo.org/a/date2016-08-19> ;
     ns2:dateTimeValue <http://openvivo.org/a/date2016-08-19> .
 
-<http://openvivo.org/a/doi10.6084/m9.figshare.3749682> a ns1:Slideshow ;
+<http://openvivo.org/a/doi10.6084/m9.figshare.3749682> a ns3:Slideshow ;
     rdfs:label "Introduction to VIVO: VIVO 2016 Conference Workshop" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3749682-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "<p>This VIVO 2016 conference workshop provided an institutional perspective from a group of community members who have worked with VIVO at different institutions. The presenters addressed how VIVO was used in their organizations, where the data comes from, how VIVO is managed, and how to feed downstream systems. Also how to find the right resources as a new VIVO implementation — data sources, team members, governance models, and support structures. This workshop brings best practices and “lessons learned” from mature VIVO projects to new implementations.</p>" ;
-    ns1:doi "10.6084/m9.figshare.3749682" ;
-    ns1:freetextKeyword "Linked Open Data",
+    ns3:abstract "<p>This VIVO 2016 conference workshop provided an institutional perspective from a group of community members who have worked with VIVO at different institutions. The presenters addressed how VIVO was used in their organizations, where the data comes from, how VIVO is managed, and how to feed downstream systems. Also how to find the right resources as a new VIVO implementation — data sources, team members, governance models, and support structures. This workshop brings best practices and “lessons learned” from mature VIVO projects to new implementations.</p>" ;
+    ns3:doi "10.6084/m9.figshare.3749682" ;
+    ns3:freetextKeyword "Linked Open Data",
         "Research Information Systems",
         "Research Networking",
         "Researcher Profiles",
@@ -2562,9 +2595,9 @@ that  justify this status""" ;
     rdfs:label "Graph-based modeling of the bibliographic items and linked open data for the citation records" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3595134-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "<p>We present <i>VIVO-ISF ontology-driven modeling</i> of the scholarly works, originally recorded in <i>Symplectic Elements</i>. Initially, we concentrated on the “academic article” category only. For the academic articles, Elements captures the title of the article, list of the persons and their contribution roles (such as authors, editors, translators), journal title, volume number, issue, ISSN, DOI, publication status, pagination etc. - named as “<i>Citation Items</i>”. The data for these citation items may or may not be available in every internal/external data source and may also vary among available data sources. This leads to recording multiple versions of the same academic article - named as “<i>Version Entries</i>”. The version entries of an article are formalized using a graph-based approach. We used attributed graphs. Graphs with node and edge attribution are typed over an attribute type graph (ATG). <i>Attributed graphs</i> (AG) ensure that all edges and nodes of a graph are typed over ATG and each node is either a source or target (or both). We present our graph-based model, outcomes of the analysis of the version entries graph and the process of the merge of the different version entries graph into a single record - known an Uber Record.</p>" ;
-    ns1:doi "10.6084/m9.figshare.3595134" ;
-    ns1:freetextKeyword "vivo16" ;
+    ns3:abstract "<p>We present <i>VIVO-ISF ontology-driven modeling</i> of the scholarly works, originally recorded in <i>Symplectic Elements</i>. Initially, we concentrated on the “academic article” category only. For the academic articles, Elements captures the title of the article, list of the persons and their contribution roles (such as authors, editors, translators), journal title, volume number, issue, ISSN, DOI, publication status, pagination etc. - named as “<i>Citation Items</i>”. The data for these citation items may or may not be available in every internal/external data source and may also vary among available data sources. This leads to recording multiple versions of the same academic article - named as “<i>Version Entries</i>”. The version entries of an article are formalized using a graph-based approach. We used attributed graphs. Graphs with node and edge attribution are typed over an attribute type graph (ATG). <i>Attributed graphs</i> (AG) ensure that all edges and nodes of a graph are typed over ATG and each node is either a source or target (or both). We present our graph-based model, outcomes of the analysis of the version entries graph and the process of the merge of the different version entries graph into a single record - known an Uber Record.</p>" ;
+    ns3:doi "10.6084/m9.figshare.3595134" ;
+    ns3:freetextKeyword "vivo16" ;
     ns2:dateCreated <http://openvivo.org/a/date2016-08-17> ;
     ns2:dateModified <http://openvivo.org/a/date2016-08-17> ;
     ns2:datePublished <http://openvivo.org/a/date2016-08-17> ;
@@ -2574,9 +2607,9 @@ that  justify this status""" ;
     rdfs:label "Converis & VIVO in a Biomedical Research Institute: the Fred Hutchinson Cancer Research Center Experience" ;
     ns4:ARG_2000028 <http://openvivo.org/a/doi10.6084/m9.figshare.3645399-vcard> ;
     ns4:RO_0002353 <http://openvivo.org/a/eventVIVO2016> ;
-    ns1:abstract "Description of the Arnold Library at the Fred Hutchinson Cancer Research Center project to develop a research information / profiles system using Converis and VIVO." ;
-    ns1:doi "10.6084/m9.figshare.3645399" ;
-    ns1:freetextKeyword "#VIVO16",
+    ns3:abstract "Description of the Arnold Library at the Fred Hutchinson Cancer Research Center project to develop a research information / profiles system using Converis and VIVO." ;
+    ns3:doi "10.6084/m9.figshare.3645399" ;
+    ns3:freetextKeyword "#VIVO16",
         "vivo16" ;
     ns2:dateCreated <http://openvivo.org/a/date2016-08-18> ;
     ns2:dateModified <http://openvivo.org/a/date2016-08-18> ;
@@ -2644,6 +2677,7 @@ that  justify this status""" ;
         <http://openvivo.org/a/doi10.6084/m9.figshare.3792180>,
         <http://openvivo.org/a/doi10.6084/m9.figshare.3792600>,
         <http://openvivo.org/a/doi10.6084/m9.figshare.3793197>,
-        <http://openvivo.org/a/doi10.6084/m9.figshare.3798105> .
+        <http://openvivo.org/a/doi10.6084/m9.figshare.3798105>,
+        <http://openvivo.org/a/doi10.6084/m9.figshare.3806262> .
 
 
