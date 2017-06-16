@@ -16,7 +16,7 @@ import json
 import logging
 
 __author__ = "Michael Conlon"
-__copyright__ = "Copyright 2016 (c) Michael Conlon"
+__copyright__ = "Copyright 2017 (c) Michael Conlon"
 __license__ = "Apache License 2.0"
 __version__ = "0.03"
 
@@ -27,7 +27,7 @@ date_prefix = 'http://openvivo.org/a/date'
 author_prefix = 'http://openvivo.org/a/orcid'
 vcard_prefix = 'http://openvivo.org/a/vcard'
 orcid_prefix = 'http://orcid.org/'
-event_uri = URIRef('http://openvivo.org/a/eventVIVO2016')
+event_uri = URIRef('http://openvivo.org/a/eventVIVO2017')
 
 VIVO = Namespace('http://vivoweb.org/ontology/core#')
 BIBO = Namespace('http://purl.org/ontology/bibo/')
@@ -264,39 +264,50 @@ if __name__ == '__main__':
     figshare_graph = Graph()
     triples_file = open('figshare.rdf', 'w')
 
-    # orcid_id = '0000-0002-1304-8447'
-    # works_by_orcid = get_figshare_articles_by_orcid_id(orcid_id)
-    # print works_by_orcid
-    # print len(works_by_orcid), "works identified for orcid identifier", orcid_id
-
-    works_2016 = get_figshare_articles_by_tag('vivo2016')
-    print len(works_2016), "works identified by vivo2016 tag"
-
-    works_16 = get_figshare_articles_by_tag('vivo16')
-    print len(works_16), "works identified by vivo16 tag"
-
-    # works_collection = get_figshare_articles('131')  # 36 is VIVO, 131 is Force16
-    # print works_collection
-    # print len(works_collection), "works identified by collection"
-    #
-    # work = get_figshare_article('3117808')  # Krafft and Conlon Duraspace Summit presentation
-    # print 'Recent work by Krafft and Conlon\n', work
-    # make_figshare_rdf(work)
-
-    #  Make RDF for each work
-
+    orcid_id = '0000-0002-1304-8447'  # Conlon's orcid
+    works_by_orcid = get_figshare_articles_by_orcid_id(orcid_id)
+    print works_by_orcid
+    print len(works_by_orcid), "works identified for orcid identifier", orcid_id
     count = 0
     added = 0
-    for figshare_work in works_2016 + works_16:
+    for figshare_work in works_by_orcid:
         count += 1
         if count % 10 == 0:
             print count
         article = get_figshare_article(str(figshare_work['id']))
-        if 'vivo2016' in [x.lower() for x in article['tags']] or 'vivo16' in [x.lower() for x in article['tags']]:
-            return_graph = make_figshare_rdf(article)
-            if return_graph is not None:
-                figshare_graph += return_graph
-                added += 1
+        return_graph = make_figshare_rdf(article)
+        if return_graph is not None:
+            figshare_graph += return_graph
+            added += 1
+
+    # works_2017 = get_figshare_articles_by_tag('vivo2017')
+    # print len(works_2017), "works identified by vivo2017 tag"
+    #
+    # works_17 = get_figshare_articles_by_tag('vivo17')
+    # print len(works_17), "works identified by vivo17 tag"
+    #
+    # # works_collection = get_figshare_articles('131')  # 36 is VIVO, 131 is Force17
+    # # print works_collection
+    # # print len(works_collection), "works identified by collection"
+    # #
+    # # work = get_figshare_article('3117808')  # Krafft and Conlon Duraspace Summit presentation
+    # # print 'Recent work by Krafft and Conlon\n', work
+    # # make_figshare_rdf(work)
+    #
+    # #  Make RDF for each work
+    #
+    # count = 0
+    # added = 0
+    # for figshare_work in works_2017 + works_17:
+    #     count += 1
+    #     if count % 10 == 0:
+    #         print count
+    #     article = get_figshare_article(str(figshare_work['id']))
+    #     if 'vivo2017' in [x.lower() for x in article['tags']] or 'vivo17' in [x.lower() for x in article['tags']]:
+    #         return_graph = make_figshare_rdf(article)
+    #         if return_graph is not None:
+    #             figshare_graph += return_graph
+    #             added += 1
 
     print added, "works with DOI added"
     print >>triples_file, figshare_graph.serialize(format='n3')
