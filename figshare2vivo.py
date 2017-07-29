@@ -264,50 +264,50 @@ if __name__ == '__main__':
     figshare_graph = Graph()
     triples_file = open('figshare.rdf', 'w')
 
-    orcid_id = '0000-0002-1304-8447'  # Conlon's orcid
-    works_by_orcid = get_figshare_articles_by_orcid_id(orcid_id)
-    print works_by_orcid
-    print len(works_by_orcid), "works identified for orcid identifier", orcid_id
-    count = 0
-    added = 0
-    for figshare_work in works_by_orcid:
-        count += 1
-        if count % 10 == 0:
-            print count
-        article = get_figshare_article(str(figshare_work['id']))
-        return_graph = make_figshare_rdf(article)
-        if return_graph is not None:
-            figshare_graph += return_graph
-            added += 1
-
-    # works_2017 = get_figshare_articles_by_tag('vivo2017')
-    # print len(works_2017), "works identified by vivo2017 tag"
-    #
-    # works_17 = get_figshare_articles_by_tag('vivo17')
-    # print len(works_17), "works identified by vivo17 tag"
-    #
-    # # works_collection = get_figshare_articles('131')  # 36 is VIVO, 131 is Force17
-    # # print works_collection
-    # # print len(works_collection), "works identified by collection"
-    # #
-    # # work = get_figshare_article('3117808')  # Krafft and Conlon Duraspace Summit presentation
-    # # print 'Recent work by Krafft and Conlon\n', work
-    # # make_figshare_rdf(work)
-    #
-    # #  Make RDF for each work
-    #
+    # orcid_id = '0000-0002-1304-8447'  # Conlon's orcid
+    # works_by_orcid = get_figshare_articles_by_orcid_id(orcid_id)
+    # print works_by_orcid
+    # print len(works_by_orcid), "works identified for orcid identifier", orcid_id
     # count = 0
     # added = 0
-    # for figshare_work in works_2017 + works_17:
+    # for figshare_work in works_by_orcid:
     #     count += 1
     #     if count % 10 == 0:
     #         print count
     #     article = get_figshare_article(str(figshare_work['id']))
-    #     if 'vivo2017' in [x.lower() for x in article['tags']] or 'vivo17' in [x.lower() for x in article['tags']]:
-    #         return_graph = make_figshare_rdf(article)
-    #         if return_graph is not None:
-    #             figshare_graph += return_graph
-    #             added += 1
+    #     return_graph = make_figshare_rdf(article)
+    #     if return_graph is not None:
+    #         figshare_graph += return_graph
+    #         added += 1
+
+    works_2017 = get_figshare_articles_by_tag('vivo2017')
+    print len(works_2017), "works identified by vivo2017 tag"
+
+    works_17 = get_figshare_articles_by_tag('vivo17')
+    print len(works_17), "works identified by vivo17 tag"
+
+    # works_collection = get_figshare_articles('131')  # 36 is VIVO, 131 is Force17
+    # print works_collection
+    # print len(works_collection), "works identified by collection"
+    #
+    # work = get_figshare_article('3117808')  # Krafft and Conlon Duraspace Summit presentation
+    # print 'Recent work by Krafft and Conlon\n', work
+    # make_figshare_rdf(work)
+
+    #  Make RDF for each work
+
+    count = 0
+    added = 0
+    for figshare_work in works_2017 + works_17:
+        count += 1
+        if count % 10 == 0:
+            print count
+        article = get_figshare_article(str(figshare_work['id']))
+        if 'vivo2017' in [x.lower() for x in article['tags']] or 'vivo17' in [x.lower() for x in article['tags']]:
+            return_graph = make_figshare_rdf(article)
+            if return_graph is not None:
+                figshare_graph += return_graph
+                added += 1
 
     print added, "works with DOI added"
     print >>triples_file, figshare_graph.serialize(format='n3')
