@@ -283,8 +283,14 @@ if __name__ == '__main__':
     works_2017 = get_figshare_articles_by_tag('vivo2017')
     print len(works_2017), "works identified by vivo2017 tag"
 
+    works_h2017 = get_figshare_articles_by_tag('#vivo2017')
+    print len(works_h2017), "works identified by #vivo2017 tag"
+
     works_17 = get_figshare_articles_by_tag('vivo17')
     print len(works_17), "works identified by vivo17 tag"
+
+    works_h17 = get_figshare_articles_by_tag('#vivo17')
+    print len(works_h17), "works identified by #vivo17 tag"
 
     # works_collection = get_figshare_articles('131')  # 36 is VIVO, 131 is Force17
     # print works_collection
@@ -298,7 +304,7 @@ if __name__ == '__main__':
 
     count = 0
     added = 0
-    for figshare_work in works_2017 + works_17:
+    for figshare_work in works_2017 + works_17 + works_h2017 + works_h17:
         count += 1
         if count % 10 == 0:
             print count
