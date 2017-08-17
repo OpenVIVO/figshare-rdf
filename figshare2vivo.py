@@ -150,7 +150,6 @@ def get_figshare_article(article_id):
         p = re.search(version, doi)
         if p is not None:
             doi = doi.replace('.' + p.group(), '')
-            print 'chopped version before', article_result['doi'], 'after', doi
             article_result['doi'] = doi
     return article_result
 
@@ -302,9 +301,8 @@ if __name__ == '__main__':
     # make_figshare_rdf(work)
 
     #  Make RDF for each work
-
+    doi_set = set()
     count = 0
-    added = 0
     for figshare_work in works_2017 + works_17 + works_h2017 + works_h17:
         count += 1
         if count % 10 == 0:
@@ -315,10 +313,11 @@ if __name__ == '__main__':
                 or '#vivo2017' in [x.lower() for x in article['tags']]\
                 or '#vivo17' in [x.lower() for x in article['tags']]:
             return_graph = make_figshare_rdf(article)
+            doi_set.add(article['doi'])
             if return_graph is not None:
                 figshare_graph += return_graph
-                added += 1
 
-    print added, "works with DOI added"
+
+    print len(doi_set), "works with unique DOI added"
     print >>triples_file, figshare_graph.serialize(format='n3')
     triples_file.close()
