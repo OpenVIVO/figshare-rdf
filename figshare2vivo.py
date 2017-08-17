@@ -84,10 +84,11 @@ def add_authors(uri, work):
 
                 #   Make a vcard for the author.  The vcard has the name of the author
 
-                author_uri = URIRef(vcard_prefix + author['family_name'] + '--' + author['given_name'] + '-' +
-                                    author['additional_name'] + '-')
+                author_text = vcard_prefix + author['family_name'] + '--' + author['given_name'] + '-' + \
+                                    author['additional_name'] + '-'
+                author_uri = URIRef(author_text)
                 g.add((author_uri, RDF.type, VCARD.Individual))
-                name_uri = URIRef(str(author_uri) + 'name')
+                name_uri = URIRef(author_text + 'name')
                 g.add((name_uri, RDF.type, VCARD.Name))
                 g.add((author_uri, VCARD.hasName, name_uri))
                 if len(author['given_name']) > 0:
@@ -309,7 +310,10 @@ if __name__ == '__main__':
         if count % 10 == 0:
             print count
         article = get_figshare_article(str(figshare_work['id']))
-        if 'vivo2017' in [x.lower() for x in article['tags']] or 'vivo17' in [x.lower() for x in article['tags']]:
+        if 'vivo2017' in [x.lower() for x in article['tags']] \
+                or 'vivo17' in [x.lower() for x in article['tags']]\
+                or '#vivo2017' in [x.lower() for x in article['tags']]\
+                or '#vivo17' in [x.lower() for x in article['tags']]:
             return_graph = make_figshare_rdf(article)
             if return_graph is not None:
                 figshare_graph += return_graph
