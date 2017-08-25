@@ -51,7 +51,7 @@ def add_authors(uri, work):
             rank += 1
             authorship_uri = URIRef(str(uri) + '-authorship' + str(rank))
 
-            name_parts = [x.strip('.') for x in author['full_name'].split(' ')]
+            name_parts = [xn.strip('.') for xn in author['full_name'].split(' ')]
             if len(name_parts) == 1:
                 author['family_name'] = name_parts[0]
                 author['given_name'] = ''
@@ -316,7 +316,6 @@ if __name__ == '__main__':
             doi_set.add(article['doi'])
             if return_graph is not None:
                 figshare_graph += return_graph
-
 
     print len(doi_set), "works with unique DOI added"
     print >>triples_file, figshare_graph.serialize(format='n3')
