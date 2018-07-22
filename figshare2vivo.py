@@ -16,7 +16,7 @@ import json
 import logging
 
 __author__ = "Michael Conlon"
-__copyright__ = "Copyright 2017 (c) Michael Conlon"
+__copyright__ = "Copyright 2018 (c) Michael Conlon"
 __license__ = "Apache License 2.0"
 __version__ = "0.03"
 
@@ -27,7 +27,7 @@ date_prefix = 'http://openvivo.org/a/date'
 author_prefix = 'http://openvivo.org/a/orcid'
 vcard_prefix = 'http://openvivo.org/a/vcard'
 orcid_prefix = 'http://orcid.org/'
-event_uri = URIRef('http://openvivo.org/a/eventVIVO2017')
+event_uri = URIRef('http://openvivo.org/a/eventVIVO2018')
 
 VIVO = Namespace('http://vivoweb.org/ontology/core#')
 BIBO = Namespace('http://purl.org/ontology/bibo/')
@@ -67,7 +67,7 @@ def add_authors(uri, work):
             else:
                 author['given_name'] = name_parts[0]
                 author['additional_name'] = name_parts[1]
-                author['family_name'] = name_parts[2:]
+                author['family_name'] = ' '.join(name_parts[2:])
 
             author['full_name'] = author['family_name'] + ', ' + author['given_name'] + ' ' + author['additional_name']
             author['full_name'] = author['full_name'].strip()
@@ -84,7 +84,7 @@ def add_authors(uri, work):
 
                 #   Make a vcard for the author.  The vcard has the name of the author
 
-                author_text = vcard_prefix + author['family_name'] + '--' + author['given_name'] + '-' + \
+                author_text = vcard_prefix + author['family_name'].replace(' ', '-') + '--' + author['given_name'] + '-' + \
                                     author['additional_name'] + '-'
                 author_uri = URIRef(author_text)
                 g.add((author_uri, RDF.type, VCARD.Individual))
@@ -280,38 +280,38 @@ if __name__ == '__main__':
     #         figshare_graph += return_graph
     #         added += 1
 
-    works_2017 = get_figshare_articles_by_tag('vivo2017')
-    print len(works_2017), "works identified by vivo2017 tag"
+    works_2018 = get_figshare_articles_by_tag('vivo2018')
+    print len(works_2018), "works identified by vivo2018 tag"
 
-    works_h2017 = get_figshare_articles_by_tag('#vivo2017')
-    print len(works_h2017), "works identified by #vivo2017 tag"
+    works_h2018 = get_figshare_articles_by_tag('#vivo2018')
+    print len(works_h2018), "works identified by #vivo2018 tag"
 
-    works_17 = get_figshare_articles_by_tag('vivo17')
-    print len(works_17), "works identified by vivo17 tag"
+    works_18 = get_figshare_articles_by_tag('vivo18')
+    print len(works_18), "works identified by vivo18 tag"
 
-    works_h17 = get_figshare_articles_by_tag('#vivo17')
-    print len(works_h17), "works identified by #vivo17 tag"
+    works_h18 = get_figshare_articles_by_tag('#vivo18')
+    print len(works_h18), "works identified by #vivo18 tag"
 
-    # works_collection = get_figshare_articles('131')  # 36 is VIVO, 131 is Force17
+    # works_collection = get_figshare_articles('131')  # 36 is VIVO, 131 is Force18
     # print works_collection
     # print len(works_collection), "works identified by collection"
     #
-    # work = get_figshare_article('3117808')  # Krafft and Conlon Duraspace Summit presentation
+    # work = get_figshare_article('3118808')  # Krafft and Conlon Duraspace Summit presentation
     # print 'Recent work by Krafft and Conlon\n', work
     # make_figshare_rdf(work)
 
     #  Make RDF for each work
     doi_set = set()
     count = 0
-    for figshare_work in works_2017 + works_17 + works_h2017 + works_h17:
+    for figshare_work in works_2018 + works_18 + works_h2018 + works_h18:
         count += 1
         if count % 10 == 0:
             print count
         article = get_figshare_article(str(figshare_work['id']))
-        if 'vivo2017' in [x.lower() for x in article['tags']] \
-                or 'vivo17' in [x.lower() for x in article['tags']]\
-                or '#vivo2017' in [x.lower() for x in article['tags']]\
-                or '#vivo17' in [x.lower() for x in article['tags']]:
+        if 'vivo2018' in [x.lower() for x in article['tags']] \
+                or 'vivo18' in [x.lower() for x in article['tags']]\
+                or '#vivo2018' in [x.lower() for x in article['tags']]\
+                or '#vivo18' in [x.lower() for x in article['tags']]:
             return_graph = make_figshare_rdf(article)
             doi_set.add(article['doi'])
             if return_graph is not None:
